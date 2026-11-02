@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-11-02T16:12:05Z",
+  "fetched_at_utc": "2026-11-02T23:33:11Z",
   "poll_after_ms": 300000,
   "events": [
     {
@@ -351,7 +351,7 @@
           "provider_team2_name": "G2",
           "starts_at": "2026-11-03T02:00:00Z",
           "scheduled_at": "2026-11-03T02:00:00Z",
-          "source_modified_at_utc": "2026-11-02T15:54:10Z",
+          "source_modified_at_utc": "2026-11-02T18:39:57Z",
           "status": "upcoming",
           "score1": null,
           "score2": null,
@@ -381,7 +381,7 @@
           "provider_team2_name": "PARIVISION",
           "starts_at": "2026-11-03T02:00:00Z",
           "scheduled_at": "2026-11-03T02:00:00Z",
-          "source_modified_at_utc": "2026-11-02T15:53:59Z",
+          "source_modified_at_utc": "2026-11-02T18:38:53Z",
           "status": "upcoming",
           "score1": null,
           "score2": null,
@@ -411,7 +411,7 @@
           "provider_team2_name": "9z",
           "starts_at": "2026-11-03T04:30:00Z",
           "scheduled_at": "2026-11-03T04:30:00Z",
-          "source_modified_at_utc": "2026-11-02T15:54:10Z",
+          "source_modified_at_utc": "2026-11-02T18:41:58Z",
           "status": "upcoming",
           "score1": null,
           "score2": null,
@@ -441,7 +441,7 @@
           "provider_team2_name": "BetBoom Team",
           "starts_at": "2026-11-03T04:30:00Z",
           "scheduled_at": "2026-11-03T04:30:00Z",
-          "source_modified_at_utc": "2026-11-02T15:54:00Z",
+          "source_modified_at_utc": "2026-11-02T18:41:21Z",
           "status": "upcoming",
           "score1": null,
           "score2": null,
@@ -471,7 +471,7 @@
           "provider_team2_name": "Team Falcons",
           "starts_at": "2026-11-03T07:00:00Z",
           "scheduled_at": "2026-11-03T07:00:00Z",
-          "source_modified_at_utc": "2026-11-02T15:54:27Z",
+          "source_modified_at_utc": "2026-11-02T18:42:52Z",
           "status": "upcoming",
           "score1": null,
           "score2": null,
@@ -501,7 +501,7 @@
           "provider_team2_name": "Heroic",
           "starts_at": "2026-11-03T07:00:00Z",
           "scheduled_at": "2026-11-03T07:00:00Z",
-          "source_modified_at_utc": "2026-11-02T15:54:16Z",
+          "source_modified_at_utc": "2026-11-02T18:43:41Z",
           "status": "upcoming",
           "score1": null,
           "score2": null,
@@ -844,7 +844,7 @@
                 "provider_team2_name": "G2",
                 "starts_at": "2026-11-03T02:00:00Z",
                 "scheduled_at": "2026-11-03T02:00:00Z",
-                "source_modified_at_utc": "2026-11-02T15:54:10Z",
+                "source_modified_at_utc": "2026-11-02T18:39:57Z",
                 "status": "upcoming",
                 "score1": null,
                 "score2": null,
@@ -874,7 +874,7 @@
                 "provider_team2_name": "9z",
                 "starts_at": "2026-11-03T04:30:00Z",
                 "scheduled_at": "2026-11-03T04:30:00Z",
-                "source_modified_at_utc": "2026-11-02T15:54:10Z",
+                "source_modified_at_utc": "2026-11-02T18:41:58Z",
                 "status": "upcoming",
                 "score1": null,
                 "score2": null,
@@ -912,7 +912,7 @@
                 "provider_team2_name": "PARIVISION",
                 "starts_at": "2026-11-03T02:00:00Z",
                 "scheduled_at": "2026-11-03T02:00:00Z",
-                "source_modified_at_utc": "2026-11-02T15:53:59Z",
+                "source_modified_at_utc": "2026-11-02T18:38:53Z",
                 "status": "upcoming",
                 "score1": null,
                 "score2": null,
@@ -942,7 +942,7 @@
                 "provider_team2_name": "BetBoom Team",
                 "starts_at": "2026-11-03T04:30:00Z",
                 "scheduled_at": "2026-11-03T04:30:00Z",
-                "source_modified_at_utc": "2026-11-02T15:54:00Z",
+                "source_modified_at_utc": "2026-11-02T18:41:21Z",
                 "status": "upcoming",
                 "score1": null,
                 "score2": null,
@@ -980,7 +980,7 @@
                 "provider_team2_name": "Team Falcons",
                 "starts_at": "2026-11-03T07:00:00Z",
                 "scheduled_at": "2026-11-03T07:00:00Z",
-                "source_modified_at_utc": "2026-11-02T15:54:27Z",
+                "source_modified_at_utc": "2026-11-02T18:42:52Z",
                 "status": "upcoming",
                 "score1": null,
                 "score2": null,
@@ -1048,7 +1048,7 @@
                 "provider_team2_name": "Heroic",
                 "starts_at": "2026-11-03T07:00:00Z",
                 "scheduled_at": "2026-11-03T07:00:00Z",
-                "source_modified_at_utc": "2026-11-02T15:54:16Z",
+                "source_modified_at_utc": "2026-11-02T18:43:41Z",
                 "status": "upcoming",
                 "score1": null,
                 "score2": null,
@@ -7307,7 +7307,7 @@
       "provider_team2_name": "G2",
       "starts_at": "2026-11-03T02:00:00Z",
       "scheduled_at": "2026-11-03T02:00:00Z",
-      "source_modified_at_utc": "2026-11-02T15:54:10Z",
+      "source_modified_at_utc": "2026-11-02T18:39:57Z",
       "status": "upcoming",
       "score1": null,
       "score2": null,
@@ -7337,7 +7337,7 @@
       "provider_team2_name": "PARIVISION",
       "starts_at": "2026-11-03T02:00:00Z",
       "scheduled_at": "2026-11-03T02:00:00Z",
-      "source_modified_at_utc": "2026-11-02T15:53:59Z",
+      "source_modified_at_utc": "2026-11-02T18:38:53Z",
       "status": "upcoming",
       "score1": null,
       "score2": null,
@@ -7367,7 +7367,7 @@
       "provider_team2_name": "9z",
       "starts_at": "2026-11-03T04:30:00Z",
       "scheduled_at": "2026-11-03T04:30:00Z",
-      "source_modified_at_utc": "2026-11-02T15:54:10Z",
+      "source_modified_at_utc": "2026-11-02T18:41:58Z",
       "status": "upcoming",
       "score1": null,
       "score2": null,
@@ -7397,7 +7397,7 @@
       "provider_team2_name": "BetBoom Team",
       "starts_at": "2026-11-03T04:30:00Z",
       "scheduled_at": "2026-11-03T04:30:00Z",
-      "source_modified_at_utc": "2026-11-02T15:54:00Z",
+      "source_modified_at_utc": "2026-11-02T18:41:21Z",
       "status": "upcoming",
       "score1": null,
       "score2": null,
@@ -7427,7 +7427,7 @@
       "provider_team2_name": "Team Falcons",
       "starts_at": "2026-11-03T07:00:00Z",
       "scheduled_at": "2026-11-03T07:00:00Z",
-      "source_modified_at_utc": "2026-11-02T15:54:27Z",
+      "source_modified_at_utc": "2026-11-02T18:42:52Z",
       "status": "upcoming",
       "score1": null,
       "score2": null,
@@ -7457,7 +7457,7 @@
       "provider_team2_name": "Heroic",
       "starts_at": "2026-11-03T07:00:00Z",
       "scheduled_at": "2026-11-03T07:00:00Z",
-      "source_modified_at_utc": "2026-11-02T15:54:16Z",
+      "source_modified_at_utc": "2026-11-02T18:43:41Z",
       "status": "upcoming",
       "score1": null,
       "score2": null,
@@ -10654,52 +10654,16 @@
   "players": [],
   "rankings": {
     "source": "Valve Regional Standings",
-    "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
-    "as_of": "2026-10-05",
-    "checked_at_utc": "2026-11-02T16:16:49Z",
+    "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_11_02.md",
+    "as_of": "2026-11-02",
+    "checked_at_utc": "2026-11-02T23:37:39Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "teams": [
       {
         "rank": 1,
-        "points": 2046,
-        "team_name": "Spirit",
-        "players": [
-          "donk",
-          "magixx",
-          "sh1ro",
-          "tN1R",
-          "zont1x"
-        ]
-      },
-      {
-        "rank": 2,
-        "points": 1931,
-        "team_name": "Legacy",
-        "players": [
-          "arT",
-          "dumau",
-          "latto",
-          "n1ssim",
-          "try"
-        ]
-      },
-      {
-        "rank": 3,
-        "points": 1911,
-        "team_name": "Vitality",
-        "players": [
-          "apEX",
-          "flameZ",
-          "mezii",
-          "ropz",
-          "ZywOo"
-        ]
-      },
-      {
-        "rank": 4,
-        "points": 1863,
+        "points": 1960,
         "team_name": "MOUZ",
         "players": [
           "PR",
@@ -10710,32 +10674,20 @@
         ]
       },
       {
-        "rank": 5,
-        "points": 1847,
-        "team_name": "G2",
+        "rank": 2,
+        "points": 1922,
+        "team_name": "Vitality",
         "players": [
-          "HeavyGod",
-          "huNter-",
-          "MATYS",
-          "NertZ",
-          "r1nkle"
+          "flameZ",
+          "jL",
+          "mezii",
+          "ropz",
+          "ZywOo"
         ]
       },
       {
-        "rank": 6,
-        "points": 1843,
-        "team_name": "Falcons",
-        "players": [
-          "karrigan",
-          "kyousuke",
-          "m0NESY",
-          "NiKo",
-          "TeSeS"
-        ]
-      },
-      {
-        "rank": 7,
-        "points": 1829,
+        "rank": 3,
+        "points": 1912,
         "team_name": "FURIA",
         "players": [
           "FalleN",
@@ -10746,8 +10698,56 @@
         ]
       },
       {
+        "rank": 4,
+        "points": 1860,
+        "team_name": "Aurora",
+        "players": [
+          "Jimpphat",
+          "kyxsan",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ]
+      },
+      {
+        "rank": 5,
+        "points": 1842,
+        "team_name": "Spirit",
+        "players": [
+          "donk",
+          "magixx",
+          "sh1ro",
+          "tN1R",
+          "zont1x"
+        ]
+      },
+      {
+        "rank": 6,
+        "points": 1786,
+        "team_name": "BETBOOM",
+        "players": [
+          "Boombl4",
+          "d1Ledez",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ]
+      },
+      {
+        "rank": 7,
+        "points": 1764,
+        "team_name": "Falcons",
+        "players": [
+          "karrigan",
+          "kyousuke",
+          "m0NESY",
+          "NiKo",
+          "TeSeS"
+        ]
+      },
+      {
         "rank": 8,
-        "points": 1799,
+        "points": 1721,
         "team_name": "FUT",
         "players": [
           "cmtry",
@@ -10759,67 +10759,19 @@
       },
       {
         "rank": 9,
-        "points": 1716,
-        "team_name": "Aurora",
+        "points": 1662,
+        "team_name": "Legacy",
         "players": [
-          "Jimpphat",
-          "kyxsan",
-          "Wicadia",
-          "woxic",
-          "XANTARES"
+          "arT",
+          "dumau",
+          "latto",
+          "n1ssim",
+          "try"
         ]
       },
       {
         "rank": 10,
-        "points": 1674,
-        "team_name": "Astralis",
-        "players": [
-          "HooXi",
-          "jabbi",
-          "phzy",
-          "ryu",
-          "Staehr"
-        ]
-      },
-      {
-        "rank": 11,
-        "points": 1596,
-        "team_name": "BETBOOM",
-        "players": [
-          "Boombl4",
-          "d1Ledez",
-          "Magnojez",
-          "S1ren",
-          "zorte"
-        ]
-      },
-      {
-        "rank": 12,
-        "points": 1585,
-        "team_name": "MIBR",
-        "players": [
-          "insani",
-          "LNZ",
-          "nqz",
-          "tomaszin",
-          "venomzera"
-        ]
-      },
-      {
-        "rank": 13,
-        "points": 1555,
-        "team_name": "B8",
-        "players": [
-          "alex666",
-          "esenthial",
-          "kensizor",
-          "npl",
-          "s1zzi"
-        ]
-      },
-      {
-        "rank": 14,
-        "points": 1551,
+        "points": 1650,
         "team_name": "Nemiga",
         "players": [
           "KaiR0N-",
@@ -10830,44 +10782,56 @@
         ]
       },
       {
+        "rank": 11,
+        "points": 1616,
+        "team_name": "G2",
+        "players": [
+          "HeavyGod",
+          "huNter-",
+          "MATYS",
+          "NertZ",
+          "r1nkle"
+        ]
+      },
+      {
+        "rank": 12,
+        "points": 1598,
+        "team_name": "1win",
+        "players": [
+          "ArtFr0st",
+          "Ax1Le",
+          "BELCHONOKK",
+          "fame",
+          "nafany"
+        ]
+      },
+      {
+        "rank": 13,
+        "points": 1589,
+        "team_name": "Natus Vincere",
+        "players": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "makazze",
+          "w0nderful"
+        ]
+      },
+      {
+        "rank": 14,
+        "points": 1572,
+        "team_name": "Astralis",
+        "players": [
+          "jabbi",
+          "phzy",
+          "ryu",
+          "siuhy",
+          "Staehr"
+        ]
+      },
+      {
         "rank": 15,
-        "points": 1550,
-        "team_name": "HEROIC",
-        "players": [
-          "Brollan",
-          "Chr1zN",
-          "MartinezSa",
-          "nilo",
-          "susp"
-        ]
-      },
-      {
-        "rank": 16,
-        "points": 1547,
-        "team_name": "Luminosity",
-        "players": [
-          "afro",
-          "AZUWU",
-          "lux",
-          "Rainwaker",
-          "yxngstxr"
-        ]
-      },
-      {
-        "rank": 17,
-        "points": 1543,
-        "team_name": "9z",
-        "players": [
-          "dgt",
-          "HUASOPEEK",
-          "luchov",
-          "max",
-          "meyern"
-        ]
-      },
-      {
-        "rank": 18,
-        "points": 1534,
+        "points": 1564,
         "team_name": "Ninjas in Pyjamas",
         "players": [
           "adamb",
@@ -10878,92 +10842,56 @@
         ]
       },
       {
-        "rank": 19,
-        "points": 1527,
-        "team_name": "Liquid",
+        "rank": 16,
+        "points": 1560,
+        "team_name": "PARIVISION",
         "players": [
-          "EliGE",
-          "Jorko",
-          "JT",
-          "malbsMd",
-          "NAF"
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ]
+      },
+      {
+        "rank": 17,
+        "points": 1554,
+        "team_name": "The MongolZ",
+        "players": [
+          "910",
+          "bLitz",
+          "cobrazera",
+          "nin9",
+          "Techno"
+        ]
+      },
+      {
+        "rank": 18,
+        "points": 1548,
+        "team_name": "HEROIC",
+        "players": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ]
+      },
+      {
+        "rank": 19,
+        "points": 1546,
+        "team_name": "MIBR",
+        "players": [
+          "insani",
+          "LNZ",
+          "nqz",
+          "tomaszin",
+          "venomzera"
         ]
       },
       {
         "rank": 20,
-        "points": 1516,
-        "team_name": "Inner Circle",
-        "players": [
-          "cptkurtka023",
-          "Dawy",
-          "headtr1ck",
-          "onic",
-          "zeRRoFIX"
-        ]
-      },
-      {
-        "rank": 21,
-        "points": 1500,
-        "team_name": "3DMAX",
-        "players": [
-          "Graviti",
-          "Kursy",
-          "Lucky",
-          "Maka",
-          "misutaaa"
-        ]
-      },
-      {
-        "rank": 22,
-        "points": 1491,
-        "team_name": "M80",
-        "players": [
-          "JBa",
-          "Lake",
-          "s1n",
-          "slaxz-",
-          "Swisher"
-        ]
-      },
-      {
-        "rank": 23,
-        "points": 1489,
-        "team_name": "magic",
-        "players": [
-          "AW",
-          "MaSvAl",
-          "mo0N",
-          "sFade8",
-          "tenzy"
-        ]
-      },
-      {
-        "rank": 24,
-        "points": 1483,
-        "team_name": "Alliance",
-        "players": [
-          "avid",
-          "bobeksde",
-          "eraa",
-          "twist",
-          "upE"
-        ]
-      },
-      {
-        "rank": 25,
-        "points": 1482,
-        "team_name": "BIG",
-        "players": [
-          "blameF",
-          "faveN",
-          "gr1ks",
-          "JDC",
-          "tabseN"
-        ]
-      },
-      {
-        "rank": 26,
-        "points": 1482,
+        "points": 1539,
         "team_name": "FaZe",
         "players": [
           "frozen",
@@ -10974,20 +10902,32 @@
         ]
       },
       {
-        "rank": 27,
-        "points": 1479,
-        "team_name": "GamerLegion",
+        "rank": 21,
+        "points": 1528,
+        "team_name": "Liquid",
         "players": [
-          "FL4MUS",
-          "hypex",
-          "REZ",
-          "Snax",
-          "Tauson"
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
         ]
       },
       {
-        "rank": 28,
-        "points": 1478,
+        "rank": 22,
+        "points": 1513,
+        "team_name": "Eternal Fire",
+        "players": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ]
+      },
+      {
+        "rank": 23,
+        "points": 1511,
         "team_name": "100 Thieves",
         "players": [
           "device",
@@ -10998,27 +10938,87 @@
         ]
       },
       {
-        "rank": 29,
-        "points": 1455,
-        "team_name": "Nemesis",
+        "rank": 24,
+        "points": 1490,
+        "team_name": "9z",
         "players": [
-          "mag1k3Y",
-          "r3salt",
-          "Sdaim",
-          "SELLTER",
-          "tex1y"
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "meyern"
+        ]
+      },
+      {
+        "rank": 25,
+        "points": 1489,
+        "team_name": "M80",
+        "players": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ]
+      },
+      {
+        "rank": 26,
+        "points": 1488,
+        "team_name": "HOTU",
+        "players": [
+          "dwushka",
+          "frontales",
+          "kade0",
+          "mizu",
+          "n0rb3r7"
+        ]
+      },
+      {
+        "rank": 27,
+        "points": 1488,
+        "team_name": "fnatic",
+        "players": [
+          "cairne",
+          "fEAR",
+          "jackasmo",
+          "jambo",
+          "mazay"
+        ]
+      },
+      {
+        "rank": 28,
+        "points": 1472,
+        "team_name": "B8",
+        "players": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ]
+      },
+      {
+        "rank": 29,
+        "points": 1466,
+        "team_name": "DENDELE",
+        "players": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
         ]
       },
       {
         "rank": 30,
-        "points": 1454,
-        "team_name": "JiJieHao",
+        "points": 1423,
+        "team_name": "Inner Circle",
         "players": [
-          "0SAMAS",
-          "Bibu",
-          "CacaNito",
-          "m1N1",
-          "sinnopsyy"
+          "cptkurtka023",
+          "Dawy",
+          "headtr1ck",
+          "onic",
+          "zeRRoFIX"
         ]
       }
     ]
@@ -11040,7 +11040,7 @@
     "excluded_tournaments": 16,
     "access_error": null,
     "detail_coverage": "fixtures_only",
-    "last_attempt_utc": "2026-11-02T16:12:04Z"
+    "last_attempt_utc": "2026-11-02T23:33:10Z"
   },
   "product_filter": {
     "policy_version": "roman-imperium-floor-v1",

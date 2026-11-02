@@ -3123,7 +3123,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781473",
         "source": "pandascore",
         "source_match_id": "pandascore:1781473",
-        "source_modified_at_utc": "2026-11-02T15:54:10Z",
+        "source_modified_at_utc": "2026-11-02T18:39:57Z",
         "stage_name": "Group B",
         "starts_at": "2026-11-03T02:00:00Z",
         "status": "upcoming",
@@ -3154,7 +3154,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781470",
         "source": "pandascore",
         "source_match_id": "pandascore:1781470",
-        "source_modified_at_utc": "2026-11-02T15:53:59Z",
+        "source_modified_at_utc": "2026-11-02T18:38:53Z",
         "stage_name": "Group B",
         "starts_at": "2026-11-03T02:00:00Z",
         "status": "upcoming",
@@ -3185,7 +3185,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781472",
         "source": "pandascore",
         "source_match_id": "pandascore:1781472",
-        "source_modified_at_utc": "2026-11-02T15:54:10Z",
+        "source_modified_at_utc": "2026-11-02T18:41:58Z",
         "stage_name": "Group B",
         "starts_at": "2026-11-03T04:30:00Z",
         "status": "upcoming",
@@ -3216,7 +3216,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781469",
         "source": "pandascore",
         "source_match_id": "pandascore:1781469",
-        "source_modified_at_utc": "2026-11-02T15:54:00Z",
+        "source_modified_at_utc": "2026-11-02T18:41:21Z",
         "stage_name": "Group B",
         "starts_at": "2026-11-03T04:30:00Z",
         "status": "upcoming",
@@ -3247,7 +3247,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781465",
         "source": "pandascore",
         "source_match_id": "pandascore:1781465",
-        "source_modified_at_utc": "2026-11-02T15:54:27Z",
+        "source_modified_at_utc": "2026-11-02T18:42:52Z",
         "stage_name": "Group A",
         "starts_at": "2026-11-03T07:00:00Z",
         "status": "upcoming",
@@ -3278,7 +3278,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781461",
         "source": "pandascore",
         "source_match_id": "pandascore:1781461",
-        "source_modified_at_utc": "2026-11-02T15:54:16Z",
+        "source_modified_at_utc": "2026-11-02T18:43:41Z",
         "stage_name": "Group A",
         "starts_at": "2026-11-03T07:00:00Z",
         "status": "upcoming",
@@ -8283,7 +8283,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781473",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781473",
-                  "source_modified_at_utc": "2026-11-02T15:54:10Z",
+                  "source_modified_at_utc": "2026-11-02T18:39:57Z",
                   "stage_name": "Group B",
                   "starts_at": "2026-11-03T02:00:00Z",
                   "status": "upcoming",
@@ -8313,7 +8313,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781472",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781472",
-                  "source_modified_at_utc": "2026-11-02T15:54:10Z",
+                  "source_modified_at_utc": "2026-11-02T18:41:58Z",
                   "stage_name": "Group B",
                   "starts_at": "2026-11-03T04:30:00Z",
                   "status": "upcoming",
@@ -8351,7 +8351,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781470",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781470",
-                  "source_modified_at_utc": "2026-11-02T15:53:59Z",
+                  "source_modified_at_utc": "2026-11-02T18:38:53Z",
                   "stage_name": "Group B",
                   "starts_at": "2026-11-03T02:00:00Z",
                   "status": "upcoming",
@@ -8381,7 +8381,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781469",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781469",
-                  "source_modified_at_utc": "2026-11-02T15:54:00Z",
+                  "source_modified_at_utc": "2026-11-02T18:41:21Z",
                   "stage_name": "Group B",
                   "starts_at": "2026-11-03T04:30:00Z",
                   "status": "upcoming",
@@ -8419,7 +8419,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781465",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781465",
-                  "source_modified_at_utc": "2026-11-02T15:54:27Z",
+                  "source_modified_at_utc": "2026-11-02T18:42:52Z",
                   "stage_name": "Group A",
                   "starts_at": "2026-11-03T07:00:00Z",
                   "status": "upcoming",
@@ -8487,7 +8487,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781461",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781461",
-                  "source_modified_at_utc": "2026-11-02T15:54:16Z",
+                  "source_modified_at_utc": "2026-11-02T18:43:41Z",
                   "stage_name": "Group A",
                   "starts_at": "2026-11-03T07:00:00Z",
                   "status": "upcoming",
@@ -8820,7 +8820,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781473",
             "source": "pandascore",
             "source_match_id": "pandascore:1781473",
-            "source_modified_at_utc": "2026-11-02T15:54:10Z",
+            "source_modified_at_utc": "2026-11-02T18:39:57Z",
             "stage_name": "Group B",
             "starts_at": "2026-11-03T02:00:00Z",
             "status": "upcoming",
@@ -8850,7 +8850,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781470",
             "source": "pandascore",
             "source_match_id": "pandascore:1781470",
-            "source_modified_at_utc": "2026-11-02T15:53:59Z",
+            "source_modified_at_utc": "2026-11-02T18:38:53Z",
             "stage_name": "Group B",
             "starts_at": "2026-11-03T02:00:00Z",
             "status": "upcoming",
@@ -8880,7 +8880,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781472",
             "source": "pandascore",
             "source_match_id": "pandascore:1781472",
-            "source_modified_at_utc": "2026-11-02T15:54:10Z",
+            "source_modified_at_utc": "2026-11-02T18:41:58Z",
             "stage_name": "Group B",
             "starts_at": "2026-11-03T04:30:00Z",
             "status": "upcoming",
@@ -8910,7 +8910,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781469",
             "source": "pandascore",
             "source_match_id": "pandascore:1781469",
-            "source_modified_at_utc": "2026-11-02T15:54:00Z",
+            "source_modified_at_utc": "2026-11-02T18:41:21Z",
             "stage_name": "Group B",
             "starts_at": "2026-11-03T04:30:00Z",
             "status": "upcoming",
@@ -8940,7 +8940,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781465",
             "source": "pandascore",
             "source_match_id": "pandascore:1781465",
-            "source_modified_at_utc": "2026-11-02T15:54:27Z",
+            "source_modified_at_utc": "2026-11-02T18:42:52Z",
             "stage_name": "Group A",
             "starts_at": "2026-11-03T07:00:00Z",
             "status": "upcoming",
@@ -8970,7 +8970,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781461",
             "source": "pandascore",
             "source_match_id": "pandascore:1781461",
-            "source_modified_at_utc": "2026-11-02T15:54:16Z",
+            "source_modified_at_utc": "2026-11-02T18:43:41Z",
             "stage_name": "Group A",
             "starts_at": "2026-11-03T07:00:00Z",
             "status": "upcoming",
@@ -40598,7 +40598,7 @@
       }
     ],
     "fixture_provider": "pandascore",
-    "last_verified_utc": "2026-11-02T16:12:05Z",
+    "last_verified_utc": "2026-11-02T23:33:11Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -40622,50 +40622,14 @@
       }
     ],
     "vrs": {
-      "as_of": "2026-10-05",
-      "checked_at_utc": "2026-11-02T16:16:49Z",
+      "as_of": "2026-11-02",
+      "checked_at_utc": "2026-11-02T23:37:39Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
-      "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
+      "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_11_02.md",
       "status": "official_snapshot",
       "teams": [
-        {
-          "players": [
-            "donk",
-            "magixx",
-            "sh1ro",
-            "tN1R",
-            "zont1x"
-          ],
-          "points": 2046,
-          "rank": 1,
-          "team_name": "Spirit"
-        },
-        {
-          "players": [
-            "arT",
-            "dumau",
-            "latto",
-            "n1ssim",
-            "try"
-          ],
-          "points": 1931,
-          "rank": 2,
-          "team_name": "Legacy"
-        },
-        {
-          "players": [
-            "apEX",
-            "flameZ",
-            "mezii",
-            "ropz",
-            "ZywOo"
-          ],
-          "points": 1911,
-          "rank": 3,
-          "team_name": "Vitality"
-        },
         {
           "players": [
             "PR",
@@ -40674,33 +40638,21 @@
             "xelex",
             "xertioN"
           ],
-          "points": 1863,
-          "rank": 4,
+          "points": 1960,
+          "rank": 1,
           "team_name": "MOUZ"
         },
         {
           "players": [
-            "HeavyGod",
-            "huNter-",
-            "MATYS",
-            "NertZ",
-            "r1nkle"
+            "flameZ",
+            "jL",
+            "mezii",
+            "ropz",
+            "ZywOo"
           ],
-          "points": 1847,
-          "rank": 5,
-          "team_name": "G2"
-        },
-        {
-          "players": [
-            "karrigan",
-            "kyousuke",
-            "m0NESY",
-            "NiKo",
-            "TeSeS"
-          ],
-          "points": 1843,
-          "rank": 6,
-          "team_name": "Falcons"
+          "points": 1922,
+          "rank": 2,
+          "team_name": "Vitality"
         },
         {
           "players": [
@@ -40710,21 +40662,9 @@
             "YEKINDAR",
             "yuurih"
           ],
-          "points": 1829,
-          "rank": 7,
+          "points": 1912,
+          "rank": 3,
           "team_name": "FURIA"
-        },
-        {
-          "players": [
-            "cmtry",
-            "dem0n",
-            "dziugss",
-            "Krabeni",
-            "xfl0ud"
-          ],
-          "points": 1799,
-          "rank": 8,
-          "team_name": "FUT"
         },
         {
           "players": [
@@ -40734,21 +40674,21 @@
             "woxic",
             "XANTARES"
           ],
-          "points": 1716,
-          "rank": 9,
+          "points": 1860,
+          "rank": 4,
           "team_name": "Aurora"
         },
         {
           "players": [
-            "HooXi",
-            "jabbi",
-            "phzy",
-            "ryu",
-            "Staehr"
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tN1R",
+            "zont1x"
           ],
-          "points": 1674,
-          "rank": 10,
-          "team_name": "Astralis"
+          "points": 1842,
+          "rank": 5,
+          "team_name": "Spirit"
         },
         {
           "players": [
@@ -40758,33 +40698,45 @@
             "S1ren",
             "zorte"
           ],
-          "points": 1596,
-          "rank": 11,
+          "points": 1786,
+          "rank": 6,
           "team_name": "BETBOOM"
         },
         {
           "players": [
-            "insani",
-            "LNZ",
-            "nqz",
-            "tomaszin",
-            "venomzera"
+            "karrigan",
+            "kyousuke",
+            "m0NESY",
+            "NiKo",
+            "TeSeS"
           ],
-          "points": 1585,
-          "rank": 12,
-          "team_name": "MIBR"
+          "points": 1764,
+          "rank": 7,
+          "team_name": "Falcons"
         },
         {
           "players": [
-            "alex666",
-            "esenthial",
-            "kensizor",
-            "npl",
-            "s1zzi"
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "Krabeni",
+            "xfl0ud"
           ],
-          "points": 1555,
-          "rank": 13,
-          "team_name": "B8"
+          "points": 1721,
+          "rank": 8,
+          "team_name": "FUT"
+        },
+        {
+          "players": [
+            "arT",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "try"
+          ],
+          "points": 1662,
+          "rank": 9,
+          "team_name": "Legacy"
         },
         {
           "players": [
@@ -40794,45 +40746,57 @@
             "syph0",
             "Xant3r"
           ],
-          "points": 1551,
-          "rank": 14,
+          "points": 1650,
+          "rank": 10,
           "team_name": "Nemiga"
         },
         {
           "players": [
-            "Brollan",
-            "Chr1zN",
-            "MartinezSa",
-            "nilo",
-            "susp"
+            "HeavyGod",
+            "huNter-",
+            "MATYS",
+            "NertZ",
+            "r1nkle"
           ],
-          "points": 1550,
-          "rank": 15,
-          "team_name": "HEROIC"
+          "points": 1616,
+          "rank": 11,
+          "team_name": "G2"
         },
         {
           "players": [
-            "afro",
-            "AZUWU",
-            "lux",
-            "Rainwaker",
-            "yxngstxr"
+            "ArtFr0st",
+            "Ax1Le",
+            "BELCHONOKK",
+            "fame",
+            "nafany"
           ],
-          "points": 1547,
-          "rank": 16,
-          "team_name": "Luminosity"
+          "points": 1598,
+          "rank": 12,
+          "team_name": "1win"
         },
         {
           "players": [
-            "dgt",
-            "HUASOPEEK",
-            "luchov",
-            "max",
-            "meyern"
+            "Aleksib",
+            "b1t",
+            "iM",
+            "makazze",
+            "w0nderful"
           ],
-          "points": 1543,
-          "rank": 17,
-          "team_name": "9z"
+          "points": 1589,
+          "rank": 13,
+          "team_name": "Natus Vincere"
+        },
+        {
+          "players": [
+            "jabbi",
+            "phzy",
+            "ryu",
+            "siuhy",
+            "Staehr"
+          ],
+          "points": 1572,
+          "rank": 14,
+          "team_name": "Astralis"
         },
         {
           "players": [
@@ -40842,93 +40806,57 @@
             "stavn",
             "xKacpersky"
           ],
-          "points": 1534,
-          "rank": 18,
+          "points": 1564,
+          "rank": 15,
           "team_name": "Ninjas in Pyjamas"
         },
         {
           "players": [
-            "EliGE",
-            "Jorko",
-            "JT",
-            "malbsMd",
-            "NAF"
+            "FL1T",
+            "HObbit",
+            "Jame",
+            "xiELO",
+            "zweih"
           ],
-          "points": 1527,
+          "points": 1560,
+          "rank": 16,
+          "team_name": "PARIVISION"
+        },
+        {
+          "players": [
+            "910",
+            "bLitz",
+            "cobrazera",
+            "nin9",
+            "Techno"
+          ],
+          "points": 1554,
+          "rank": 17,
+          "team_name": "The MongolZ"
+        },
+        {
+          "players": [
+            "Brollan",
+            "Chr1zN",
+            "MartinezSa",
+            "nilo",
+            "susp"
+          ],
+          "points": 1548,
+          "rank": 18,
+          "team_name": "HEROIC"
+        },
+        {
+          "players": [
+            "insani",
+            "LNZ",
+            "nqz",
+            "tomaszin",
+            "venomzera"
+          ],
+          "points": 1546,
           "rank": 19,
-          "team_name": "Liquid"
-        },
-        {
-          "players": [
-            "cptkurtka023",
-            "Dawy",
-            "headtr1ck",
-            "onic",
-            "zeRRoFIX"
-          ],
-          "points": 1516,
-          "rank": 20,
-          "team_name": "Inner Circle"
-        },
-        {
-          "players": [
-            "Graviti",
-            "Kursy",
-            "Lucky",
-            "Maka",
-            "misutaaa"
-          ],
-          "points": 1500,
-          "rank": 21,
-          "team_name": "3DMAX"
-        },
-        {
-          "players": [
-            "JBa",
-            "Lake",
-            "s1n",
-            "slaxz-",
-            "Swisher"
-          ],
-          "points": 1491,
-          "rank": 22,
-          "team_name": "M80"
-        },
-        {
-          "players": [
-            "AW",
-            "MaSvAl",
-            "mo0N",
-            "sFade8",
-            "tenzy"
-          ],
-          "points": 1489,
-          "rank": 23,
-          "team_name": "magic"
-        },
-        {
-          "players": [
-            "avid",
-            "bobeksde",
-            "eraa",
-            "twist",
-            "upE"
-          ],
-          "points": 1483,
-          "rank": 24,
-          "team_name": "Alliance"
-        },
-        {
-          "players": [
-            "blameF",
-            "faveN",
-            "gr1ks",
-            "JDC",
-            "tabseN"
-          ],
-          "points": 1482,
-          "rank": 25,
-          "team_name": "BIG"
+          "team_name": "MIBR"
         },
         {
           "players": [
@@ -40938,21 +40866,33 @@
             "Neityu",
             "Twistzz"
           ],
-          "points": 1482,
-          "rank": 26,
+          "points": 1539,
+          "rank": 20,
           "team_name": "FaZe"
         },
         {
           "players": [
-            "FL4MUS",
-            "hypex",
-            "REZ",
-            "Snax",
-            "Tauson"
+            "EliGE",
+            "Jorko",
+            "JT",
+            "malbsMd",
+            "NAF"
           ],
-          "points": 1479,
-          "rank": 27,
-          "team_name": "GamerLegion"
+          "points": 1528,
+          "rank": 21,
+          "team_name": "Liquid"
+        },
+        {
+          "players": [
+            "jottAAA",
+            "Kvem",
+            "MisteM",
+            "regali",
+            "soulfly"
+          ],
+          "points": 1513,
+          "rank": 22,
+          "team_name": "Eternal Fire"
         },
         {
           "players": [
@@ -40962,33 +40902,93 @@
             "rain",
             "sirah"
           ],
-          "points": 1478,
-          "rank": 28,
+          "points": 1511,
+          "rank": 23,
           "team_name": "100 Thieves"
         },
         {
           "players": [
-            "mag1k3Y",
-            "r3salt",
-            "Sdaim",
-            "SELLTER",
-            "tex1y"
+            "dgt",
+            "HUASOPEEK",
+            "luchov",
+            "max",
+            "meyern"
           ],
-          "points": 1455,
-          "rank": 29,
-          "team_name": "Nemesis"
+          "points": 1490,
+          "rank": 24,
+          "team_name": "9z"
         },
         {
           "players": [
-            "0SAMAS",
-            "Bibu",
-            "CacaNito",
-            "m1N1",
-            "sinnopsyy"
+            "JBa",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
           ],
-          "points": 1454,
+          "points": 1489,
+          "rank": 25,
+          "team_name": "M80"
+        },
+        {
+          "players": [
+            "dwushka",
+            "frontales",
+            "kade0",
+            "mizu",
+            "n0rb3r7"
+          ],
+          "points": 1488,
+          "rank": 26,
+          "team_name": "HOTU"
+        },
+        {
+          "players": [
+            "cairne",
+            "fEAR",
+            "jackasmo",
+            "jambo",
+            "mazay"
+          ],
+          "points": 1488,
+          "rank": 27,
+          "team_name": "fnatic"
+        },
+        {
+          "players": [
+            "alex666",
+            "esenthial",
+            "kensizor",
+            "npl",
+            "s1zzi"
+          ],
+          "points": 1472,
+          "rank": 28,
+          "team_name": "B8"
+        },
+        {
+          "players": [
+            "doc",
+            "gafolo",
+            "koala",
+            "maxxkor",
+            "rdnzao"
+          ],
+          "points": 1466,
+          "rank": 29,
+          "team_name": "DENDELE"
+        },
+        {
+          "players": [
+            "cptkurtka023",
+            "Dawy",
+            "headtr1ck",
+            "onic",
+            "zeRRoFIX"
+          ],
+          "points": 1423,
           "rank": 30,
-          "team_name": "JiJieHao"
+          "team_name": "Inner Circle"
         }
       ]
     }
@@ -41007,7 +41007,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-11-02T16:17:10Z",
+  "generated_at_utc": "2026-11-02T23:38:10Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -42567,7 +42567,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-11-02T16:17:10Z",
+    "generated_at_utc": "2026-11-02T23:38:10Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -42861,7 +42861,7 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 4,
+      "new_rows": 0,
       "online_rows": 512,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -45864,223 +45864,223 @@
         "elo": 1921.17,
         "last_result_utc": "2026-10-30T13:58:18Z",
         "matches": 125,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6965,
         "team_key": "vitality",
         "team_name": "Vitality",
-        "vrs_points": 1911,
-        "vrs_rank": 3
+        "vrs_points": 1922,
+        "vrs_rank": 2
       },
       {
         "elo": 1788.94,
         "last_result_utc": "2026-10-28T18:35:31Z",
         "matches": 109,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4295,
         "team_key": "spirit",
         "team_name": "Spirit",
-        "vrs_points": 2046,
-        "vrs_rank": 1
+        "vrs_points": 1842,
+        "vrs_rank": 5
       },
       {
         "elo": 1741.94,
         "last_result_utc": "2026-11-02T11:50:40Z",
         "matches": 98,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3936,
         "team_key": "falcons",
         "team_name": "Falcons",
-        "vrs_points": 1843,
-        "vrs_rank": 6
+        "vrs_points": 1764,
+        "vrs_rank": 7
       },
       {
         "elo": 1772.23,
         "last_result_utc": "2026-10-29T13:04:09Z",
         "matches": 115,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4789,
         "team_key": "natus vincere",
         "team_name": "Natus Vincere",
-        "vrs_points": 1427,
-        "vrs_rank": 34
+        "vrs_points": 1589,
+        "vrs_rank": 13
       },
       {
         "elo": 1802.24,
         "last_result_utc": "2026-11-02T10:17:39Z",
         "matches": 125,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7339,
         "team_key": "mouz",
         "team_name": "MOUZ",
-        "vrs_points": 1863,
-        "vrs_rank": 4
+        "vrs_points": 1960,
+        "vrs_rank": 1
       },
       {
         "elo": 1593.48,
         "last_result_utc": "2026-11-02T02:05:41Z",
         "matches": 139,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2848,
         "team_key": "legacy",
         "team_name": "Legacy",
-        "vrs_points": 1931,
-        "vrs_rank": 2
+        "vrs_points": 1662,
+        "vrs_rank": 9
       },
       {
         "elo": 1680.12,
         "last_result_utc": "2026-11-02T02:05:41Z",
         "matches": 127,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5475,
         "team_key": "the mongolz",
         "team_name": "The MongolZ",
-        "vrs_points": 1318,
-        "vrs_rank": 49
+        "vrs_points": 1554,
+        "vrs_rank": 17
       },
       {
         "elo": 1673.32,
         "last_result_utc": "2026-11-02T04:38:35Z",
         "matches": 149,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4703,
         "team_key": "aurora",
         "team_name": "Aurora",
-        "vrs_points": 1716,
-        "vrs_rank": 9
+        "vrs_points": 1860,
+        "vrs_rank": 4
       },
       {
         "elo": 1620.32,
         "matches": 104,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "gamerlegion",
         "team_name": "GamerLegion",
-        "vrs_points": 1479,
-        "vrs_rank": 27
+        "vrs_points": 1392,
+        "vrs_rank": 37
       },
       {
         "elo": 1624.16,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 128,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5091,
         "team_key": "astralis",
         "team_name": "Astralis",
-        "vrs_points": 1674,
-        "vrs_rank": 10
+        "vrs_points": 1572,
+        "vrs_rank": 14
       },
       {
         "elo": 1752.68,
         "last_result_utc": "2026-11-02T08:51:33Z",
         "matches": 140,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.8123,
         "team_key": "furia",
         "team_name": "FURIA",
-        "vrs_points": 1829,
-        "vrs_rank": 7
+        "vrs_points": 1912,
+        "vrs_rank": 3
       },
       {
         "elo": 1705.67,
         "last_result_utc": "2026-10-26T13:20:08Z",
         "matches": 64,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7212,
         "team_key": "fut",
         "team_name": "FUT",
-        "vrs_points": 1799,
+        "vrs_points": 1721,
         "vrs_rank": 8
       },
       {
         "elo": 1580.89,
         "last_result_utc": "2026-11-02T05:31:03Z",
         "matches": 127,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2019,
         "team_key": "g2",
         "team_name": "G2",
-        "vrs_points": 1847,
-        "vrs_rank": 5
+        "vrs_points": 1616,
+        "vrs_rank": 11
       },
       {
         "elo": 1619.55,
         "last_result_utc": "2026-11-02T05:31:03Z",
         "matches": 118,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4341,
         "team_key": "parivision",
         "team_name": "PARIVISION",
-        "vrs_points": 1411,
-        "vrs_rank": 36
+        "vrs_points": 1560,
+        "vrs_rank": 16
       },
       {
         "elo": 1632.42,
         "last_result_utc": "2026-11-02T07:16:01Z",
         "matches": 100,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1986,
         "team_key": "9z",
         "team_name": "9z",
-        "vrs_points": 1543,
-        "vrs_rank": 17
+        "vrs_points": 1490,
+        "vrs_rank": 24
       },
       {
         "elo": 1589.1,
         "last_result_utc": "2026-11-02T02:08:09Z",
         "matches": 127,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4909,
         "team_key": "b8",
         "team_name": "B8",
-        "vrs_points": 1555,
-        "vrs_rank": 13
+        "vrs_points": 1472,
+        "vrs_rank": 28
       },
       {
         "elo": 1744.91,
         "last_result_utc": "2026-11-02T07:16:01Z",
         "matches": 167,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6919,
         "team_key": "betboom",
         "team_name": "BetBoom",
-        "vrs_points": 1596,
-        "vrs_rank": 11
+        "vrs_points": 1786,
+        "vrs_rank": 6
       },
       {
         "elo": 1601.4,
         "matches": 37,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7,
         "team_key": "magic",
         "team_name": "magic",
-        "vrs_points": 1489,
-        "vrs_rank": 23
+        "vrs_points": 1365,
+        "vrs_rank": 41
       },
       {
         "elo": 1568.75,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 107,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5091,
         "team_key": "pain",
         "team_name": "paiN",
-        "vrs_points": 1287,
-        "vrs_rank": 54
+        "vrs_points": 1295,
+        "vrs_rank": 53
       },
       {
         "elo": 1571.58,
         "matches": 84,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "mibr",
         "team_name": "MIBR",
-        "vrs_points": 1585,
-        "vrs_rank": 12
+        "vrs_points": 1546,
+        "vrs_rank": 19
       },
       {
         "elo": 1609.97,
         "matches": 133,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "monte",
         "team_name": "Monte",
@@ -46091,92 +46091,92 @@
         "elo": 1570.05,
         "last_result_utc": "2026-11-02T08:51:33Z",
         "matches": 124,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6682,
         "team_key": "faze",
         "team_name": "FaZe",
-        "vrs_points": 1482,
-        "vrs_rank": 26
+        "vrs_points": 1539,
+        "vrs_rank": 20
       },
       {
         "elo": 1507.5,
         "last_result_utc": "2026-10-14T14:37:41Z",
         "matches": 89,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "ninjas in pyjamas",
         "team_name": "Ninjas in Pyjamas",
-        "vrs_points": 1534,
-        "vrs_rank": 18
+        "vrs_points": 1564,
+        "vrs_rank": 15
       },
       {
         "elo": 1592.46,
         "last_result_utc": "2026-10-14T16:03:29Z",
         "matches": 100,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7959,
         "team_key": "lynn vision",
         "team_name": "Lynn Vision",
-        "vrs_points": 1190,
-        "vrs_rank": 64
+        "vrs_points": 1267,
+        "vrs_rank": 56
       },
       {
         "elo": 1489.46,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 69,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4909,
         "team_key": "wildcard",
         "team_name": "Wildcard",
-        "vrs_points": 1239,
-        "vrs_rank": 58
+        "vrs_points": 1391,
+        "vrs_rank": 38
       },
       {
         "elo": 1516.82,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 125,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3455,
         "team_key": "3dmax",
         "team_name": "3DMAX",
-        "vrs_points": 1500,
-        "vrs_rank": 21
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1489.94,
         "last_result_utc": "2026-11-02T02:08:09Z",
         "matches": 111,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3455,
         "team_key": "heroic",
         "team_name": "HEROIC",
-        "vrs_points": 1550,
-        "vrs_rank": 15
+        "vrs_points": 1548,
+        "vrs_rank": 18
       },
       {
         "elo": 1562.84,
         "matches": 98,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "big",
         "team_name": "BIG",
-        "vrs_points": 1482,
-        "vrs_rank": 25
+        "vrs_points": 1408,
+        "vrs_rank": 32
       },
       {
         "elo": 1625.1,
         "matches": 142,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "alliance",
         "team_name": "Alliance",
-        "vrs_points": 1483,
-        "vrs_rank": 24
+        "vrs_points": 1300,
+        "vrs_rank": 52
       },
       {
         "elo": 1533.75,
         "matches": 53,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "gentle mates",
         "team_name": "Gentle Mates",
@@ -46187,60 +46187,60 @@
         "elo": 1539.76,
         "last_result_utc": "2026-11-02T10:17:39Z",
         "matches": 114,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2422,
         "team_key": "tyloo",
         "team_name": "TYLOO",
-        "vrs_points": 1340,
-        "vrs_rank": 44
+        "vrs_points": 1264,
+        "vrs_rank": 59
       },
       {
         "elo": 1556.82,
         "last_result_utc": "2026-10-07T20:10:32Z",
         "matches": 111,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3728,
         "team_key": "m80",
         "team_name": "M80",
-        "vrs_points": 1491,
-        "vrs_rank": 22
+        "vrs_points": 1489,
+        "vrs_rank": 25
       },
       {
         "elo": 1535.35,
         "last_result_utc": "2026-10-08T19:35:09Z",
         "matches": 159,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2455,
         "team_key": "sinners",
         "team_name": "SINNERS",
-        "vrs_points": 1359,
-        "vrs_rank": 41
+        "vrs_points": 1408,
+        "vrs_rank": 33
       },
       {
         "elo": 1579.87,
         "matches": 81,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "eyeballers",
         "team_name": "EYEBALLERS",
-        "vrs_points": 1343,
-        "vrs_rank": 43
+        "vrs_points": 1221,
+        "vrs_rank": 63
       },
       {
         "elo": 1552.66,
         "last_result_utc": "2026-10-31T17:07:13Z",
         "matches": 21,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.714,
         "team_key": "fokus",
         "team_name": "FOKUS",
-        "vrs_points": 1321,
-        "vrs_rank": 48
+        "vrs_points": 1304,
+        "vrs_rank": 51
       },
       {
         "elo": 1515.55,
         "matches": 114,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "sharks",
         "team_name": "Sharks",
@@ -46251,111 +46251,111 @@
         "elo": 1633.63,
         "last_result_utc": "2026-10-24T19:40:21Z",
         "matches": 98,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6843,
         "team_key": "nuclear tigeres",
         "team_name": "Nuclear TigeRES",
-        "vrs_points": 1324,
-        "vrs_rank": 46
+        "vrs_points": 1266,
+        "vrs_rank": 58
       },
       {
         "elo": 1655.35,
         "last_result_utc": "2026-10-30T13:58:18Z",
         "matches": 168,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6807,
         "team_key": "nemiga",
         "team_name": "Nemiga",
-        "vrs_points": 1551,
-        "vrs_rank": 14
+        "vrs_points": 1650,
+        "vrs_rank": 10
       },
       {
         "elo": 1464.03,
         "matches": 65,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "virtus.pro",
         "team_name": "Virtus.pro",
-        "vrs_points": 1309,
-        "vrs_rank": 51
+        "vrs_points": 1421,
+        "vrs_rank": 31
       },
       {
         "elo": 1569.53,
         "matches": 68,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "k27",
         "team_name": "K27",
-        "vrs_points": 1435,
-        "vrs_rank": 32
+        "vrs_points": 1407,
+        "vrs_rank": 34
       },
       {
         "elo": 1522.87,
         "matches": 48,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "inner circle",
         "team_name": "Inner Circle",
-        "vrs_points": 1516,
-        "vrs_rank": 20
+        "vrs_points": 1423,
+        "vrs_rank": 30
       },
       {
         "elo": 1540.25,
         "matches": 92,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "jijiehao",
         "team_name": "JiJieHao",
-        "vrs_points": 1454,
-        "vrs_rank": 30
+        "vrs_points": 1400,
+        "vrs_rank": 36
       },
       {
         "elo": 1545.82,
         "last_result_utc": "2026-11-02T04:38:35Z",
         "matches": 112,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5008,
         "team_key": "liquid",
         "team_name": "Liquid",
-        "vrs_points": 1527,
-        "vrs_rank": 19
+        "vrs_points": 1528,
+        "vrs_rank": 21
       },
       {
         "elo": 1471.49,
         "last_result_utc": "2026-10-24T08:15:19Z",
         "matches": 28,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1227,
         "team_key": "walczaki",
         "team_name": "Walczaki",
-        "vrs_points": 962,
-        "vrs_rank": 120
+        "vrs_points": 741,
+        "vrs_rank": 184
       },
       {
         "elo": 1535.95,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 22,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4909,
         "team_key": "100 thieves",
         "team_name": "100 Thieves",
-        "vrs_points": 1478,
-        "vrs_rank": 28
+        "vrs_points": 1511,
+        "vrs_rank": 23
       },
       {
         "elo": 1528.56,
         "matches": 86,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "bestia",
         "team_name": "BESTIA",
-        "vrs_points": 1189,
-        "vrs_rank": 65
+        "vrs_points": 1312,
+        "vrs_rank": 49
       },
       {
         "elo": 1498.88,
         "matches": 56,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7,
         "team_key": "tricked",
         "team_name": "Tricked",
@@ -46366,17 +46366,17 @@
         "elo": 1576.27,
         "last_result_utc": "2026-10-05T13:21:11Z",
         "matches": 92,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6044,
         "team_key": "1win",
         "team_name": "1win",
-        "vrs_points": 1383,
-        "vrs_rank": 38
+        "vrs_points": 1598,
+        "vrs_rank": 12
       },
       {
         "elo": 1496.11,
         "matches": 91,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "nrg",
         "team_name": "NRG",
@@ -46386,7 +46386,7 @@
       {
         "elo": 1563.84,
         "matches": 26,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.8,
         "team_key": "tdk",
         "team_name": "TDK",
@@ -46396,17 +46396,17 @@
       {
         "elo": 1438.98,
         "matches": 23,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "voca",
         "team_name": "Voca",
-        "vrs_points": 1182,
-        "vrs_rank": 68
+        "vrs_points": 1127,
+        "vrs_rank": 79
       },
       {
         "elo": 1449.99,
         "matches": 28,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "gaimin gladiators",
         "team_name": "Gaimin Gladiators",
@@ -46416,103 +46416,103 @@
       {
         "elo": 1550.09,
         "matches": 109,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "arcred",
         "team_name": "ARCRED",
-        "vrs_points": 799,
-        "vrs_rank": 166
+        "vrs_points": 694,
+        "vrs_rank": 210
       },
       {
         "elo": 1505.94,
         "last_result_utc": "2026-10-08T12:46:43Z",
         "matches": 109,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4719,
         "team_key": "og",
         "team_name": "OG",
-        "vrs_points": 1023,
-        "vrs_rank": 107
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1471.55,
         "last_result_utc": "2026-10-05T10:49:28Z",
         "matches": 39,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2738,
         "team_key": "shinden",
         "team_name": "ShindeN",
-        "vrs_points": 1121,
-        "vrs_rank": 74
+        "vrs_points": 1096,
+        "vrs_rank": 83
       },
       {
         "elo": 1570.8,
         "last_result_utc": "2026-10-31T21:00:34Z",
         "matches": 47,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7032,
         "team_key": "acend",
         "team_name": "Acend",
-        "vrs_points": 1197,
-        "vrs_rank": 63
+        "vrs_points": 1142,
+        "vrs_rank": 73
       },
       {
         "elo": 1484.08,
         "matches": 173,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "sashi",
         "team_name": "Sashi",
-        "vrs_points": 1131,
-        "vrs_rank": 73
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1558.7,
         "last_result_utc": "2026-10-15T01:21:52Z",
         "matches": 25,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.8951,
         "team_key": "lp",
         "team_name": "LP",
-        "vrs_points": 1072,
-        "vrs_rank": 90
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1469.54,
         "last_result_utc": "2026-09-29T10:46:01Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3054,
         "team_key": "thunder downunder",
         "team_name": "THUNDER dOWNUNDER",
-        "vrs_points": 971,
-        "vrs_rank": 119
+        "vrs_points": 783,
+        "vrs_rank": 165
       },
       {
         "elo": 1512.6,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "5star",
         "team_name": "5star",
-        "vrs_points": 1110,
-        "vrs_rank": 80
+        "vrs_points": 1169,
+        "vrs_rank": 68
       },
       {
         "elo": 1541.37,
         "matches": 31,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "ww",
         "team_name": "WW",
-        "vrs_points": 1023,
+        "vrs_points": 1000,
         "vrs_rank": 108
       },
       {
         "elo": 1549.38,
         "last_result_utc": "2026-10-08T14:35:58Z",
         "matches": 163,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "cybershoke",
         "team_name": "CYBERSHOKE",
@@ -46522,69 +46522,69 @@
       {
         "elo": 1418.1,
         "matches": 129,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "passion ua",
         "team_name": "Passion UA",
-        "vrs_points": 679,
-        "vrs_rank": 223
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1562.61,
         "last_result_utc": "2026-10-09T22:52:46Z",
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6145,
         "team_key": "turma do pagode",
         "team_name": "Turma do Pagode",
-        "vrs_points": 1051,
-        "vrs_rank": 98
+        "vrs_points": 989,
+        "vrs_rank": 112
       },
       {
         "elo": 1462.17,
         "last_result_utc": "2026-10-09T16:05:03Z",
         "matches": 84,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4005,
         "team_key": "the huns",
         "team_name": "The Huns",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 1032,
+        "vrs_rank": 104
       },
       {
         "elo": 1484.88,
         "matches": 50,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "red canids",
         "team_name": "RED Canids",
-        "vrs_points": 653,
-        "vrs_rank": 243
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1498.4,
         "matches": 98,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "imperial",
         "team_name": "Imperial",
-        "vrs_points": 1297,
-        "vrs_rank": 52
+        "vrs_points": 1406,
+        "vrs_rank": 35
       },
       {
         "elo": 1476.09,
         "matches": 25,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "bet-m",
         "team_name": "BET-M",
-        "vrs_points": 1149,
-        "vrs_rank": 71
+        "vrs_points": 1049,
+        "vrs_rank": 98
       },
       {
         "elo": 1453.82,
         "matches": 106,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "johnny speeds",
         "team_name": "Johnny Speeds",
@@ -46594,17 +46594,17 @@
       {
         "elo": 1483.21,
         "matches": 39,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "kolesie",
         "team_name": "KOLESIE",
-        "vrs_points": 906,
-        "vrs_rank": 132
+        "vrs_points": 757,
+        "vrs_rank": 179
       },
       {
         "elo": 1499.07,
         "matches": 29,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "oxuji",
         "team_name": "Oxuji",
@@ -46615,72 +46615,72 @@
         "elo": 1510.74,
         "last_result_utc": "2026-10-30T19:42:41Z",
         "matches": 46,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5657,
         "team_key": "lavked",
         "team_name": "Lavked",
-        "vrs_points": 862,
-        "vrs_rank": 143
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1542.71,
         "last_result_utc": "2026-10-25T14:35:59Z",
         "matches": 15,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6389,
         "team_key": "inox division",
         "team_name": "INOX Division",
-        "vrs_points": 1105,
-        "vrs_rank": 82
+        "vrs_points": 852,
+        "vrs_rank": 147
       },
       {
         "elo": 1529.49,
         "last_result_utc": "2026-10-15T01:21:52Z",
         "matches": 49,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6832,
         "team_key": "galorys",
         "team_name": "Galorys",
-        "vrs_points": 1099,
-        "vrs_rank": 85
+        "vrs_points": 1092,
+        "vrs_rank": 87
       },
       {
         "elo": 1468.26,
         "matches": 127,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "fnatic",
         "team_name": "fnatic",
-        "vrs_points": 1417,
-        "vrs_rank": 35
+        "vrs_points": 1488,
+        "vrs_rank": 27
       },
       {
         "elo": 1525.81,
         "last_result_utc": "2026-09-29T16:44:03Z",
         "matches": 12,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6542,
         "team_key": "nexvoid",
         "team_name": "NEXVOID",
-        "vrs_points": 995,
-        "vrs_rank": 113
+        "vrs_points": 1158,
+        "vrs_rank": 71
       },
       {
         "elo": 1523.22,
         "last_result_utc": "2026-09-29T10:46:01Z",
         "matches": 69,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5984,
         "team_key": "flyquest",
         "team_name": "FlyQuest",
-        "vrs_points": 1093,
-        "vrs_rank": 86
+        "vrs_points": 1318,
+        "vrs_rank": 48
       },
       {
         "elo": 1509.15,
         "last_result_utc": "2026-10-12T14:53:54Z",
         "matches": 65,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5867,
         "team_key": "chinggis warriors",
         "team_name": "Chinggis Warriors",
@@ -46690,7 +46690,7 @@
       {
         "elo": 1461.98,
         "matches": 49,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "rebels",
         "team_name": "Rebels",
@@ -46700,70 +46700,70 @@
       {
         "elo": 1526.71,
         "matches": 55,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "ex-ruby",
         "team_name": "ex-RUBY",
-        "vrs_points": 946,
-        "vrs_rank": 121
+        "vrs_points": 781,
+        "vrs_rank": 166
       },
       {
         "elo": 1489.14,
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "dragonclaw",
         "team_name": "DragonClaw",
-        "vrs_points": 734,
-        "vrs_rank": 196
+        "vrs_points": 668,
+        "vrs_rank": 227
       },
       {
         "elo": 1436.51,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 90,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3827,
         "team_key": "fluxo",
         "team_name": "Fluxo",
-        "vrs_points": 1277,
-        "vrs_rank": 55
+        "vrs_points": 1249,
+        "vrs_rank": 60
       },
       {
         "elo": 1403.23,
         "matches": 14,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "fisher college",
         "team_name": "Fisher College",
-        "vrs_points": 707,
-        "vrs_rank": 208
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1488.4,
         "matches": 139,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "ecstatic",
         "team_name": "ECSTATIC",
-        "vrs_points": 483,
-        "vrs_rank": 350
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1471.47,
         "last_result_utc": "2026-10-12T23:40:11Z",
         "matches": 49,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4948,
         "team_key": "bounty hunters",
         "team_name": "Bounty Hunters",
-        "vrs_points": 1054,
-        "vrs_rank": 96
+        "vrs_points": 1057,
+        "vrs_rank": 94
       },
       {
         "elo": 1478.53,
         "last_result_utc": "2026-10-31T13:44:50Z",
         "matches": 58,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6653,
         "team_key": "betclic",
         "team_name": "Betclic",
@@ -46773,113 +46773,113 @@
       {
         "elo": 1445.79,
         "matches": 13,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "basement boys",
         "team_name": "BASEMENT BOYS",
-        "vrs_points": 1036,
-        "vrs_rank": 102
+        "vrs_points": 1097,
+        "vrs_rank": 81
       },
       {
         "elo": 1497.29,
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "semperfi",
         "team_name": "SemperFi",
-        "vrs_points": 518,
-        "vrs_rank": 327
+        "vrs_points": 479,
+        "vrs_rank": 347
       },
       {
         "elo": 1413.51,
         "matches": 91,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "metizport",
         "team_name": "Metizport",
-        "vrs_points": 1290,
-        "vrs_rank": 53
+        "vrs_points": 1266,
+        "vrs_rank": 57
       },
       {
         "elo": 1406.55,
         "last_result_utc": "2026-10-30T12:15:48Z",
         "matches": 63,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1644,
         "team_key": "genone",
         "team_name": "GenOne",
-        "vrs_points": 1185,
-        "vrs_rank": 66
+        "vrs_points": 1041,
+        "vrs_rank": 102
       },
       {
         "elo": 1500.84,
         "last_result_utc": "2026-10-09T11:32:13Z",
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3658,
         "team_key": "eac",
         "team_name": "EAC",
-        "vrs_points": 1035,
-        "vrs_rank": 103
+        "vrs_points": 955,
+        "vrs_rank": 123
       },
       {
         "elo": 1481.58,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 15,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5165,
         "team_key": "state",
         "team_name": "STATE",
-        "vrs_points": 939,
-        "vrs_rank": 123
+        "vrs_points": 982,
+        "vrs_rank": 118
       },
       {
         "elo": 1478.32,
         "matches": 78,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "bc.game",
         "team_name": "BC.Game",
-        "vrs_points": 1318,
-        "vrs_rank": 50
+        "vrs_points": 1337,
+        "vrs_rank": 45
       },
       {
         "elo": 1453.61,
         "matches": 21,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "fake do biru",
         "team_name": "Fake do Biru",
-        "vrs_points": 705,
-        "vrs_rank": 210
+        "vrs_points": 629,
+        "vrs_rank": 254
       },
       {
         "elo": 1422.89,
         "last_result_utc": "2026-10-09T16:19:17Z",
         "matches": 77,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2632,
         "team_key": "rare atom",
         "team_name": "Rare Atom",
-        "vrs_points": 906,
-        "vrs_rank": 133
+        "vrs_points": 956,
+        "vrs_rank": 122
       },
       {
         "elo": 1528.13,
         "last_result_utc": "2026-10-15T05:00:42Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5942,
         "team_key": "chicken coop",
         "team_name": "Chicken Coop",
-        "vrs_points": 743,
-        "vrs_rank": 188
+        "vrs_points": 742,
+        "vrs_rank": 183
       },
       {
         "elo": 1478.9,
         "last_result_utc": "2026-10-09T20:11:27Z",
         "matches": 65,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5579,
         "team_key": "mouz nxt",
         "team_name": "MOUZ NXT",
@@ -46889,7 +46889,7 @@
       {
         "elo": 1516.47,
         "matches": 47,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "ursa",
         "team_name": "Ursa",
@@ -46899,50 +46899,50 @@
       {
         "elo": 1497.13,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "psychoface",
         "team_name": "PsychoFace",
-        "vrs_points": 821,
-        "vrs_rank": 153
+        "vrs_points": 759,
+        "vrs_rank": 175
       },
       {
         "elo": 1470.58,
         "last_result_utc": "2026-10-11T22:35:10Z",
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3827,
         "team_key": "yawara",
         "team_name": "Yawara",
-        "vrs_points": 845,
-        "vrs_rank": 147
+        "vrs_points": 815,
+        "vrs_rank": 155
       },
       {
         "elo": 1453.98,
         "last_result_utc": "2026-07-28T14:39:37Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1825,
         "team_key": "atreides",
         "team_name": "Atreides",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 707,
+        "vrs_rank": 203
       },
       {
         "elo": 1461.87,
         "last_result_utc": "2026-10-11T15:38:28Z",
         "matches": 20,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3779,
         "team_key": "kaleido",
         "team_name": "Kaleido",
-        "vrs_points": 771,
-        "vrs_rank": 181
+        "vrs_points": 795,
+        "vrs_rank": 160
       },
       {
         "elo": 1491.72,
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "depo",
         "team_name": "DEPO",
@@ -46953,29 +46953,29 @@
         "elo": 1484.31,
         "last_result_utc": "2026-09-30T04:16:24Z",
         "matches": 80,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7311,
         "team_key": "marsborne",
         "team_name": "Marsborne",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 955,
+        "vrs_rank": 125
       },
       {
         "elo": 1517.35,
         "last_result_utc": "2026-10-31T10:40:18Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5816,
         "team_key": "phantom",
         "team_name": "Phantom",
-        "vrs_points": 1147,
-        "vrs_rank": 72
+        "vrs_points": 1224,
+        "vrs_rank": 61
       },
       {
         "elo": 1486.49,
         "last_result_utc": "2026-07-27T19:57:03Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1487,
         "team_key": "cybershoke prospects",
         "team_name": "CYBERSHOKE Prospects",
@@ -46986,17 +46986,17 @@
         "elo": 1501.97,
         "last_result_utc": "2026-10-31T13:44:50Z",
         "matches": 143,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3496,
         "team_key": "9ine",
         "team_name": "9INE",
-        "vrs_points": 1112,
-        "vrs_rank": 79
+        "vrs_points": 1043,
+        "vrs_rank": 100
       },
       {
         "elo": 1495.73,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.333,
         "team_key": "rustec",
         "team_name": "RUSTEC",
@@ -47007,135 +47007,135 @@
         "elo": 1458.65,
         "last_result_utc": "2026-10-07T17:04:53Z",
         "matches": 36,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2455,
         "team_key": "omega",
         "team_name": "Omega",
-        "vrs_points": 1103,
-        "vrs_rank": 83
+        "vrs_points": 1068,
+        "vrs_rank": 93
       },
       {
         "elo": 1558.97,
         "last_result_utc": "2026-10-09T19:25:49Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7966,
         "team_key": "just players",
         "team_name": "Just Players",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 999,
+        "vrs_rank": 109
       },
       {
         "elo": 1426.88,
         "matches": 26,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "astral",
         "team_name": "ASTRAL",
-        "vrs_points": 1072,
-        "vrs_rank": 91
+        "vrs_points": 1048,
+        "vrs_rank": 99
       },
       {
         "elo": 1536.43,
         "matches": 131,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "favbet",
         "team_name": "FAVBET",
-        "vrs_points": 534,
-        "vrs_rank": 319
+        "vrs_points": 465,
+        "vrs_rank": 350
       },
       {
         "elo": 1492.55,
         "last_result_utc": "2026-10-21T16:25:12Z",
         "matches": 19,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3954,
         "team_key": "g2 ares",
         "team_name": "G2 Ares",
-        "vrs_points": 913,
+        "vrs_points": 935,
         "vrs_rank": 129
       },
       {
         "elo": 1499.8,
         "last_result_utc": "2026-09-30T04:16:24Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4835,
         "team_key": "lag",
         "team_name": "LAG",
-        "vrs_points": 1021,
-        "vrs_rank": 109
+        "vrs_points": 1041,
+        "vrs_rank": 101
       },
       {
         "elo": 1550.31,
         "last_result_utc": "2026-10-14T16:03:29Z",
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6632,
         "team_key": "alter ego",
         "team_name": "Alter Ego",
-        "vrs_points": 819,
-        "vrs_rank": 155
+        "vrs_points": 1069,
+        "vrs_rank": 92
       },
       {
         "elo": 1501.87,
         "last_result_utc": "2026-10-09T22:37:42Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4471,
         "team_key": "isurus",
         "team_name": "Isurus",
-        "vrs_points": 783,
-        "vrs_rank": 173
+        "vrs_points": 789,
+        "vrs_rank": 162
       },
       {
         "elo": 1474.13,
         "last_result_utc": "2026-10-08T20:35:18Z",
         "matches": 13,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3976,
         "team_key": "hyperspirit",
         "team_name": "HYPERSPIRIT",
-        "vrs_points": 803,
-        "vrs_rank": 162
+        "vrs_points": 917,
+        "vrs_rank": 136
       },
       {
         "elo": 1506.83,
         "last_result_utc": "2026-09-28T11:10:25Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5443,
         "team_key": "ground zero",
         "team_name": "Ground Zero",
-        "vrs_points": 878,
-        "vrs_rank": 136
+        "vrs_points": 911,
+        "vrs_rank": 138
       },
       {
         "elo": 1479.14,
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "bmz",
         "team_name": "BMZ",
-        "vrs_points": 488,
-        "vrs_rank": 346
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1494.02,
         "last_result_utc": "2026-10-08T18:47:54Z",
         "matches": 129,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4899,
         "team_key": "ence",
         "team_name": "ENCE",
-        "vrs_points": 1025,
-        "vrs_rank": 105
+        "vrs_points": 1011,
+        "vrs_rank": 107
       },
       {
         "elo": 1396.4,
         "matches": 55,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "novaq",
         "team_name": "NOVAQ",
@@ -47146,49 +47146,49 @@
         "elo": 1413.48,
         "last_result_utc": "2026-10-26T16:47:40Z",
         "matches": 23,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2384,
         "team_key": "havu",
         "team_name": "HAVU",
-        "vrs_points": 937,
-        "vrs_rank": 124
+        "vrs_points": 982,
+        "vrs_rank": 117
       },
       {
         "elo": 1482.33,
         "last_result_utc": "2026-10-21T18:45:32Z",
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4156,
         "team_key": "the last resort",
         "team_name": "The Last Resort",
-        "vrs_points": 926,
-        "vrs_rank": 126
+        "vrs_points": 986,
+        "vrs_rank": 114
       },
       {
         "elo": 1485.68,
         "last_result_utc": "2026-10-09T20:11:27Z",
         "matches": 62,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4417,
         "team_key": "leo",
         "team_name": "Leo",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 955,
+        "vrs_rank": 124
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "wazabi",
         "team_name": "WAZABI",
-        "vrs_points": 582,
-        "vrs_rank": 294
+        "vrs_points": 464,
+        "vrs_rank": 351
       },
       {
         "elo": 1499.98,
         "matches": 13,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "mana",
         "team_name": "MANA",
@@ -47199,27 +47199,27 @@
         "elo": 1413.95,
         "last_result_utc": "2026-07-28T16:52:53Z",
         "matches": 40,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2827,
         "team_key": "unity",
         "team_name": "UNiTY",
-        "vrs_points": 1167,
-        "vrs_rank": 69
+        "vrs_points": 1220,
+        "vrs_rank": 64
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "young ninjas",
         "team_name": "Young Ninjas",
-        "vrs_points": 536,
-        "vrs_rank": 317
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1448.29,
         "matches": 15,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "fengda",
         "team_name": "FengDa",
@@ -47230,28 +47230,28 @@
         "elo": 1484.88,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "uno mille",
         "team_name": "UNO MILLE",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 666,
+        "vrs_rank": 228
       },
       {
         "elo": 1493.21,
         "last_result_utc": "2026-10-07T21:26:11Z",
         "matches": 25,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4827,
         "team_key": "lazer cats",
         "team_name": "Lazer Cats",
-        "vrs_points": 1113,
-        "vrs_rank": 78
+        "vrs_points": 1097,
+        "vrs_rank": 82
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "last bullet",
         "team_name": "Last Bullet",
@@ -47262,17 +47262,17 @@
         "elo": 1482.53,
         "last_result_utc": "2026-10-28T13:40:26Z",
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3481,
         "team_key": "inner circle academy",
         "team_name": "Inner Circle Academy",
-        "vrs_points": 1064,
-        "vrs_rank": 94
+        "vrs_points": 997,
+        "vrs_rank": 110
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "change the game",
         "team_name": "Change The Game",
@@ -47282,18 +47282,18 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "sportsbetexpert",
         "team_name": "SportsBetExpert",
-        "vrs_points": 1199,
-        "vrs_rank": 62
+        "vrs_points": 1164,
+        "vrs_rank": 69
       },
       {
         "elo": 1486.36,
         "last_result_utc": "2026-09-22T14:37:48Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "the qube",
         "team_name": "The QUBE",
@@ -47303,200 +47303,200 @@
       {
         "elo": 1455.3,
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.143,
         "team_key": "aaa",
         "team_name": "aAa",
-        "vrs_points": 538,
-        "vrs_rank": 314
+        "vrs_points": 519,
+        "vrs_rank": 324
       },
       {
         "elo": 1557.79,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 83,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "hotu",
         "team_name": "HOTU",
-        "vrs_points": 1437,
-        "vrs_rank": 31
+        "vrs_points": 1488,
+        "vrs_rank": 26
       },
       {
         "elo": 1489.05,
         "last_result_utc": "2026-10-06T13:53:09Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4136,
         "team_key": "masonic",
         "team_name": "MASONIC",
-        "vrs_points": 773,
-        "vrs_rank": 178
+        "vrs_points": 710,
+        "vrs_rank": 200
       },
       {
         "elo": 1532.86,
         "last_result_utc": "2026-10-07T13:20:56Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.596,
         "team_key": "falcons force",
         "team_name": "Falcons Force",
-        "vrs_points": 806,
-        "vrs_rank": 161
+        "vrs_points": 858,
+        "vrs_rank": 144
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "hashiras",
         "team_name": "Hashiras",
-        "vrs_points": 658,
-        "vrs_rank": 238
+        "vrs_points": 502,
+        "vrs_rank": 335
       },
       {
         "elo": 1488.98,
         "last_result_utc": "2026-10-12T03:39:19Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4746,
         "team_key": "regain",
         "team_name": "regain",
-        "vrs_points": 807,
-        "vrs_rank": 159
+        "vrs_points": 773,
+        "vrs_rank": 169
       },
       {
         "elo": 1575.05,
         "last_result_utc": "2026-10-25T18:54:06Z",
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7725,
         "team_key": "ex-zero tenacity",
         "team_name": "ex-Zero Tenacity",
-        "vrs_points": 1066,
-        "vrs_rank": 93
+        "vrs_points": 1129,
+        "vrs_rank": 77
       },
       {
         "elo": 1487.68,
         "last_result_utc": "2026-09-22T13:19:56Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "haunted house",
         "team_name": "Haunted House",
-        "vrs_points": 643,
-        "vrs_rank": 250
+        "vrs_points": 575,
+        "vrs_rank": 291
       },
       {
         "elo": 1496.94,
         "last_result_utc": "2026-10-15T17:13:03Z",
         "matches": 12,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4638,
         "team_key": "enjoy",
         "team_name": "Enjoy",
-        "vrs_points": 871,
-        "vrs_rank": 138
+        "vrs_points": 776,
+        "vrs_rank": 167
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "f5",
         "team_name": "F5",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 499,
+        "vrs_rank": 337
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "mibr academy",
         "team_name": "MIBR Academy",
-        "vrs_points": 628,
-        "vrs_rank": 263
+        "vrs_points": 634,
+        "vrs_rank": 253
       },
       {
         "elo": 1499.94,
         "last_result_utc": "2026-10-13T03:02:07Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4798,
         "team_key": "iowa stormboar",
         "team_name": "Iowa Stormboar",
-        "vrs_points": 787,
-        "vrs_rank": 170
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1511.3,
         "last_result_utc": "2026-10-14T02:41:57Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4862,
         "team_key": "zomblers",
         "team_name": "Zomblers",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 665,
+        "vrs_rank": 232
       },
       {
         "elo": 1504.49,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "tnc",
         "team_name": "TNC",
-        "vrs_points": 661,
-        "vrs_rank": 233
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1507.1,
         "last_result_utc": "2026-07-28T16:52:53Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5954,
         "team_key": "new vision",
         "team_name": "NEW VISION",
-        "vrs_points": 655,
-        "vrs_rank": 241
+        "vrs_points": 603,
+        "vrs_rank": 269
       },
       {
         "elo": 1520.96,
         "last_result_utc": "2026-10-13T16:01:55Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5195,
         "team_key": "just swing",
         "team_name": "Just Swing",
-        "vrs_points": 724,
-        "vrs_rank": 201
+        "vrs_points": 775,
+        "vrs_rank": 168
       },
       {
         "elo": 1540.28,
         "last_result_utc": "2026-09-22T18:50:08Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7413,
         "team_key": "entropy",
         "team_name": "Entropy",
-        "vrs_points": 813,
-        "vrs_rank": 156
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1516.93,
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.75,
         "team_key": "heroic academy",
         "team_name": "HEROIC Academy",
-        "vrs_points": 529,
-        "vrs_rank": 324
+        "vrs_points": 505,
+        "vrs_rank": 332
       },
       {
         "elo": 1485.13,
         "last_result_utc": "2026-09-30T13:05:29Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3956,
         "team_key": "big academy",
         "team_name": "BIG Academy",
@@ -47506,7 +47506,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "persona grata",
         "team_name": "Persona Grata",
@@ -47516,18 +47516,18 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "aimclub",
         "team_name": "aimclub",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 1083,
+        "vrs_rank": 88
       },
       {
         "elo": 1451.77,
         "last_result_utc": "2026-10-08T23:54:21Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2315,
         "team_key": "metanoia wolves",
         "team_name": "METANOIA Wolves",
@@ -47537,18 +47537,18 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "sashi academy",
         "team_name": "Sashi Academy",
-        "vrs_points": 585,
-        "vrs_rank": 293
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1499.63,
         "last_result_utc": "2026-09-22T18:50:08Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4798,
         "team_key": "misa",
         "team_name": "Misa",
@@ -47558,92 +47558,92 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "pain academy",
         "team_name": "paiN Academy",
-        "vrs_points": 597,
-        "vrs_rank": 283
+        "vrs_points": 566,
+        "vrs_rank": 302
       },
       {
         "elo": 1463.79,
         "last_result_utc": "2026-10-22T18:48:36Z",
         "matches": 15,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4049,
         "team_key": "rune eaters",
         "team_name": "Rune Eaters",
-        "vrs_points": 1110,
-        "vrs_rank": 81
+        "vrs_points": 995,
+        "vrs_rank": 111
       },
       {
         "elo": 1450.13,
         "last_result_utc": "2026-10-10T15:30:43Z",
         "matches": 150,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5918,
         "team_key": "nexus",
         "team_name": "Nexus",
-        "vrs_points": 1008,
-        "vrs_rank": 111
+        "vrs_points": 1187,
+        "vrs_rank": 65
       },
       {
         "elo": 1469.84,
         "last_result_utc": "2026-09-22T18:31:22Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3237,
         "team_key": "fortress",
         "team_name": "Fortress",
-        "vrs_points": 657,
-        "vrs_rank": 239
+        "vrs_points": 625,
+        "vrs_rank": 257
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "aether",
         "team_name": "Aether",
-        "vrs_points": 585,
-        "vrs_rank": 292
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1487.68,
         "last_result_utc": "2026-09-26T12:29:35Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "abyssal",
         "team_name": "Abyssal",
-        "vrs_points": 734,
-        "vrs_rank": 195
+        "vrs_points": 949,
+        "vrs_rank": 126
       },
       {
         "elo": 1403.63,
         "last_result_utc": "2026-10-07T21:26:11Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.0,
         "team_key": "famalic\u00e3o",
         "team_name": "Famalic\u00e3o",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 642,
+        "vrs_rank": 246
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "oldboys pl",
         "team_name": "OLDBOYS PL",
-        "vrs_points": 631,
-        "vrs_rank": 260
+        "vrs_points": 593,
+        "vrs_rank": 278
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "back to back",
         "team_name": "Back to Back",
@@ -47654,60 +47654,60 @@
         "elo": 1472.1,
         "last_result_utc": "2026-10-07T19:21:35Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "vexar",
         "team_name": "Vexar",
-        "vrs_points": 880,
-        "vrs_rank": 135
+        "vrs_points": 799,
+        "vrs_rank": 158
       },
       {
         "elo": 1481.09,
         "last_result_utc": "2026-10-14T10:50:09Z",
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.579,
         "team_key": "rooster",
         "team_name": "Rooster",
-        "vrs_points": 718,
-        "vrs_rank": 205
+        "vrs_points": 844,
+        "vrs_rank": 150
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "ex-kr\u00fc",
         "team_name": "ex-KR\u00dc",
-        "vrs_points": 464,
-        "vrs_rank": 362
+        "vrs_points": 382,
+        "vrs_rank": 374
       },
       {
         "elo": 1486.82,
         "last_result_utc": "2026-10-09T15:16:11Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4226,
         "team_key": "boring players",
         "team_name": "BORING PLAYERS",
-        "vrs_points": 510,
-        "vrs_rank": 333
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1521.76,
         "last_result_utc": "2026-10-13T17:38:34Z",
         "matches": 12,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6016,
         "team_key": "procyon",
         "team_name": "Procyon",
-        "vrs_points": 842,
-        "vrs_rank": 149
+        "vrs_points": 905,
+        "vrs_rank": 140
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "akimbo",
         "team_name": "Akimbo",
@@ -47717,17 +47717,17 @@
       {
         "elo": 1469.27,
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.286,
         "team_key": "olybet",
         "team_name": "OlyBet",
-        "vrs_points": 481,
-        "vrs_rank": 352
+        "vrs_points": 462,
+        "vrs_rank": 353
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "yngods",
         "team_name": "yngods",
@@ -47737,28 +47737,28 @@
       {
         "elo": 1461.23,
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.25,
         "team_key": "algo",
         "team_name": "ALGO",
-        "vrs_points": 675,
-        "vrs_rank": 226
+        "vrs_points": 608,
+        "vrs_rank": 267
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "donstu",
         "team_name": "DONSTU",
-        "vrs_points": 732,
-        "vrs_rank": 197
+        "vrs_points": 763,
+        "vrs_rank": 173
       },
       {
         "elo": 1470.17,
         "last_result_utc": "2026-10-10T09:37:19Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3237,
         "team_key": "honv\u00e9d",
         "team_name": "Honv\u00e9d",
@@ -47768,38 +47768,38 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "insane players",
         "team_name": "insane players",
-        "vrs_points": 600,
-        "vrs_rank": 281
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "julie&cie",
         "team_name": "Julie&Cie",
-        "vrs_points": 400,
-        "vrs_rank": 375
+        "vrs_points": 393,
+        "vrs_rank": 371
       },
       {
         "elo": 1557.6,
         "last_result_utc": "2026-10-10T17:00:33Z",
         "matches": 93,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6163,
         "team_key": "sangal",
         "team_name": "Sangal",
-        "vrs_points": 1362,
-        "vrs_rank": 40
+        "vrs_points": 1359,
+        "vrs_rank": 44
       },
       {
         "elo": 1460.88,
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "fuzos",
         "team_name": "Fuzos",
@@ -47809,50 +47809,50 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "vasco",
         "team_name": "Vasco",
-        "vrs_points": 552,
-        "vrs_rank": 309
+        "vrs_points": 370,
+        "vrs_rank": 375
       },
       {
         "elo": 1486.26,
         "last_result_utc": "2026-10-11T03:38:54Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4226,
         "team_key": "empire",
         "team_name": "EMPIRE",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 688,
+        "vrs_rank": 213
       },
       {
         "elo": 1469.09,
         "last_result_utc": "2026-10-08T22:58:31Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.331,
         "team_key": "bestia academy",
         "team_name": "BESTIA Academy",
-        "vrs_points": 698,
-        "vrs_rank": 215
+        "vrs_points": 612,
+        "vrs_rank": 264
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "ex-aether",
         "team_name": "ex-Aether",
-        "vrs_points": 642,
-        "vrs_rank": 251
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1513.64,
         "last_result_utc": "2026-09-22T10:42:56Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5909,
         "team_key": "arcade",
         "team_name": "Arcade",
@@ -47863,7 +47863,7 @@
         "elo": 1512.51,
         "last_result_utc": "2026-10-16T10:22:46Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5909,
         "team_key": "lilmix",
         "team_name": "Lilmix",
@@ -47873,7 +47873,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "folha amarela",
         "team_name": "FOLHA AMARELA",
@@ -47883,7 +47883,7 @@
       {
         "elo": 1456.56,
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "rave",
         "team_name": "Rave",
@@ -47894,17 +47894,17 @@
         "elo": 1474.23,
         "last_result_utc": "2026-09-30T12:21:18Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3728,
         "team_key": "rounds",
         "team_name": "ROUNDS",
-        "vrs_points": 548,
-        "vrs_rank": 310
+        "vrs_points": 518,
+        "vrs_rank": 325
       },
       {
         "elo": 1371.26,
         "matches": 26,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "boss",
         "team_name": "BOSS",
@@ -47915,90 +47915,90 @@
         "elo": 1558.42,
         "last_result_utc": "2026-10-29T12:30:55Z",
         "matches": 69,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6305,
         "team_key": "forze reload",
         "team_name": "FORZE Reload",
-        "vrs_points": 1100,
-        "vrs_rank": 84
+        "vrs_points": 1095,
+        "vrs_rank": 85
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "subtop de france",
         "team_name": "Subtop De France",
-        "vrs_points": 484,
+        "vrs_points": 468,
         "vrs_rank": 348
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "cirahvi",
         "team_name": "cirahvi",
-        "vrs_points": 612,
-        "vrs_rank": 269
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1475.49,
         "matches": 25,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "am",
         "team_name": "AM",
-        "vrs_points": 663,
-        "vrs_rank": 232
+        "vrs_points": 702,
+        "vrs_rank": 205
       },
       {
         "elo": 1487.25,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "endless journey",
         "team_name": "Endless Journey",
-        "vrs_points": 688,
-        "vrs_rank": 219
+        "vrs_points": 625,
+        "vrs_rank": 256
       },
       {
         "elo": 1452.68,
         "last_result_utc": "2026-10-09T22:58:15Z",
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3035,
         "team_key": "alka",
         "team_name": "ALKA",
-        "vrs_points": 802,
-        "vrs_rank": 163
+        "vrs_points": 718,
+        "vrs_rank": 195
       },
       {
         "elo": 1455.7,
         "last_result_utc": "2026-10-16T12:11:22Z",
         "matches": 15,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4637,
         "team_key": "benched gods",
         "team_name": "benched gods",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 757,
+        "vrs_rank": 178
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "r2",
         "team_name": "R2",
-        "vrs_points": 406,
-        "vrs_rank": 372
+        "vrs_points": 401,
+        "vrs_rank": 368
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "wrotberry",
         "team_name": "WROTBERRY",
@@ -48008,39 +48008,39 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "dripmen",
         "team_name": "Dripmen",
-        "vrs_points": 642,
-        "vrs_rank": 252
+        "vrs_points": 610,
+        "vrs_rank": 265
       },
       {
         "elo": 1499.53,
         "last_result_utc": "2026-09-20T17:32:35Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5165,
         "team_key": "quazar",
         "team_name": "QUAZAR",
-        "vrs_points": 1080,
-        "vrs_rank": 89
+        "vrs_points": 1142,
+        "vrs_rank": 74
       },
       {
         "elo": 1476.53,
         "last_result_utc": "2026-10-01T14:27:13Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4204,
         "team_key": "eternal premium",
         "team_name": "eternal premium",
-        "vrs_points": 592,
-        "vrs_rank": 287
+        "vrs_points": 571,
+        "vrs_rank": 295
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "project 91",
         "team_name": "Project 91",
@@ -48050,58 +48050,58 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "bankapepsi",
         "team_name": "bankaPEPSI",
-        "vrs_points": 400,
-        "vrs_rank": 376
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "playersclub",
         "team_name": "playersclub",
-        "vrs_points": 497,
-        "vrs_rank": 341
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "prestige",
         "team_name": "Prestige",
-        "vrs_points": 821,
-        "vrs_rank": 154
+        "vrs_points": 770,
+        "vrs_rank": 170
       },
       {
         "elo": 1481.33,
         "last_result_utc": "2026-10-19T13:24:52Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3926,
         "team_key": "bushido wildcats",
         "team_name": "Bushido Wildcats",
-        "vrs_points": 982,
-        "vrs_rank": 114
+        "vrs_points": 927,
+        "vrs_rank": 133
       },
       {
         "elo": 1488.96,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.333,
         "team_key": "aurora young blud",
         "team_name": "Aurora Young Blud",
-        "vrs_points": 526,
-        "vrs_rank": 326
+        "vrs_points": 499,
+        "vrs_rank": 336
       },
       {
         "elo": 1409.54,
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "vp.prodigy",
         "team_name": "VP.Prodigy",
@@ -48111,7 +48111,7 @@
       {
         "elo": 1474.53,
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "allinners",
         "team_name": "ALLINNERS",
@@ -48121,27 +48121,27 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "a great chaos",
         "team_name": "A Great Chaos",
-        "vrs_points": 554,
-        "vrs_rank": 306
+        "vrs_points": 497,
+        "vrs_rank": 340
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "ec banga",
         "team_name": "EC BANGA",
-        "vrs_points": 480,
-        "vrs_rank": 354
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "sensation",
         "team_name": "Sensation",
@@ -48151,28 +48151,28 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "strael bora",
         "team_name": "Strael Bora",
-        "vrs_points": 692,
-        "vrs_rank": 217
+        "vrs_points": 665,
+        "vrs_rank": 231
       },
       {
         "elo": 1498.36,
         "last_result_utc": "2026-10-11T02:27:25Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4945,
         "team_key": "wanted goons",
         "team_name": "Wanted Goons",
-        "vrs_points": 618,
-        "vrs_rank": 267
+        "vrs_points": 590,
+        "vrs_rank": 283
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "zevs",
         "team_name": "ZEVS",
@@ -48182,38 +48182,38 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "brazylijski luz",
         "team_name": "brazylijski luz",
-        "vrs_points": 743,
-        "vrs_rank": 190
+        "vrs_points": 659,
+        "vrs_rank": 234
       },
       {
         "elo": 1501.88,
         "last_result_utc": "2026-10-07T21:17:29Z",
         "matches": 69,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.368,
         "team_key": "saw",
         "team_name": "SAW",
-        "vrs_points": 1346,
-        "vrs_rank": 42
+        "vrs_points": 1223,
+        "vrs_rank": 62
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "m1x ks",
         "team_name": "M1X KS",
-        "vrs_points": 484,
-        "vrs_rank": 349
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1480,
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "ex-fingers crossed",
         "team_name": "ex-Fingers Crossed",
@@ -48223,17 +48223,17 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "dark moon",
         "team_name": "Dark Moon",
-        "vrs_points": 674,
-        "vrs_rank": 228
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "acrobats",
         "team_name": "ACROBATS",
@@ -48244,7 +48244,7 @@
         "elo": 1447.09,
         "last_result_utc": "2026-10-11T15:59:54Z",
         "matches": 24,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3313,
         "team_key": "bebop",
         "team_name": "Bebop",
@@ -48255,27 +48255,27 @@
         "elo": 1466.92,
         "last_result_utc": "2026-10-08T15:29:33Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3237,
         "team_key": "legion",
         "team_name": "Legion",
-        "vrs_points": 536,
-        "vrs_rank": 316
+        "vrs_points": 601,
+        "vrs_rank": 271
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "vexa",
         "team_name": "VEXA",
-        "vrs_points": 557,
-        "vrs_rank": 303
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "900fpsvseco",
         "team_name": "900FPSvsECO",
@@ -48285,7 +48285,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "let her cook",
         "team_name": "Let Her Cook",
@@ -48296,27 +48296,27 @@
         "elo": 1494.49,
         "last_result_utc": "2026-10-10T03:30:50Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4199,
         "team_key": "farmville",
         "team_name": "FarmVille",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 650,
+        "vrs_rank": 243
       },
       {
         "elo": 1411.17,
         "matches": 93,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "eternal fire",
         "team_name": "Eternal Fire",
-        "vrs_points": 1429,
-        "vrs_rank": 33
+        "vrs_points": 1513,
+        "vrs_rank": 22
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "rottweilers",
         "team_name": "rottweilers",
@@ -48326,7 +48326,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "arise",
         "team_name": "Arise",
@@ -48336,38 +48336,38 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "crashers",
         "team_name": "Crashers",
-        "vrs_points": 395,
-        "vrs_rank": 378
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1524.17,
         "last_result_utc": "2026-09-27T18:38:51Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5942,
         "team_key": "kuusamo",
         "team_name": "KUUSAMO",
-        "vrs_points": 746,
-        "vrs_rank": 187
+        "vrs_points": 722,
+        "vrs_rank": 192
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "mindfreak",
         "team_name": "Mindfreak",
-        "vrs_points": 632,
-        "vrs_rank": 258
+        "vrs_points": 708,
+        "vrs_rank": 202
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "sixseven",
         "team_name": "SIXSEVEN",
@@ -48377,47 +48377,47 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "dnk",
         "team_name": "DNK",
-        "vrs_points": 591,
-        "vrs_rank": 288
+        "vrs_points": 722,
+        "vrs_rank": 193
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "zotix",
         "team_name": "ZOTIX",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 532,
+        "vrs_rank": 317
       },
       {
         "elo": 1466.94,
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.286,
         "team_key": "gamehunters",
         "team_name": "GameHunters",
-        "vrs_points": 482,
-        "vrs_rank": 351
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "clutchain fe",
         "team_name": "Clutchain fe",
-        "vrs_points": 649,
-        "vrs_rank": 246
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "wave",
         "team_name": "Wave",
@@ -48428,27 +48428,27 @@
         "elo": 1486.27,
         "last_result_utc": "2026-10-10T02:49:57Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4226,
         "team_key": "club 333",
         "team_name": "Club 333",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 609,
+        "vrs_rank": 266
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "guara",
         "team_name": "GUARA",
-        "vrs_points": 469,
-        "vrs_rank": 358
+        "vrs_points": 462,
+        "vrs_rank": 355
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "dxa",
         "team_name": "DXA",
@@ -48458,57 +48458,57 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "drama",
         "team_name": "Drama",
-        "vrs_points": 845,
-        "vrs_rank": 148
+        "vrs_points": 732,
+        "vrs_rank": 188
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "jumbo",
         "team_name": "JUMBO",
+        "vrs_points": 435,
+        "vrs_rank": 361
+      },
+      {
+        "elo": 1500,
+        "matches": 0,
+        "ranking_date": "2026-11-02",
+        "recent_win_rate_10": 0.5,
+        "team_key": "incognito",
+        "team_name": "Incognito",
         "vrs_points": 0,
         "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.5,
-        "team_key": "incognito",
-        "team_name": "Incognito",
-        "vrs_points": 507,
-        "vrs_rank": 334
-      },
-      {
-        "elo": 1500,
-        "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "mtx",
         "team_name": "MTX",
-        "vrs_points": 585,
-        "vrs_rank": 291
+        "vrs_points": 561,
+        "vrs_rank": 308
       },
       {
         "elo": 1490.34,
         "matches": 25,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "nemesis",
         "team_name": "Nemesis",
-        "vrs_points": 1455,
-        "vrs_rank": 29
+        "vrs_points": 1371,
+        "vrs_rank": 39
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "nsn",
         "team_name": "NSN",
@@ -48518,7 +48518,7 @@
       {
         "elo": 1446.92,
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.143,
         "team_key": "big equipa",
         "team_name": "BIG EQUIPA",
@@ -48528,7 +48528,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "basement bobs",
         "team_name": "Basement Bobs",
@@ -48539,17 +48539,17 @@
         "elo": 1473.38,
         "last_result_utc": "2026-10-09T11:54:07Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "infinite",
         "team_name": "INFINITE",
-        "vrs_points": 1259,
-        "vrs_rank": 56
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "fingers crossed fe",
         "team_name": "Fingers Crossed fe",
@@ -48559,17 +48559,17 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "ding cuts",
         "team_name": "Ding Cuts",
-        "vrs_points": 590,
-        "vrs_rank": 289
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1459.89,
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.167,
         "team_key": "furia fe",
         "team_name": "FURIA fe",
@@ -48579,17 +48579,17 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "clutchain",
         "team_name": "Clutchain",
-        "vrs_points": 481,
-        "vrs_rank": 353
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "bond1e",
         "team_name": "bond1e",
@@ -48600,17 +48600,17 @@
         "elo": 1489.72,
         "last_result_utc": "2026-10-04T12:17:17Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4085,
         "team_key": "phantom academy",
         "team_name": "Phantom Academy",
-        "vrs_points": 783,
-        "vrs_rank": 172
+        "vrs_points": 805,
+        "vrs_rank": 157
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "gameharmony",
         "team_name": "GAMEHARMONY",
@@ -48620,7 +48620,7 @@
       {
         "elo": 1361.49,
         "matches": 22,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "aab",
         "team_name": "AaB",
@@ -48630,7 +48630,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "hindsight",
         "team_name": "hindsight",
@@ -48640,17 +48640,17 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "red feet",
         "team_name": "Red Feet",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 400,
+        "vrs_rank": 369
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "flyquest red",
         "team_name": "FlyQuest RED",
@@ -48660,7 +48660,7 @@
       {
         "elo": 1468.27,
         "matches": 25,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "venom",
         "team_name": "Venom",
@@ -48670,7 +48670,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "alzon",
         "team_name": "ALZON",
@@ -48680,7 +48680,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "imperial academy",
         "team_name": "Imperial Academy",
@@ -48691,28 +48691,28 @@
         "elo": 1469.41,
         "last_result_utc": "2026-07-27T15:15:30Z",
         "matches": 96,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5314,
         "team_key": "sparta",
         "team_name": "SPARTA",
-        "vrs_points": 1054,
-        "vrs_rank": 97
+        "vrs_points": 984,
+        "vrs_rank": 116
       },
       {
         "elo": 1498.41,
         "last_result_utc": "2026-10-14T10:50:09Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4945,
         "team_key": "markandlarry",
         "team_name": "MARKandLARRY",
-        "vrs_points": 574,
-        "vrs_rank": 298
+        "vrs_points": 619,
+        "vrs_rank": 260
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "surge",
         "team_name": "Surge",
@@ -48722,7 +48722,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "grindas",
         "team_name": "Grindas",
@@ -48733,28 +48733,28 @@
         "elo": 1460.83,
         "last_result_utc": "2026-10-07T13:17:55Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3651,
         "team_key": "sinqu",
         "team_name": "SINQU",
-        "vrs_points": 759,
-        "vrs_rank": 184
+        "vrs_points": 714,
+        "vrs_rank": 199
       },
       {
         "elo": 1471.59,
         "last_result_utc": "2026-10-09T15:40:31Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3728,
         "team_key": "nas",
         "team_name": "Nas",
-        "vrs_points": 679,
-        "vrs_rank": 222
+        "vrs_points": 655,
+        "vrs_rank": 238
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "skele",
         "team_name": "Skele",
@@ -48764,17 +48764,17 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "nutorious",
         "team_name": "NuTorious",
-        "vrs_points": 602,
-        "vrs_rank": 278
+        "vrs_points": 639,
+        "vrs_rank": 248
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "mouse",
         "team_name": "mouse",
@@ -48784,7 +48784,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "unitronics",
         "team_name": "Unitronics",
@@ -48794,7 +48794,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "blitzkrieg",
         "team_name": "Blitzkrieg",
@@ -48804,7 +48804,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "ba 2",
         "team_name": "BA 2",
@@ -48814,18 +48814,18 @@
       {
         "elo": 1580.09,
         "matches": 36,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "illwill",
         "team_name": "illwill",
-        "vrs_points": 638,
-        "vrs_rank": 255
+        "vrs_points": 523,
+        "vrs_rank": 321
       },
       {
         "elo": 1501.76,
         "last_result_utc": "2026-10-24T16:38:49Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4835,
         "team_key": "brute",
         "team_name": "BRUTE",
@@ -48835,27 +48835,27 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "fury",
         "team_name": "FURY",
-        "vrs_points": 493,
-        "vrs_rank": 343
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "players",
         "team_name": "Players",
-        "vrs_points": 395,
-        "vrs_rank": 377
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "muerta",
         "team_name": "MUERTA",
@@ -48866,17 +48866,17 @@
         "elo": 1486.6,
         "last_result_utc": "2026-10-08T13:34:58Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3956,
         "team_key": "xdm",
         "team_name": "XDM",
-        "vrs_points": 625,
-        "vrs_rank": 264
+        "vrs_points": 594,
+        "vrs_rank": 277
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "idopieca",
         "team_name": "IDoPieca",
@@ -48886,7 +48886,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "atrix",
         "team_name": "Atrix",
@@ -48897,38 +48897,38 @@
         "elo": 1503.68,
         "last_result_utc": "2026-10-12T14:20:06Z",
         "matches": 89,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5717,
         "team_key": "fire flux",
         "team_name": "Fire Flux",
-        "vrs_points": 907,
+        "vrs_points": 929,
         "vrs_rank": 131
       },
       {
         "elo": 1488.9,
         "last_result_utc": "2026-10-14T20:51:19Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4557,
         "team_key": "damajuana",
         "team_name": "DAMAJUANA",
-        "vrs_points": 476,
-        "vrs_rank": 356
+        "vrs_points": 462,
+        "vrs_rank": 354
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "shimmer",
         "team_name": "Shimmer",
-        "vrs_points": 637,
-        "vrs_rank": 256
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "pugdesonesto",
         "team_name": "Pugdesonesto",
@@ -48938,7 +48938,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "rethink",
         "team_name": "ReThink",
@@ -48948,7 +48948,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "girl kissers",
         "team_name": "girl kissers",
@@ -48959,17 +48959,17 @@
         "elo": 1473.17,
         "last_result_utc": "2026-10-09T04:08:22Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "reign above",
         "team_name": "Reign Above",
-        "vrs_points": 554,
-        "vrs_rank": 307
+        "vrs_points": 498,
+        "vrs_rank": 339
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "bad luck",
         "team_name": "Bad Luck",
@@ -48980,17 +48980,17 @@
         "elo": 1504.92,
         "last_result_utc": "2026-10-12T19:46:32Z",
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4293,
         "team_key": "megoshort",
         "team_name": "megoshort",
-        "vrs_points": 806,
-        "vrs_rank": 160
+        "vrs_points": 784,
+        "vrs_rank": 164
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "memeories",
         "team_name": "Memeories",
@@ -49000,7 +49000,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "japczany",
         "team_name": "japczany",
@@ -49010,7 +49010,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "frz",
         "team_name": "FRZ",
@@ -49021,7 +49021,7 @@
         "elo": 1485.47,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "magicos",
         "team_name": "MAGICOS",
@@ -49031,7 +49031,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "charrados",
         "team_name": "Charrados",
@@ -49041,7 +49041,7 @@
       {
         "elo": 1475.65,
         "matches": 98,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "ruby",
         "team_name": "RUBY",
@@ -49051,7 +49051,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "5actors",
         "team_name": "5Actors",
@@ -49061,7 +49061,7 @@
       {
         "elo": 1448.7,
         "matches": 70,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "cph wolves",
         "team_name": "CPH Wolves",
@@ -49071,7 +49071,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "prison breakers",
         "team_name": "Prison Breakers",
@@ -49081,7 +49081,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "elites",
         "team_name": "ELITES",
@@ -49091,7 +49091,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "home",
         "team_name": "home",
@@ -49101,7 +49101,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "herewegoagain",
         "team_name": "HereWeGoAgain",
@@ -49112,17 +49112,17 @@
         "elo": 1564.08,
         "last_result_utc": "2026-10-10T12:27:55Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6144,
         "team_key": "pure",
         "team_name": "PURE",
-        "vrs_points": 783,
-        "vrs_rank": 174
+        "vrs_points": 1182,
+        "vrs_rank": 66
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "bbbmbcbs",
         "team_name": "BBBMBCBS",
@@ -49133,7 +49133,7 @@
         "elo": 1473.99,
         "last_result_utc": "2026-10-09T02:46:23Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "overknight",
         "team_name": "OverKnight",
@@ -49143,7 +49143,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "mythic",
         "team_name": "Mythic",
@@ -49153,7 +49153,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "z7",
         "team_name": "Z7",
@@ -49163,7 +49163,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "laguna",
         "team_name": "LAGUNA",
@@ -49173,17 +49173,17 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "younglings",
         "team_name": "Younglings",
-        "vrs_points": 529,
-        "vrs_rank": 325
+        "vrs_points": 681,
+        "vrs_rank": 218
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "diamant",
         "team_name": "Diamant",
@@ -49193,17 +49193,17 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "beyond limits",
         "team_name": "Beyond Limits",
-        "vrs_points": 561,
-        "vrs_rank": 301
+        "vrs_points": 535,
+        "vrs_rank": 316
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "low cortisol",
         "team_name": "low cortisol",
@@ -49214,7 +49214,7 @@
         "elo": 1489.01,
         "last_result_utc": "2026-09-22T13:20:02Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "ur",
         "team_name": "UR",
@@ -49224,7 +49224,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "oksucc",
         "team_name": "OKSUCC",
@@ -49235,17 +49235,17 @@
         "elo": 1477.32,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4328,
         "team_key": "keyd stars",
         "team_name": "Keyd Stars",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 638,
+        "vrs_rank": 249
       },
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "outfit 49",
         "team_name": "Outfit 49",
@@ -49255,7 +49255,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "aka hero kajo",
         "team_name": "AKA HERO KAJO",
@@ -49265,7 +49265,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "777",
         "team_name": "777",
@@ -49275,7 +49275,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "exsad",
         "team_name": "EXSAD",
@@ -49285,7 +49285,7 @@
       {
         "elo": 1500,
         "matches": 0,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "time waves",
         "team_name": "Time Waves",
@@ -49295,7 +49295,7 @@
       {
         "elo": 1427.26,
         "matches": 125,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "partizan",
         "team_name": "partizan",
@@ -49305,7 +49305,7 @@
       {
         "elo": 1448.35,
         "matches": 124,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "zero tenacity",
         "team_name": "zero tenacity",
@@ -49315,7 +49315,7 @@
       {
         "elo": 1447.82,
         "matches": 121,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "eclot",
         "team_name": "eclot",
@@ -49325,7 +49325,7 @@
       {
         "elo": 1462.7,
         "matches": 111,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "gun5",
         "team_name": "gun5",
@@ -49335,7 +49335,7 @@
       {
         "elo": 1465.7,
         "matches": 96,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "500",
         "team_name": "500",
@@ -49346,7 +49346,7 @@
         "elo": 1482.31,
         "last_result_utc": "2026-09-22T21:25:53Z",
         "matches": 84,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5579,
         "team_key": "oddik",
         "team_name": "oddik",
@@ -49356,7 +49356,7 @@
       {
         "elo": 1525.63,
         "matches": 78,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "betera",
         "team_name": "betera",
@@ -49367,39 +49367,39 @@
         "elo": 1605.28,
         "last_result_utc": "2026-10-31T10:40:18Z",
         "matches": 94,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6316,
         "team_key": "spirit academy",
         "team_name": "spirit academy",
-        "vrs_points": 981,
-        "vrs_rank": 115
+        "vrs_points": 1055,
+        "vrs_rank": 97
       },
       {
         "elo": 1668.38,
         "last_result_utc": "2026-10-10T18:05:28Z",
         "matches": 77,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7067,
         "team_key": "iberian soul",
         "team_name": "iberian soul",
-        "vrs_points": 1218,
-        "vrs_rank": 59
+        "vrs_points": 1290,
+        "vrs_rank": 54
       },
       {
         "elo": 1657.05,
         "last_result_utc": "2026-10-10T19:36:51Z",
         "matches": 72,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.649,
         "team_key": "navi junior",
         "team_name": "navi junior",
-        "vrs_points": 920,
-        "vrs_rank": 128
+        "vrs_points": 1125,
+        "vrs_rank": 80
       },
       {
         "elo": 1532.61,
         "matches": 56,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7,
         "team_key": "rush b",
         "team_name": "rush b",
@@ -49409,7 +49409,7 @@
       {
         "elo": 1518.26,
         "matches": 51,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7,
         "team_key": "bluejays",
         "team_name": "bluejays",
@@ -49419,7 +49419,7 @@
       {
         "elo": 1575.11,
         "matches": 50,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "oramond",
         "team_name": "oramond",
@@ -49429,7 +49429,7 @@
       {
         "elo": 1641.97,
         "matches": 49,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "esc",
         "team_name": "esc",
@@ -49439,7 +49439,7 @@
       {
         "elo": 1470.1,
         "matches": 45,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "9 pandas",
         "team_name": "9 pandas",
@@ -49449,7 +49449,7 @@
       {
         "elo": 1550.31,
         "matches": 39,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "tnl",
         "team_name": "tnl",
@@ -49459,7 +49459,7 @@
       {
         "elo": 1443.42,
         "matches": 37,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "getting info",
         "team_name": "getting info",
@@ -49469,7 +49469,7 @@
       {
         "elo": 1363.52,
         "matches": 35,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "gtz",
         "team_name": "gtz",
@@ -49479,7 +49479,7 @@
       {
         "elo": 1473.58,
         "matches": 34,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "complexity",
         "team_name": "complexity",
@@ -49490,17 +49490,17 @@
         "elo": 1439.96,
         "last_result_utc": "2026-07-26T21:30:18Z",
         "matches": 36,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3131,
         "team_key": "los kogutos",
         "team_name": "los kogutos",
-        "vrs_points": 604,
-        "vrs_rank": 276
+        "vrs_points": 585,
+        "vrs_rank": 287
       },
       {
         "elo": 1532.1,
         "matches": 31,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.6,
         "team_key": "solid",
         "team_name": "solid",
@@ -49510,7 +49510,7 @@
       {
         "elo": 1437.62,
         "matches": 30,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "amkal",
         "team_name": "amkal",
@@ -49520,7 +49520,7 @@
       {
         "elo": 1489.31,
         "matches": 29,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "reason",
         "team_name": "reason",
@@ -49530,7 +49530,7 @@
       {
         "elo": 1408.88,
         "matches": 27,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "kono",
         "team_name": "kono",
@@ -49540,7 +49540,7 @@
       {
         "elo": 1404.7,
         "matches": 24,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "eruption",
         "team_name": "eruption",
@@ -49550,7 +49550,7 @@
       {
         "elo": 1525.8,
         "matches": 24,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7,
         "team_key": "qwentry",
         "team_name": "qwentry",
@@ -49560,7 +49560,7 @@
       {
         "elo": 1421.28,
         "matches": 21,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "minlate",
         "team_name": "minlate",
@@ -49570,7 +49570,7 @@
       {
         "elo": 1493.49,
         "matches": 19,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "flamengo",
         "team_name": "flamengo",
@@ -49580,7 +49580,7 @@
       {
         "elo": 1388.67,
         "matches": 19,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1,
         "team_key": "jano",
         "team_name": "jano",
@@ -49590,7 +49590,7 @@
       {
         "elo": 1442.64,
         "matches": 17,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "2game",
         "team_name": "2game",
@@ -49600,7 +49600,7 @@
       {
         "elo": 1445.24,
         "matches": 17,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "swingers",
         "team_name": "swingers",
@@ -49610,7 +49610,7 @@
       {
         "elo": 1450.78,
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "chimera",
         "team_name": "chimera",
@@ -49620,7 +49620,7 @@
       {
         "elo": 1453.24,
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "dusty roots",
         "team_name": "dusty roots",
@@ -49630,7 +49630,7 @@
       {
         "elo": 1407.59,
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "ence academy",
         "team_name": "ence academy",
@@ -49640,7 +49640,7 @@
       {
         "elo": 1415.73,
         "matches": 16,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "gods reign",
         "team_name": "gods reign",
@@ -49650,7 +49650,7 @@
       {
         "elo": 1471.62,
         "matches": 15,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "astrum",
         "team_name": "astrum",
@@ -49660,7 +49660,7 @@
       {
         "elo": 1479.88,
         "matches": 15,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "wildlotus",
         "team_name": "wildlotus",
@@ -49670,7 +49670,7 @@
       {
         "elo": 1431.82,
         "matches": 14,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "imperial valkyries",
         "team_name": "imperial valkyries",
@@ -49680,7 +49680,7 @@
       {
         "elo": 1439.88,
         "matches": 13,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "alaska",
         "team_name": "alaska",
@@ -49690,7 +49690,7 @@
       {
         "elo": 1440.88,
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "9boompro",
         "team_name": "9boompro",
@@ -49700,7 +49700,7 @@
       {
         "elo": 1434.04,
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "nomads",
         "team_name": "nomads",
@@ -49710,7 +49710,7 @@
       {
         "elo": 1469.73,
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "party astronauts",
         "team_name": "party astronauts",
@@ -49720,7 +49720,7 @@
       {
         "elo": 1446.9,
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "senza",
         "team_name": "senza",
@@ -49730,7 +49730,7 @@
       {
         "elo": 1452.92,
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3,
         "team_key": "wopa",
         "team_name": "wopa",
@@ -49740,7 +49740,7 @@
       {
         "elo": 1501.09,
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "ex-w7m",
         "team_name": "ex-w7m",
@@ -49750,17 +49750,17 @@
       {
         "elo": 1477.22,
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "morningstar",
         "team_name": "morningstar",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 702,
+        "vrs_rank": 206
       },
       {
         "elo": 1414.26,
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "delta",
         "team_name": "delta",
@@ -49770,7 +49770,7 @@
       {
         "elo": 1515.53,
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.556,
         "team_key": "friendly campers",
         "team_name": "friendly campers",
@@ -49780,7 +49780,7 @@
       {
         "elo": 1486.72,
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.444,
         "team_key": "khan",
         "team_name": "khan",
@@ -49790,7 +49790,7 @@
       {
         "elo": 1426.13,
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "might",
         "team_name": "might",
@@ -49800,7 +49800,7 @@
       {
         "elo": 1530.72,
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.714,
         "team_key": "atox",
         "team_name": "atox",
@@ -49810,7 +49810,7 @@
       {
         "elo": 1459.27,
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.167,
         "team_key": "ihc",
         "team_name": "ihc",
@@ -49820,7 +49820,7 @@
       {
         "elo": 1442.15,
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "nip impact",
         "team_name": "nip impact",
@@ -49831,7 +49831,7 @@
         "elo": 1490.51,
         "last_result_utc": "2026-09-22T19:27:11Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3956,
         "team_key": "permitta",
         "team_name": "permitta",
@@ -49841,7 +49841,7 @@
       {
         "elo": 1470.07,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "adventurers",
         "team_name": "adventurers",
@@ -49851,7 +49851,7 @@
       {
         "elo": 1470.39,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "ex-talon",
         "team_name": "ex-talon",
@@ -49861,7 +49861,7 @@
       {
         "elo": 1471.94,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "nouns",
         "team_name": "nouns",
@@ -49871,7 +49871,7 @@
       {
         "elo": 1472.73,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "selva",
         "team_name": "selva",
@@ -49881,7 +49881,7 @@
       {
         "elo": 1468.94,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2,
         "team_key": "victores sumus",
         "team_name": "victores sumus",
@@ -49891,7 +49891,7 @@
       {
         "elo": 1494.62,
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4,
         "team_key": "whitebird",
         "team_name": "whitebird",
@@ -49901,7 +49901,7 @@
       {
         "elo": 1479.72,
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.25,
         "team_key": "endpoint",
         "team_name": "endpoint",
@@ -49911,7 +49911,7 @@
       {
         "elo": 1498.74,
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5,
         "team_key": "flshbck",
         "team_name": "flshbck",
@@ -49921,7 +49921,7 @@
       {
         "elo": 1463.6,
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "rhyno",
         "team_name": "rhyno",
@@ -49931,7 +49931,7 @@
       {
         "elo": 1490.02,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.333,
         "team_key": "adalyamigos",
         "team_name": "adalyamigos",
@@ -49941,7 +49941,7 @@
       {
         "elo": 1484.81,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.333,
         "team_key": "ex-sabre",
         "team_name": "ex-sabre",
@@ -49951,7 +49951,7 @@
       {
         "elo": 1471.1,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "kr\u00fc",
         "team_name": "kr\u00fc",
@@ -49961,7 +49961,7 @@
       {
         "elo": 1467.88,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "lvg",
         "team_name": "lvg",
@@ -49971,7 +49971,7 @@
       {
         "elo": 1470.9,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0,
         "team_key": "moneyf",
         "team_name": "moneyf",
@@ -49981,7 +49981,7 @@
       {
         "elo": 1509.68,
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.667,
         "team_key": "prototype blaze",
         "team_name": "prototype blaze",
@@ -49992,51 +49992,51 @@
         "elo": 1497.53,
         "last_result_utc": "2026-10-27T12:34:11Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3802,
         "team_key": "dendele",
         "team_name": "DENDELE",
-        "vrs_points": 1368,
-        "vrs_rank": 39
+        "vrs_points": 1466,
+        "vrs_rank": 29
       },
       {
         "elo": 1451.2,
         "last_result_utc": "2026-10-16T16:31:55Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.325,
         "team_key": "privateer",
         "team_name": "Privateer",
-        "vrs_points": 608,
-        "vrs_rank": 271
+        "vrs_points": 659,
+        "vrs_rank": 236
       },
       {
         "elo": 1492.47,
         "last_result_utc": "2026-10-31T21:00:34Z",
         "matches": 12,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3697,
         "team_key": "butterfly",
         "team_name": "Butterfly",
-        "vrs_points": 1082,
-        "vrs_rank": 88
+        "vrs_points": 987,
+        "vrs_rank": 113
       },
       {
         "elo": 1479.78,
         "last_result_utc": "2026-10-12T17:34:05Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4204,
         "team_key": "saw youngsters",
         "team_name": "SAW Youngsters",
-        "vrs_points": 839,
-        "vrs_rank": 150
+        "vrs_points": 848,
+        "vrs_rank": 148
       },
       {
         "elo": 1485.18,
         "last_result_utc": "2026-07-28T14:39:37Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3956,
         "team_key": "ex mana",
         "team_name": "ex-MANA",
@@ -50047,7 +50047,7 @@
         "elo": 1475.04,
         "last_result_utc": "2026-09-27T22:01:02Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3296,
         "team_key": "mai tai",
         "team_name": "Mai Tai",
@@ -50058,40 +50058,40 @@
         "elo": 1543.89,
         "last_result_utc": "2026-10-28T20:45:10Z",
         "matches": 24,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3934,
         "team_key": "ex rustec",
         "team_name": "ex-RUSTEC",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 1016,
+        "vrs_rank": 106
       },
       {
         "elo": 1520.69,
         "last_result_utc": "2026-10-11T22:40:04Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5729,
         "team_key": "borracheiros",
         "team_name": "BORRACHEIROS",
-        "vrs_points": 706,
-        "vrs_rank": 209
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1602.69,
         "last_result_utc": "2026-10-29T21:44:03Z",
         "matches": 28,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5794,
         "team_key": "black phoenix",
         "team_name": "Black Phoenix",
-        "vrs_points": 1116,
-        "vrs_rank": 76
+        "vrs_points": 1127,
+        "vrs_rank": 78
       },
       {
         "elo": 1488.16,
         "last_result_utc": "2026-07-27T15:15:30Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "ex young ninjas",
         "team_name": "ex-Young Ninjas",
@@ -50102,18 +50102,18 @@
         "elo": 1525.16,
         "last_result_utc": "2026-10-31T17:07:13Z",
         "matches": 13,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5888,
         "team_key": "baks",
         "team_name": "BAKS",
-        "vrs_points": 1044,
-        "vrs_rank": 100
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1486.36,
         "last_result_utc": "2026-09-20T22:19:43Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "rush",
         "team_name": "RUSH",
@@ -50124,304 +50124,304 @@
         "elo": 1507.07,
         "last_result_utc": "2026-10-13T14:29:56Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4811,
         "team_key": "quintess ncia",
         "team_name": "QUINTESS\u00caNCIA",
-        "vrs_points": 723,
-        "vrs_rank": 203
+        "vrs_points": 654,
+        "vrs_rank": 240
       },
       {
         "elo": 1501.46,
         "last_result_utc": "2026-10-16T15:36:53Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5547,
         "team_key": "your end",
         "team_name": "your end",
-        "vrs_points": 582,
-        "vrs_rank": 295
+        "vrs_points": 605,
+        "vrs_rank": 268
       },
       {
         "elo": 1396.89,
         "last_result_utc": "2026-10-24T12:49:09Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.0821,
         "team_key": "azuolas",
         "team_name": "Azuolas",
-        "vrs_points": 863,
-        "vrs_rank": 140
+        "vrs_points": 724,
+        "vrs_rank": 190
       },
       {
         "elo": 1524.92,
         "last_result_utc": "2026-10-29T17:23:44Z",
         "matches": 25,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4493,
         "team_key": "saint sinners",
         "team_name": "Saint Sinners",
-        "vrs_points": 810,
-        "vrs_rank": 158
+        "vrs_points": 914,
+        "vrs_rank": 137
       },
       {
         "elo": 1468.8,
         "last_result_utc": "2026-10-13T10:38:14Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3458,
         "team_key": "fruju",
         "team_name": "Fruju",
-        "vrs_points": 381,
-        "vrs_rank": 380
+        "vrs_points": 491,
+        "vrs_rank": 343
       },
       {
         "elo": 1467.58,
         "last_result_utc": "2026-10-12T10:44:13Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3237,
         "team_key": "lfo 8",
         "team_name": "LFO 8",
-        "vrs_points": 602,
-        "vrs_rank": 279
+        "vrs_points": 592,
+        "vrs_rank": 280
       },
       {
         "elo": 1495.37,
         "last_result_utc": "2026-10-10T14:57:14Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4724,
         "team_key": "vitalem aerem",
         "team_name": "Vitalem Aerem",
-        "vrs_points": 721,
-        "vrs_rank": 204
+        "vrs_points": 751,
+        "vrs_rank": 181
       },
       {
         "elo": 1479.48,
         "last_result_utc": "2026-10-26T19:41:16Z",
         "matches": 26,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3296,
         "team_key": "mellren",
         "team_name": "mellren",
-        "vrs_points": 932,
-        "vrs_rank": 125
+        "vrs_points": 920,
+        "vrs_rank": 135
       },
       {
         "elo": 1473.25,
         "last_result_utc": "2026-09-22T18:54:48Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "esuba",
         "team_name": "eSuba",
-        "vrs_points": 603,
-        "vrs_rank": 277
+        "vrs_points": 574,
+        "vrs_rank": 293
       },
       {
         "elo": 1501.2,
         "last_result_utc": "2026-09-22T20:09:03Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4835,
         "team_key": "lph",
         "team_name": "LPH",
-        "vrs_points": 851,
-        "vrs_rank": 145
+        "vrs_points": 796,
+        "vrs_rank": 159
       },
       {
         "elo": 1485.93,
         "last_result_utc": "2026-10-10T15:38:16Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4317,
         "team_key": "the unit",
         "team_name": "THE UNIT",
-        "vrs_points": 676,
-        "vrs_rank": 225
+        "vrs_points": 659,
+        "vrs_rank": 235
       },
       {
         "elo": 1429.43,
         "last_result_utc": "2026-10-08T14:37:05Z",
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2221,
         "team_key": "berg",
         "team_name": "BERG",
-        "vrs_points": 754,
-        "vrs_rank": 185
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1457.33,
         "last_result_utc": "2026-10-08T15:13:08Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2738,
         "team_key": "blight blue",
         "team_name": "bLight blue",
-        "vrs_points": 409,
-        "vrs_rank": 371
+        "vrs_points": 456,
+        "vrs_rank": 356
       },
       {
         "elo": 1496.19,
         "last_result_utc": "2026-10-10T13:26:28Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4453,
         "team_key": "wbt academy",
         "team_name": "WBT Academy",
-        "vrs_points": 911,
-        "vrs_rank": 130
+        "vrs_points": 1033,
+        "vrs_rank": 103
       },
       {
         "elo": 1458.76,
         "last_result_utc": "2026-10-16T10:22:46Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2829,
         "team_key": "revise",
         "team_name": "Revise",
-        "vrs_points": 650,
-        "vrs_rank": 245
+        "vrs_points": 566,
+        "vrs_rank": 301
       },
       {
         "elo": 1537.29,
         "last_result_utc": "2026-10-14T13:59:05Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.674,
         "team_key": "6666",
         "team_name": "6666",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 412,
+        "vrs_rank": 365
       },
       {
         "elo": 1489.12,
         "last_result_utc": "2026-10-11T15:06:14Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4046,
         "team_key": "the knockoutx",
         "team_name": "The KnockoutX",
-        "vrs_points": 511,
-        "vrs_rank": 332
+        "vrs_points": 593,
+        "vrs_rank": 279
       },
       {
         "elo": 1485.37,
         "last_result_utc": "2026-10-15T12:38:37Z",
         "matches": 11,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4326,
         "team_key": "maybe",
         "team_name": "MAYBE",
-        "vrs_points": 772,
-        "vrs_rank": 180
+        "vrs_points": 748,
+        "vrs_rank": 182
       },
       {
         "elo": 1559.82,
         "last_result_utc": "2026-10-11T14:07:46Z",
         "matches": 12,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5249,
         "team_key": "noir verse",
         "team_name": "Noir Verse",
-        "vrs_points": 825,
-        "vrs_rank": 151
+        "vrs_points": 762,
+        "vrs_rank": 174
       },
       {
         "elo": 1444.02,
         "last_result_utc": "2026-10-15T12:38:37Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2167,
         "team_key": "ryvex",
         "team_name": "Ryvex",
-        "vrs_points": 714,
-        "vrs_rank": 207
+        "vrs_points": 757,
+        "vrs_rank": 177
       },
       {
         "elo": 1487.83,
         "last_result_utc": "2026-10-10T23:40:00Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4639,
         "team_key": "meia noite",
         "team_name": "MEIA NOITE",
-        "vrs_points": 674,
-        "vrs_rank": 227
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1518.57,
         "last_result_utc": "2026-10-03T18:30:52Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5942,
         "team_key": "mira",
         "team_name": "Mira",
-        "vrs_points": 717,
-        "vrs_rank": 206
+        "vrs_points": 721,
+        "vrs_rank": 194
       },
       {
         "elo": 1489.24,
         "last_result_utc": "2026-10-01T23:11:03Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4538,
         "team_key": "mibr fe",
         "team_name": "MIBR fe",
-        "vrs_points": 731,
-        "vrs_rank": 198
+        "vrs_points": 682,
+        "vrs_rank": 217
       },
       {
         "elo": 1449.94,
         "last_result_utc": "2026-10-16T00:59:41Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2495,
         "team_key": "sementes do mal",
         "team_name": "Sementes do Mal",
-        "vrs_points": 491,
-        "vrs_rank": 344
+        "vrs_points": 431,
+        "vrs_rank": 362
       },
       {
         "elo": 1474.57,
         "last_result_utc": "2026-10-10T03:09:16Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3728,
         "team_key": "villainous",
         "team_name": "Villainous",
-        "vrs_points": 684,
-        "vrs_rank": 221
+        "vrs_points": 652,
+        "vrs_rank": 241
       },
       {
         "elo": 1510.73,
         "last_result_utc": "2026-10-12T04:53:06Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5292,
         "team_key": "detonate",
         "team_name": "DETONATE",
-        "vrs_points": 724,
-        "vrs_rank": 200
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1481.6,
         "last_result_utc": "2026-10-15T13:03:45Z",
         "matches": 9,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4365,
         "team_key": "gr mio",
         "team_name": "Gr\u00eamio",
-        "vrs_points": 654,
-        "vrs_rank": 242
+        "vrs_points": 666,
+        "vrs_rank": 230
       },
       {
         "elo": 1476.63,
         "last_result_utc": "2026-09-28T00:13:21Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "peladona",
         "team_name": "Peladona",
@@ -50432,7 +50432,7 @@
         "elo": 1450.54,
         "last_result_utc": "2026-10-15T10:53:47Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3671,
         "team_key": "banda chuya",
         "team_name": "Banda Chuya",
@@ -50443,95 +50443,95 @@
         "elo": 1488.69,
         "last_result_utc": "2026-10-30T16:42:31Z",
         "matches": 20,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4484,
         "team_key": "illyrians",
         "team_name": "Illyrians",
-        "vrs_points": 862,
-        "vrs_rank": 141
+        "vrs_points": 960,
+        "vrs_rank": 120
       },
       {
         "elo": 1470.05,
         "last_result_utc": "2026-10-15T18:59:35Z",
         "matches": 4,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3237,
         "team_key": "zetta",
         "team_name": "Zetta",
-        "vrs_points": 473,
+        "vrs_points": 451,
         "vrs_rank": 357
       },
       {
         "elo": 1552.27,
         "last_result_utc": "2026-10-15T05:00:42Z",
         "matches": 8,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.7734,
         "team_key": "overtake sector",
         "team_name": "Overtake Sector",
-        "vrs_points": 774,
-        "vrs_rank": 177
+        "vrs_points": 822,
+        "vrs_rank": 154
       },
       {
         "elo": 1476.89,
         "last_result_utc": "2026-09-27T22:01:18Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "train launcher",
         "team_name": "train launcher",
-        "vrs_points": 635,
-        "vrs_rank": 257
+        "vrs_points": 584,
+        "vrs_rank": 288
       },
       {
         "elo": 1509.51,
         "last_result_utc": "2026-10-15T18:50:54Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5893,
         "team_key": "pcific",
         "team_name": "PCIFIC",
-        "vrs_points": 870,
-        "vrs_rank": 139
+        "vrs_points": 959,
+        "vrs_rank": 121
       },
       {
         "elo": 1488.54,
         "last_result_utc": "2026-10-01T02:32:50Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "ex oddik",
         "team_name": "ex-ODDIK",
-        "vrs_points": 792,
-        "vrs_rank": 168
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1460.58,
         "last_result_utc": "2026-10-08T20:34:07Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2738,
         "team_key": "low cortisol br",
         "team_name": "Low Cortisol BR",
-        "vrs_points": 774,
-        "vrs_rank": 176
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1511.77,
         "last_result_utc": "2026-10-13T23:20:04Z",
         "matches": 7,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.48,
         "team_key": "ex keyd stars",
         "team_name": "ex-Keyd Stars",
-        "vrs_points": 854,
-        "vrs_rank": 144
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1431.02,
         "last_result_utc": "2026-10-07T13:17:55Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.1833,
         "team_key": "orion wanderers",
         "team_name": "Orion Wanderers",
@@ -50542,29 +50542,29 @@
         "elo": 1467.26,
         "last_result_utc": "2026-10-17T13:52:43Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.2648,
         "team_key": "gothic",
         "team_name": "Gothic",
-        "vrs_points": 705,
-        "vrs_rank": 211
+        "vrs_points": 722,
+        "vrs_rank": 191
       },
       {
         "elo": 1473.32,
         "last_result_utc": "2026-10-30T13:50:47Z",
         "matches": 13,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4268,
         "team_key": "lfo 10",
         "team_name": "LFO 10",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 837,
+        "vrs_rank": 151
       },
       {
         "elo": 1505.37,
         "last_result_utc": "2026-10-08T12:47:01Z",
         "matches": 6,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.502,
         "team_key": "rbls",
         "team_name": "RBLS",
@@ -50575,73 +50575,73 @@
         "elo": 1472.99,
         "last_result_utc": "2026-10-09T03:41:48Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "new legends",
         "team_name": "New Legends",
-        "vrs_points": 494,
-        "vrs_rank": 342
+        "vrs_points": 465,
+        "vrs_rank": 349
       },
       {
         "elo": 1485.96,
         "last_result_utc": "2026-10-10T03:45:02Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3956,
         "team_key": "desi boyz",
         "team_name": "Desi Boyz",
-        "vrs_points": 847,
-        "vrs_rank": 146
+        "vrs_points": 769,
+        "vrs_rank": 171
       },
       {
         "elo": 1494.61,
         "last_result_utc": "2026-10-09T19:21:59Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4226,
         "team_key": "wbt",
         "team_name": "WBT",
-        "vrs_points": 1201,
-        "vrs_rank": 60
+        "vrs_points": 0,
+        "vrs_rank": null
       },
       {
         "elo": 1485.93,
         "last_result_utc": "2026-10-11T18:39:40Z",
         "matches": 3,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3956,
         "team_key": "antidaun",
         "team_name": "antidaun",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 602,
+        "vrs_rank": 270
       },
       {
         "elo": 1472.47,
         "last_result_utc": "2026-10-15T21:08:18Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "martians",
         "team_name": "Martians",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 512,
+        "vrs_rank": 329
       },
       {
         "elo": 1500.31,
         "last_result_utc": "2026-10-15T21:08:18Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5165,
         "team_key": "hacha",
         "team_name": "Hacha",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 488,
+        "vrs_rank": 344
       },
       {
         "elo": 1498.96,
         "last_result_utc": "2026-10-15T18:59:35Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5165,
         "team_key": "sukeban",
         "team_name": "SUKEBAN",
@@ -50652,40 +50652,40 @@
         "elo": 1511.62,
         "last_result_utc": "2026-10-13T22:01:43Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5909,
         "team_key": "los ninos",
         "team_name": "LOS NINOS",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 563,
+        "vrs_rank": 306
       },
       {
         "elo": 1473.44,
         "last_result_utc": "2026-10-15T10:53:47Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "b8 academy",
         "team_name": "B8 Academy",
-        "vrs_points": 631,
-        "vrs_rank": 261
+        "vrs_points": 591,
+        "vrs_rank": 282
       },
       {
         "elo": 1474.68,
         "last_result_utc": "2026-10-15T13:03:45Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.3347,
         "team_key": "exodia",
         "team_name": "EXODIA",
-        "vrs_points": 467,
-        "vrs_rank": 361
+        "vrs_points": 356,
+        "vrs_rank": 376
       },
       {
         "elo": 1512.32,
         "last_result_utc": "2026-10-14T13:19:13Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5909,
         "team_key": "realgotis22",
         "team_name": "realgotis22",
@@ -50696,29 +50696,29 @@
         "elo": 1512.62,
         "last_result_utc": "2026-10-14T17:11:24Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5909,
         "team_key": "red canids academy",
         "team_name": "RED Canids Academy",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 709,
+        "vrs_rank": 201
       },
       {
         "elo": 1500.42,
         "last_result_utc": "2026-10-16T15:36:53Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4835,
         "team_key": "joga de terno",
         "team_name": "JOGA DE TERNO",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 574,
+        "vrs_rank": 292
       },
       {
         "elo": 1497.8,
         "last_result_utc": "2026-10-16T00:59:41Z",
         "matches": 2,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5165,
         "team_key": "a nata",
         "team_name": "A NATA",
@@ -50729,44 +50729,45 @@
         "elo": 1497.68,
         "last_result_utc": "2026-10-26T13:41:21Z",
         "matches": 10,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4085,
         "team_key": "ex 6666",
         "team_name": "ex-6666",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 935,
+        "vrs_rank": 130
       },
       {
         "elo": 1487.91,
         "last_result_utc": "2026-10-28T16:31:27Z",
         "matches": 5,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4317,
         "team_key": "6yubojlbl",
         "team_name": "6yuBoJlbl",
-        "vrs_points": 1015,
-        "vrs_rank": 110
+        "vrs_points": 911,
+        "vrs_rank": 139
       },
       {
         "elo": 1490.69,
         "last_result_utc": "2026-10-29T15:16:25Z",
         "matches": 1,
-        "ranking_date": "2026-10-05",
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.4091,
         "team_key": "ex inox",
         "team_name": "ex-INOX",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 1074,
+        "vrs_rank": 90
       },
       {
         "elo": 1522.39,
         "last_result_utc": "2026-11-02T11:50:40Z",
         "matches": 1,
+        "ranking_date": "2026-11-02",
         "recent_win_rate_10": 0.5909,
         "team_key": "navi",
         "team_name": "NAVI",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 1589,
+        "vrs_rank": 13
       }
     ],
     "veto_profiles": {
@@ -53644,8 +53645,8 @@
         "team_name": "Wildcard"
       }
     },
-    "vrs_as_of": "2026-10-05",
-    "vrs_source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md"
+    "vrs_as_of": "2026-11-02",
+    "vrs_source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_11_02.md"
   },
   "notices": [
     "Stage 3 is locked from verified results; the live view now defaults to playoffs.",
@@ -53784,10 +53785,10 @@
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6297,
-      "confidence_label": "lean",
+      "confidence": 0.6816,
+      "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.6297,
+      "elo_prob_team1": 0.6816,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -53803,7 +53804,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Aurora",
-      "prob_team1": 0.6297,
+      "prob_team1": 0.6816,
       "product_tier": "tier_1",
       "round_name": "Lower Bracket Quarterfinal 2",
       "series_format": "bo3",
@@ -53814,18 +53815,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "Aurora",
-      "team1_vrs_rank": 9,
+      "team1_vrs_rank": 4,
       "team2_hltv_rank": null,
       "team2_name": "G2",
-      "team2_vrs_rank": 5
+      "team2_vrs_rank": 11
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5525,
-      "confidence_label": "thin",
+      "confidence": 0.6132,
+      "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.4475,
+      "elo_prob_team1": 0.3868,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -53841,7 +53842,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "PARIVISION",
-      "prob_team1": 0.4475,
+      "prob_team1": 0.3868,
       "product_tier": "tier_1",
       "round_name": "Upper Bracket Semifinal 2",
       "series_format": "bo3",
@@ -53852,18 +53853,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "Liquid",
-      "team1_vrs_rank": 19,
+      "team1_vrs_rank": 21,
       "team2_hltv_rank": null,
       "team2_name": "PARIVISION",
-      "team2_vrs_rank": 36
+      "team2_vrs_rank": 16
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6973,
+      "confidence": 0.7139,
       "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.3027,
+      "elo_prob_team1": 0.2861,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -53879,7 +53880,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "9z",
-      "prob_team1": 0.3027,
+      "prob_team1": 0.2861,
       "product_tier": "tier_1",
       "round_name": "Lower Bracket Quarterfinal 1",
       "series_format": "bo3",
@@ -53890,18 +53891,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "TYLOO",
-      "team1_vrs_rank": 44,
+      "team1_vrs_rank": 59,
       "team2_hltv_rank": null,
       "team2_name": "9z",
-      "team2_vrs_rank": 17
+      "team2_vrs_rank": 24
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6222,
+      "confidence": 0.6103,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.6222,
+      "elo_prob_team1": 0.6103,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -53917,7 +53918,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "MOUZ",
-      "prob_team1": 0.6222,
+      "prob_team1": 0.6103,
       "product_tier": "tier_1",
       "round_name": "Upper Bracket Semifinal 1",
       "series_format": "bo3",
@@ -53928,18 +53929,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "MOUZ",
-      "team1_vrs_rank": 4,
+      "team1_vrs_rank": 1,
       "team2_hltv_rank": null,
       "team2_name": "BetBoom",
-      "team2_vrs_rank": 11
+      "team2_vrs_rank": 6
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7709,
+      "confidence": 0.7508,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.2291,
+      "elo_prob_team1": 0.2492,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -53955,7 +53956,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Falcons",
-      "prob_team1": 0.2291,
+      "prob_team1": 0.2492,
       "product_tier": "tier_1",
       "round_name": "Lower Bracket Quarterfinal 2",
       "series_format": "bo3",
@@ -53966,18 +53967,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "FaZe",
-      "team1_vrs_rank": 26,
+      "team1_vrs_rank": 20,
       "team2_hltv_rank": null,
       "team2_name": "Falcons",
-      "team2_vrs_rank": 6
+      "team2_vrs_rank": 7
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6831,
-      "confidence_label": "watch",
+      "confidence": 0.7625,
+      "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.6831,
+      "elo_prob_team1": 0.7625,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -53993,7 +53994,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "The MongolZ",
-      "prob_team1": 0.6831,
+      "prob_team1": 0.7625,
       "product_tier": "tier_1",
       "round_name": "Upper Bracket Semifinal 1",
       "series_format": "bo3",
@@ -54004,18 +54005,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "The MongolZ",
-      "team1_vrs_rank": 49,
+      "team1_vrs_rank": 17,
       "team2_hltv_rank": null,
       "team2_name": "HEROIC",
-      "team2_vrs_rank": 15
+      "team2_vrs_rank": 18
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5483,
+      "confidence": 0.5501,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5483,
+      "elo_prob_team1": 0.5501,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -54031,7 +54032,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Legacy",
-      "prob_team1": 0.5483,
+      "prob_team1": 0.5501,
       "product_tier": "tier_1",
       "round_name": "Lower Bracket Quarterfinal 1",
       "series_format": "bo3",
@@ -54042,18 +54043,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "Legacy",
-      "team1_vrs_rank": 2,
+      "team1_vrs_rank": 9,
       "team2_hltv_rank": null,
       "team2_name": "B8",
-      "team2_vrs_rank": 13
+      "team2_vrs_rank": 28
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5917,
-      "confidence_label": "lean",
+      "confidence": 0.5475,
+      "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5917,
+      "elo_prob_team1": 0.5475,
       "event_id": "pandascore:series:11136",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -54069,7 +54070,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "FURIA",
-      "prob_team1": 0.5917,
+      "prob_team1": 0.5475,
       "product_tier": "tier_1",
       "round_name": "Upper Bracket Semifinal 2",
       "series_format": "bo3",
@@ -54080,18 +54081,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "FURIA",
-      "team1_vrs_rank": 7,
+      "team1_vrs_rank": 3,
       "team2_hltv_rank": null,
       "team2_name": "NAVI",
-      "team2_vrs_rank": 34
+      "team2_vrs_rank": 13
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7282,
-      "confidence_label": "watch",
+      "confidence": 0.7699,
+      "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.2718,
+      "elo_prob_team1": 0.2301,
       "event_id": "pandascore:series:11137",
       "event_name": "BLAST Rivals Fall 2026",
       "format": "bo3",
@@ -54107,7 +54108,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "FURIA",
-      "prob_team1": 0.2718,
+      "prob_team1": 0.2301,
       "product_tier": "tier_1",
       "round_name": "LGC vs FURIA",
       "series_format": "bo3",
@@ -54118,18 +54119,18 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "Legacy",
-      "team1_vrs_rank": 2,
+      "team1_vrs_rank": 9,
       "team2_hltv_rank": null,
       "team2_name": "FURIA",
-      "team2_vrs_rank": 7
+      "team2_vrs_rank": 3
     },
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7638,
+      "confidence": 0.7726,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.7638,
+      "elo_prob_team1": 0.7726,
       "event_id": "pandascore:series:11137",
       "event_name": "BLAST Rivals Fall 2026",
       "format": "bo3",
@@ -54145,7 +54146,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Vitality",
-      "prob_team1": 0.7638,
+      "prob_team1": 0.7726,
       "product_tier": "tier_1",
       "round_name": "VIT vs FAL",
       "series_format": "bo3",
@@ -54156,10 +54157,10 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "Vitality",
-      "team1_vrs_rank": 3,
+      "team1_vrs_rank": 2,
       "team2_hltv_rank": null,
       "team2_name": "Falcons",
-      "team2_vrs_rank": 6
+      "team2_vrs_rank": 7
     },
     {
       "calibration_shrink": null,
@@ -54194,7 +54195,7 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "Spirit",
-      "team1_vrs_rank": 1,
+      "team1_vrs_rank": 5,
       "team2_hltv_rank": null,
       "team2_name": "FUT Esports",
       "team2_vrs_rank": null
@@ -54202,10 +54203,10 @@
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8083,
+      "confidence": 0.8368,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.8083,
+      "elo_prob_team1": 0.8368,
       "event_id": "pandascore:series:11137",
       "event_name": "BLAST Rivals Fall 2026",
       "format": "bo3",
@@ -54221,7 +54222,7 @@
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "MOUZ",
-      "prob_team1": 0.8083,
+      "prob_team1": 0.8368,
       "product_tier": "tier_1",
       "round_name": "MOUZ vs G2",
       "series_format": "bo3",
@@ -54232,16 +54233,16 @@
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "MOUZ",
-      "team1_vrs_rank": 4,
+      "team1_vrs_rank": 1,
       "team2_hltv_rank": null,
       "team2_name": "G2",
-      "team2_vrs_rank": 5
+      "team2_vrs_rank": 11
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 103,
-    "online_results_applied": 5,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

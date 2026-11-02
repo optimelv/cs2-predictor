@@ -3122,7 +3122,7 @@
       "slot_id": "pandascore:series:11136:pandascore:1781473",
       "source": "pandascore",
       "source_match_id": "pandascore:1781473",
-      "source_modified_at_utc": "2026-11-02T15:54:10Z",
+      "source_modified_at_utc": "2026-11-02T18:39:57Z",
       "stage_name": "Group B",
       "starts_at": "2026-11-03T02:00:00Z",
       "status": "upcoming",
@@ -3153,7 +3153,7 @@
       "slot_id": "pandascore:series:11136:pandascore:1781470",
       "source": "pandascore",
       "source_match_id": "pandascore:1781470",
-      "source_modified_at_utc": "2026-11-02T15:53:59Z",
+      "source_modified_at_utc": "2026-11-02T18:38:53Z",
       "stage_name": "Group B",
       "starts_at": "2026-11-03T02:00:00Z",
       "status": "upcoming",
@@ -3184,7 +3184,7 @@
       "slot_id": "pandascore:series:11136:pandascore:1781472",
       "source": "pandascore",
       "source_match_id": "pandascore:1781472",
-      "source_modified_at_utc": "2026-11-02T15:54:10Z",
+      "source_modified_at_utc": "2026-11-02T18:41:58Z",
       "stage_name": "Group B",
       "starts_at": "2026-11-03T04:30:00Z",
       "status": "upcoming",
@@ -3215,7 +3215,7 @@
       "slot_id": "pandascore:series:11136:pandascore:1781469",
       "source": "pandascore",
       "source_match_id": "pandascore:1781469",
-      "source_modified_at_utc": "2026-11-02T15:54:00Z",
+      "source_modified_at_utc": "2026-11-02T18:41:21Z",
       "stage_name": "Group B",
       "starts_at": "2026-11-03T04:30:00Z",
       "status": "upcoming",
@@ -3246,7 +3246,7 @@
       "slot_id": "pandascore:series:11136:pandascore:1781465",
       "source": "pandascore",
       "source_match_id": "pandascore:1781465",
-      "source_modified_at_utc": "2026-11-02T15:54:27Z",
+      "source_modified_at_utc": "2026-11-02T18:42:52Z",
       "stage_name": "Group A",
       "starts_at": "2026-11-03T07:00:00Z",
       "status": "upcoming",
@@ -3277,7 +3277,7 @@
       "slot_id": "pandascore:series:11136:pandascore:1781461",
       "source": "pandascore",
       "source_match_id": "pandascore:1781461",
-      "source_modified_at_utc": "2026-11-02T15:54:16Z",
+      "source_modified_at_utc": "2026-11-02T18:43:41Z",
       "stage_name": "Group A",
       "starts_at": "2026-11-03T07:00:00Z",
       "status": "upcoming",
@@ -8282,7 +8282,7 @@
                 "slot_id": "pandascore:series:11136:pandascore:1781473",
                 "source": "pandascore",
                 "source_match_id": "pandascore:1781473",
-                "source_modified_at_utc": "2026-11-02T15:54:10Z",
+                "source_modified_at_utc": "2026-11-02T18:39:57Z",
                 "stage_name": "Group B",
                 "starts_at": "2026-11-03T02:00:00Z",
                 "status": "upcoming",
@@ -8312,7 +8312,7 @@
                 "slot_id": "pandascore:series:11136:pandascore:1781472",
                 "source": "pandascore",
                 "source_match_id": "pandascore:1781472",
-                "source_modified_at_utc": "2026-11-02T15:54:10Z",
+                "source_modified_at_utc": "2026-11-02T18:41:58Z",
                 "stage_name": "Group B",
                 "starts_at": "2026-11-03T04:30:00Z",
                 "status": "upcoming",
@@ -8350,7 +8350,7 @@
                 "slot_id": "pandascore:series:11136:pandascore:1781470",
                 "source": "pandascore",
                 "source_match_id": "pandascore:1781470",
-                "source_modified_at_utc": "2026-11-02T15:53:59Z",
+                "source_modified_at_utc": "2026-11-02T18:38:53Z",
                 "stage_name": "Group B",
                 "starts_at": "2026-11-03T02:00:00Z",
                 "status": "upcoming",
@@ -8380,7 +8380,7 @@
                 "slot_id": "pandascore:series:11136:pandascore:1781469",
                 "source": "pandascore",
                 "source_match_id": "pandascore:1781469",
-                "source_modified_at_utc": "2026-11-02T15:54:00Z",
+                "source_modified_at_utc": "2026-11-02T18:41:21Z",
                 "stage_name": "Group B",
                 "starts_at": "2026-11-03T04:30:00Z",
                 "status": "upcoming",
@@ -8418,7 +8418,7 @@
                 "slot_id": "pandascore:series:11136:pandascore:1781465",
                 "source": "pandascore",
                 "source_match_id": "pandascore:1781465",
-                "source_modified_at_utc": "2026-11-02T15:54:27Z",
+                "source_modified_at_utc": "2026-11-02T18:42:52Z",
                 "stage_name": "Group A",
                 "starts_at": "2026-11-03T07:00:00Z",
                 "status": "upcoming",
@@ -8486,7 +8486,7 @@
                 "slot_id": "pandascore:series:11136:pandascore:1781461",
                 "source": "pandascore",
                 "source_match_id": "pandascore:1781461",
-                "source_modified_at_utc": "2026-11-02T15:54:16Z",
+                "source_modified_at_utc": "2026-11-02T18:43:41Z",
                 "stage_name": "Group A",
                 "starts_at": "2026-11-03T07:00:00Z",
                 "status": "upcoming",
@@ -8819,7 +8819,7 @@
           "slot_id": "pandascore:series:11136:pandascore:1781473",
           "source": "pandascore",
           "source_match_id": "pandascore:1781473",
-          "source_modified_at_utc": "2026-11-02T15:54:10Z",
+          "source_modified_at_utc": "2026-11-02T18:39:57Z",
           "stage_name": "Group B",
           "starts_at": "2026-11-03T02:00:00Z",
           "status": "upcoming",
@@ -8849,7 +8849,7 @@
           "slot_id": "pandascore:series:11136:pandascore:1781470",
           "source": "pandascore",
           "source_match_id": "pandascore:1781470",
-          "source_modified_at_utc": "2026-11-02T15:53:59Z",
+          "source_modified_at_utc": "2026-11-02T18:38:53Z",
           "stage_name": "Group B",
           "starts_at": "2026-11-03T02:00:00Z",
           "status": "upcoming",
@@ -8879,7 +8879,7 @@
           "slot_id": "pandascore:series:11136:pandascore:1781472",
           "source": "pandascore",
           "source_match_id": "pandascore:1781472",
-          "source_modified_at_utc": "2026-11-02T15:54:10Z",
+          "source_modified_at_utc": "2026-11-02T18:41:58Z",
           "stage_name": "Group B",
           "starts_at": "2026-11-03T04:30:00Z",
           "status": "upcoming",
@@ -8909,7 +8909,7 @@
           "slot_id": "pandascore:series:11136:pandascore:1781469",
           "source": "pandascore",
           "source_match_id": "pandascore:1781469",
-          "source_modified_at_utc": "2026-11-02T15:54:00Z",
+          "source_modified_at_utc": "2026-11-02T18:41:21Z",
           "stage_name": "Group B",
           "starts_at": "2026-11-03T04:30:00Z",
           "status": "upcoming",
@@ -8939,7 +8939,7 @@
           "slot_id": "pandascore:series:11136:pandascore:1781465",
           "source": "pandascore",
           "source_match_id": "pandascore:1781465",
-          "source_modified_at_utc": "2026-11-02T15:54:27Z",
+          "source_modified_at_utc": "2026-11-02T18:42:52Z",
           "stage_name": "Group A",
           "starts_at": "2026-11-03T07:00:00Z",
           "status": "upcoming",
@@ -8969,7 +8969,7 @@
           "slot_id": "pandascore:series:11136:pandascore:1781461",
           "source": "pandascore",
           "source_match_id": "pandascore:1781461",
-          "source_modified_at_utc": "2026-11-02T15:54:16Z",
+          "source_modified_at_utc": "2026-11-02T18:43:41Z",
           "stage_name": "Group A",
           "starts_at": "2026-11-03T07:00:00Z",
           "status": "upcoming",
@@ -40597,7 +40597,7 @@
     }
   ],
   "fixture_provider": "pandascore",
-  "last_verified_utc": "2026-11-02T16:12:05Z",
+  "last_verified_utc": "2026-11-02T23:33:11Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -40621,50 +40621,14 @@
     }
   ],
   "vrs": {
-    "as_of": "2026-10-05",
-    "checked_at_utc": "2026-11-02T16:16:49Z",
+    "as_of": "2026-11-02",
+    "checked_at_utc": "2026-11-02T23:37:39Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
-    "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
+    "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_11_02.md",
     "status": "official_snapshot",
     "teams": [
-      {
-        "players": [
-          "donk",
-          "magixx",
-          "sh1ro",
-          "tN1R",
-          "zont1x"
-        ],
-        "points": 2046,
-        "rank": 1,
-        "team_name": "Spirit"
-      },
-      {
-        "players": [
-          "arT",
-          "dumau",
-          "latto",
-          "n1ssim",
-          "try"
-        ],
-        "points": 1931,
-        "rank": 2,
-        "team_name": "Legacy"
-      },
-      {
-        "players": [
-          "apEX",
-          "flameZ",
-          "mezii",
-          "ropz",
-          "ZywOo"
-        ],
-        "points": 1911,
-        "rank": 3,
-        "team_name": "Vitality"
-      },
       {
         "players": [
           "PR",
@@ -40673,33 +40637,21 @@
           "xelex",
           "xertioN"
         ],
-        "points": 1863,
-        "rank": 4,
+        "points": 1960,
+        "rank": 1,
         "team_name": "MOUZ"
       },
       {
         "players": [
-          "HeavyGod",
-          "huNter-",
-          "MATYS",
-          "NertZ",
-          "r1nkle"
+          "flameZ",
+          "jL",
+          "mezii",
+          "ropz",
+          "ZywOo"
         ],
-        "points": 1847,
-        "rank": 5,
-        "team_name": "G2"
-      },
-      {
-        "players": [
-          "karrigan",
-          "kyousuke",
-          "m0NESY",
-          "NiKo",
-          "TeSeS"
-        ],
-        "points": 1843,
-        "rank": 6,
-        "team_name": "Falcons"
+        "points": 1922,
+        "rank": 2,
+        "team_name": "Vitality"
       },
       {
         "players": [
@@ -40709,21 +40661,9 @@
           "YEKINDAR",
           "yuurih"
         ],
-        "points": 1829,
-        "rank": 7,
+        "points": 1912,
+        "rank": 3,
         "team_name": "FURIA"
-      },
-      {
-        "players": [
-          "cmtry",
-          "dem0n",
-          "dziugss",
-          "Krabeni",
-          "xfl0ud"
-        ],
-        "points": 1799,
-        "rank": 8,
-        "team_name": "FUT"
       },
       {
         "players": [
@@ -40733,21 +40673,21 @@
           "woxic",
           "XANTARES"
         ],
-        "points": 1716,
-        "rank": 9,
+        "points": 1860,
+        "rank": 4,
         "team_name": "Aurora"
       },
       {
         "players": [
-          "HooXi",
-          "jabbi",
-          "phzy",
-          "ryu",
-          "Staehr"
+          "donk",
+          "magixx",
+          "sh1ro",
+          "tN1R",
+          "zont1x"
         ],
-        "points": 1674,
-        "rank": 10,
-        "team_name": "Astralis"
+        "points": 1842,
+        "rank": 5,
+        "team_name": "Spirit"
       },
       {
         "players": [
@@ -40757,33 +40697,45 @@
           "S1ren",
           "zorte"
         ],
-        "points": 1596,
-        "rank": 11,
+        "points": 1786,
+        "rank": 6,
         "team_name": "BETBOOM"
       },
       {
         "players": [
-          "insani",
-          "LNZ",
-          "nqz",
-          "tomaszin",
-          "venomzera"
+          "karrigan",
+          "kyousuke",
+          "m0NESY",
+          "NiKo",
+          "TeSeS"
         ],
-        "points": 1585,
-        "rank": 12,
-        "team_name": "MIBR"
+        "points": 1764,
+        "rank": 7,
+        "team_name": "Falcons"
       },
       {
         "players": [
-          "alex666",
-          "esenthial",
-          "kensizor",
-          "npl",
-          "s1zzi"
+          "cmtry",
+          "dem0n",
+          "dziugss",
+          "Krabeni",
+          "xfl0ud"
         ],
-        "points": 1555,
-        "rank": 13,
-        "team_name": "B8"
+        "points": 1721,
+        "rank": 8,
+        "team_name": "FUT"
+      },
+      {
+        "players": [
+          "arT",
+          "dumau",
+          "latto",
+          "n1ssim",
+          "try"
+        ],
+        "points": 1662,
+        "rank": 9,
+        "team_name": "Legacy"
       },
       {
         "players": [
@@ -40793,45 +40745,57 @@
           "syph0",
           "Xant3r"
         ],
-        "points": 1551,
-        "rank": 14,
+        "points": 1650,
+        "rank": 10,
         "team_name": "Nemiga"
       },
       {
         "players": [
-          "Brollan",
-          "Chr1zN",
-          "MartinezSa",
-          "nilo",
-          "susp"
+          "HeavyGod",
+          "huNter-",
+          "MATYS",
+          "NertZ",
+          "r1nkle"
         ],
-        "points": 1550,
-        "rank": 15,
-        "team_name": "HEROIC"
+        "points": 1616,
+        "rank": 11,
+        "team_name": "G2"
       },
       {
         "players": [
-          "afro",
-          "AZUWU",
-          "lux",
-          "Rainwaker",
-          "yxngstxr"
+          "ArtFr0st",
+          "Ax1Le",
+          "BELCHONOKK",
+          "fame",
+          "nafany"
         ],
-        "points": 1547,
-        "rank": 16,
-        "team_name": "Luminosity"
+        "points": 1598,
+        "rank": 12,
+        "team_name": "1win"
       },
       {
         "players": [
-          "dgt",
-          "HUASOPEEK",
-          "luchov",
-          "max",
-          "meyern"
+          "Aleksib",
+          "b1t",
+          "iM",
+          "makazze",
+          "w0nderful"
         ],
-        "points": 1543,
-        "rank": 17,
-        "team_name": "9z"
+        "points": 1589,
+        "rank": 13,
+        "team_name": "Natus Vincere"
+      },
+      {
+        "players": [
+          "jabbi",
+          "phzy",
+          "ryu",
+          "siuhy",
+          "Staehr"
+        ],
+        "points": 1572,
+        "rank": 14,
+        "team_name": "Astralis"
       },
       {
         "players": [
@@ -40841,93 +40805,57 @@
           "stavn",
           "xKacpersky"
         ],
-        "points": 1534,
-        "rank": 18,
+        "points": 1564,
+        "rank": 15,
         "team_name": "Ninjas in Pyjamas"
       },
       {
         "players": [
-          "EliGE",
-          "Jorko",
-          "JT",
-          "malbsMd",
-          "NAF"
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
         ],
-        "points": 1527,
+        "points": 1560,
+        "rank": 16,
+        "team_name": "PARIVISION"
+      },
+      {
+        "players": [
+          "910",
+          "bLitz",
+          "cobrazera",
+          "nin9",
+          "Techno"
+        ],
+        "points": 1554,
+        "rank": 17,
+        "team_name": "The MongolZ"
+      },
+      {
+        "players": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ],
+        "points": 1548,
+        "rank": 18,
+        "team_name": "HEROIC"
+      },
+      {
+        "players": [
+          "insani",
+          "LNZ",
+          "nqz",
+          "tomaszin",
+          "venomzera"
+        ],
+        "points": 1546,
         "rank": 19,
-        "team_name": "Liquid"
-      },
-      {
-        "players": [
-          "cptkurtka023",
-          "Dawy",
-          "headtr1ck",
-          "onic",
-          "zeRRoFIX"
-        ],
-        "points": 1516,
-        "rank": 20,
-        "team_name": "Inner Circle"
-      },
-      {
-        "players": [
-          "Graviti",
-          "Kursy",
-          "Lucky",
-          "Maka",
-          "misutaaa"
-        ],
-        "points": 1500,
-        "rank": 21,
-        "team_name": "3DMAX"
-      },
-      {
-        "players": [
-          "JBa",
-          "Lake",
-          "s1n",
-          "slaxz-",
-          "Swisher"
-        ],
-        "points": 1491,
-        "rank": 22,
-        "team_name": "M80"
-      },
-      {
-        "players": [
-          "AW",
-          "MaSvAl",
-          "mo0N",
-          "sFade8",
-          "tenzy"
-        ],
-        "points": 1489,
-        "rank": 23,
-        "team_name": "magic"
-      },
-      {
-        "players": [
-          "avid",
-          "bobeksde",
-          "eraa",
-          "twist",
-          "upE"
-        ],
-        "points": 1483,
-        "rank": 24,
-        "team_name": "Alliance"
-      },
-      {
-        "players": [
-          "blameF",
-          "faveN",
-          "gr1ks",
-          "JDC",
-          "tabseN"
-        ],
-        "points": 1482,
-        "rank": 25,
-        "team_name": "BIG"
+        "team_name": "MIBR"
       },
       {
         "players": [
@@ -40937,21 +40865,33 @@
           "Neityu",
           "Twistzz"
         ],
-        "points": 1482,
-        "rank": 26,
+        "points": 1539,
+        "rank": 20,
         "team_name": "FaZe"
       },
       {
         "players": [
-          "FL4MUS",
-          "hypex",
-          "REZ",
-          "Snax",
-          "Tauson"
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
         ],
-        "points": 1479,
-        "rank": 27,
-        "team_name": "GamerLegion"
+        "points": 1528,
+        "rank": 21,
+        "team_name": "Liquid"
+      },
+      {
+        "players": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ],
+        "points": 1513,
+        "rank": 22,
+        "team_name": "Eternal Fire"
       },
       {
         "players": [
@@ -40961,33 +40901,93 @@
           "rain",
           "sirah"
         ],
-        "points": 1478,
-        "rank": 28,
+        "points": 1511,
+        "rank": 23,
         "team_name": "100 Thieves"
       },
       {
         "players": [
-          "mag1k3Y",
-          "r3salt",
-          "Sdaim",
-          "SELLTER",
-          "tex1y"
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "meyern"
         ],
-        "points": 1455,
-        "rank": 29,
-        "team_name": "Nemesis"
+        "points": 1490,
+        "rank": 24,
+        "team_name": "9z"
       },
       {
         "players": [
-          "0SAMAS",
-          "Bibu",
-          "CacaNito",
-          "m1N1",
-          "sinnopsyy"
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
         ],
-        "points": 1454,
+        "points": 1489,
+        "rank": 25,
+        "team_name": "M80"
+      },
+      {
+        "players": [
+          "dwushka",
+          "frontales",
+          "kade0",
+          "mizu",
+          "n0rb3r7"
+        ],
+        "points": 1488,
+        "rank": 26,
+        "team_name": "HOTU"
+      },
+      {
+        "players": [
+          "cairne",
+          "fEAR",
+          "jackasmo",
+          "jambo",
+          "mazay"
+        ],
+        "points": 1488,
+        "rank": 27,
+        "team_name": "fnatic"
+      },
+      {
+        "players": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ],
+        "points": 1472,
+        "rank": 28,
+        "team_name": "B8"
+      },
+      {
+        "players": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "points": 1466,
+        "rank": 29,
+        "team_name": "DENDELE"
+      },
+      {
+        "players": [
+          "cptkurtka023",
+          "Dawy",
+          "headtr1ck",
+          "onic",
+          "zeRRoFIX"
+        ],
+        "points": 1423,
         "rank": 30,
-        "team_name": "JiJieHao"
+        "team_name": "Inner Circle"
       }
     ]
   }
