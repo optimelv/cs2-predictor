@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4346,
+    "matches": 4350,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -210,6 +210,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:ef3c009fa37baad2e3cc",
+      "match_date": "2026-11-03",
+      "starts_at": "2026-11-03T06:00:00Z",
+      "event_name": "IEM Beijing 2026 - Group B",
+      "team1_name": "BB",
+      "team2_name": "MOUZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_B"
+    },
+    {
+      "match_id": "liquipedia:ffc85ac5f5f65bfb25ca",
+      "match_date": "2026-11-03",
+      "starts_at": "2026-11-03T08:10:00Z",
+      "event_name": "IEM Beijing 2026 - Group A",
+      "team1_name": "HEROIC",
+      "team2_name": "MongolZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_A"
     },
     {
       "match_id": "hltv:2399861",
@@ -9869,6 +9913,50 @@
           "S1ren"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:b5f441d96e4294d0f305",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T07:30:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Playoffs",
+      "team1_name": "Chops",
+      "team2_name": "Rooster",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Chops",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:edbb93613d5276273265",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 2",
+      "team1_name": "33",
+      "team2_name": "JustP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "33",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_2"
     },
     {
       "match_id": "hltv:2399670",

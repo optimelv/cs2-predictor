@@ -2265,5 +2265,50 @@
     "name": "FANG",
     "logo_url": "https://liquipedia.net/commons/images/thumb/d/dc/FANG_Esport_allmode.png/60px-FANG_Esport_allmode.png",
     "source": "Liquipedia"
+  },
+  "n tverket": {
+    "name": "Nätverket",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/07/N%C3%A4tverket_Esport_lightmode.png/40px-N%C3%A4tverket_Esport_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "noctis": {
+    "name": "NOCTIS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/16/NOCTIS_lightmode.png/40px-NOCTIS_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "yamato": {
+    "name": "Yamato",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/55/Yamato_Cyber_lightmode.png/59px-Yamato_Cyber_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "drossel": {
+    "name": "drossel",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5b/Drosselfamily_allmode.png/52px-Drosselfamily_allmode.png",
+    "source": "Liquipedia"
+  },
+  "latvju": {
+    "name": "LATVJU",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2a/LATVJUBANDA_lightmode.png/63px-LATVJUBANDA_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "alpha": {
+    "name": "Alpha",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/43/Alpha_Gaming_2021_lightmode.png/48px-Alpha_Gaming_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "prz": {
+    "name": "PRZ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/54/PRZ_GAMING_allmode.png/46px-PRZ_GAMING_allmode.png",
+    "source": "Liquipedia"
+  },
+  "glore": {
+    "name": "GLORE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d5/GLORE_2022_allmode.png/62px-GLORE_2022_allmode.png",
+    "source": "Liquipedia"
+  },
+  "pure a": {
+    "name": "PURE.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/PURE_allmode.png/63px-PURE_allmode.png",
+    "source": "Liquipedia"
   }
 }
