@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-03T06:49:19Z",
+  "generated_at_utc": "2026-11-03T15:10:51Z",
   "through_date": "2026-11-03",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4341,
+    "matches": 4346,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -100,6 +100,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_B"
+    },
+    {
+      "match_id": "pandascore:1781464",
+      "match_date": "2026-11-03",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "Legacy",
+      "team2_name": "B8",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "B8",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Lower Bracket Quarterfinal 1",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781462",
+      "match_date": "2026-11-03",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "FURIA",
+      "team2_name": "NAVI",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Upper Bracket Semifinal 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781461",
+      "match_date": "2026-11-03",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "The MongolZ",
+      "team2_name": "HEROIC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "The MongolZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Upper Bracket Semifinal 1",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781465",
+      "match_date": "2026-11-03",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "FaZe",
+      "team2_name": "Falcons",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Lower Bracket Quarterfinal 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781469",
+      "match_date": "2026-11-03",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "MOUZ",
+      "team2_name": "BetBoom",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "Upper Bracket Semifinal 1",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2399861",
