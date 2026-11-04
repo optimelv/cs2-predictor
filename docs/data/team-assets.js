@@ -2310,5 +2310,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "PURE.A",
     "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/PURE_allmode.png/63px-PURE_allmode.png",
     "source": "Liquipedia"
+  },
+  "rbls": {
+    "name": "RBLS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ac/Rebels_Gaming_2021_allmode.png/77px-Rebels_Gaming_2021_allmode.png",
+    "source": "Liquipedia"
   }
 };
