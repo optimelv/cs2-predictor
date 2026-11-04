@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-04T09:18:55Z",
+  "generated_at_utc": "2026-11-04T18:00:28Z",
   "through_date": "2026-11-04",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4356,
+    "matches": 4359,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -144,6 +144,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_B"
+    },
+    {
+      "match_id": "pandascore:1781468",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "NAVI",
+      "team2_name": "Falcons",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "NAVI",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Lower Bracket Final",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781463",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "The MongolZ",
+      "team2_name": "FURIA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "The MongolZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Upper Bracket Final",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781476",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "Liquid",
+      "team2_name": "BetBoom",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "BetBoom",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "Lower Bracket Final",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "pandascore:1781472",
