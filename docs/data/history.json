@@ -1,18 +1,128 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-04T01:22:35Z",
-  "through_date": "2026-11-03",
+  "generated_at_utc": "2026-11-04T09:18:55Z",
+  "through_date": "2026-11-04",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4350,
+    "matches": 4355,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "pandascore:1781471",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "MOUZ",
+      "team2_name": "PARIVISION",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "Upper Bracket Final",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781467",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "HEROIC",
+      "team2_name": "Falcons",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Lower Bracket Semifinal 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781466",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "NAVI",
+      "team2_name": "B8",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "NAVI",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Lower Bracket Semifinal 1",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781475",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "BetBoom",
+      "team2_name": "Aurora",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BetBoom",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "Lower Bracket Semifinal 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1781474",
+      "match_date": "2026-11-04",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "Liquid",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Liquid",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "Lower Bracket Semifinal 1",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "pandascore:1781472",
       "match_date": "2026-11-03",
