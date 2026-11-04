@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4359,
+    "matches": 4363,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -210,6 +210,94 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:b796c68efd1f21f2da20",
+      "match_date": "2026-11-04",
+      "starts_at": "2026-11-04T07:00:00Z",
+      "event_name": "IEM Beijing 2026 - Group B",
+      "team1_name": "MOUZ",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_B"
+    },
+    {
+      "match_id": "liquipedia:dbd3b8933e2d34cd8696",
+      "match_date": "2026-11-04",
+      "starts_at": "2026-11-04T07:00:00Z",
+      "event_name": "IEM Beijing 2026 - Group B",
+      "team1_name": "BB",
+      "team2_name": "Liquid",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_B"
+    },
+    {
+      "match_id": "liquipedia:2f00edefe95f67032100",
+      "match_date": "2026-11-04",
+      "starts_at": "2026-11-04T09:30:00Z",
+      "event_name": "IEM Beijing 2026 - Group A",
+      "team1_name": "FURIA",
+      "team2_name": "MongolZ",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_A"
+    },
+    {
+      "match_id": "liquipedia:041e5cacaaf0d3697067",
+      "match_date": "2026-11-04",
+      "starts_at": "2026-11-04T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 1",
+      "team1_name": "ex-Z10",
+      "team2_name": "PsyFace",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_1"
     },
     {
       "match_id": "pandascore:1781472",
