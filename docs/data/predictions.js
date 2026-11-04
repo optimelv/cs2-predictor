@@ -40883,7 +40883,7 @@ window.__STRIKESIGNAL_DATA__ = {
       }
     ],
     "fixture_provider": "pandascore",
-    "last_verified_utc": "2026-11-04T18:00:28Z",
+    "last_verified_utc": "2026-11-04T23:41:26Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -40908,7 +40908,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-11-02",
-      "checked_at_utc": "2026-11-04T18:01:51Z",
+      "checked_at_utc": "2026-11-04T23:44:13Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -41292,7 +41292,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-11-04T18:02:22Z",
+  "generated_at_utc": "2026-11-04T23:44:35Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -42852,7 +42852,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-11-04T18:02:22Z",
+    "generated_at_utc": "2026-11-04T23:44:34Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -54619,7 +54619,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 105,
-    "online_results_applied": 3,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

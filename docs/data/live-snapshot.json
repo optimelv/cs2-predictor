@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-11-04T18:00:28Z",
+  "fetched_at_utc": "2026-11-04T23:41:26Z",
   "poll_after_ms": 300000,
   "events": [
     {
@@ -10917,7 +10917,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_11_02.md",
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-04T18:01:51Z",
+    "checked_at_utc": "2026-11-04T23:44:13Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -11301,7 +11301,7 @@
     "excluded_tournaments": 17,
     "access_error": null,
     "detail_coverage": "fixtures_only",
-    "last_attempt_utc": "2026-11-04T18:00:28Z"
+    "last_attempt_utc": "2026-11-04T23:41:26Z"
   },
   "product_filter": {
     "policy_version": "roman-imperium-floor-v1",
