@@ -3123,7 +3123,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781482",
         "source": "pandascore",
         "source_match_id": "pandascore:1781482",
-        "source_modified_at_utc": "2026-11-04T13:21:12Z",
+        "source_modified_at_utc": "2026-11-05T21:39:27Z",
         "stage_name": "Playoffs",
         "starts_at": "2026-11-06T06:30:00Z",
         "status": "upcoming",
@@ -3154,7 +3154,7 @@
         "slot_id": "pandascore:series:11136:pandascore:1781483",
         "source": "pandascore",
         "source_match_id": "pandascore:1781483",
-        "source_modified_at_utc": "2026-11-04T13:21:22Z",
+        "source_modified_at_utc": "2026-11-05T21:40:28Z",
         "stage_name": "Playoffs",
         "starts_at": "2026-11-06T09:45:00Z",
         "status": "upcoming",
@@ -7384,7 +7384,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781482",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781482",
-                  "source_modified_at_utc": "2026-11-04T13:21:12Z",
+                  "source_modified_at_utc": "2026-11-05T21:39:27Z",
                   "stage_name": "Playoffs",
                   "starts_at": "2026-11-06T06:30:00Z",
                   "status": "upcoming",
@@ -7414,7 +7414,7 @@
                   "slot_id": "pandascore:series:11136:pandascore:1781483",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781483",
-                  "source_modified_at_utc": "2026-11-04T13:21:22Z",
+                  "source_modified_at_utc": "2026-11-05T21:40:28Z",
                   "stage_name": "Playoffs",
                   "starts_at": "2026-11-06T09:45:00Z",
                   "status": "upcoming",
@@ -8277,7 +8277,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781482",
             "source": "pandascore",
             "source_match_id": "pandascore:1781482",
-            "source_modified_at_utc": "2026-11-04T13:21:12Z",
+            "source_modified_at_utc": "2026-11-05T21:39:27Z",
             "stage_name": "Playoffs",
             "starts_at": "2026-11-06T06:30:00Z",
             "status": "upcoming",
@@ -8307,7 +8307,7 @@
             "slot_id": "pandascore:series:11136:pandascore:1781483",
             "source": "pandascore",
             "source_match_id": "pandascore:1781483",
-            "source_modified_at_utc": "2026-11-04T13:21:22Z",
+            "source_modified_at_utc": "2026-11-05T21:40:28Z",
             "stage_name": "Playoffs",
             "starts_at": "2026-11-06T09:45:00Z",
             "status": "upcoming",
@@ -40883,7 +40883,7 @@
       }
     ],
     "fixture_provider": "pandascore",
-    "last_verified_utc": "2026-11-05T15:29:06Z",
+    "last_verified_utc": "2026-11-05T22:00:16Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -40908,7 +40908,7 @@
     ],
     "vrs": {
       "as_of": "2026-11-02",
-      "checked_at_utc": "2026-11-05T15:32:36Z",
+      "checked_at_utc": "2026-11-05T22:04:41Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -41292,7 +41292,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-11-05T15:33:04Z",
+  "generated_at_utc": "2026-11-05T22:05:13Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -42852,7 +42852,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-11-05T15:33:03Z",
+    "generated_at_utc": "2026-11-05T22:05:12Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
