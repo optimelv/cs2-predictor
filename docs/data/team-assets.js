@@ -2315,5 +2315,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "RBLS",
     "logo_url": "https://liquipedia.net/commons/images/thumb/a/ac/Rebels_Gaming_2021_allmode.png/77px-Rebels_Gaming_2021_allmode.png",
     "source": "Liquipedia"
+  },
+  "fruju": {
+    "name": "Fruju",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c4/Fruju_lightmode.png/34px-Fruju_lightmode.png",
+    "source": "Liquipedia"
   }
 };
