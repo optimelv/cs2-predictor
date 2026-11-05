@@ -1,18 +1,84 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-11-05T22:00:16Z",
-  "through_date": "2026-11-04",
+  "through_date": "2026-11-05",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4366,
+    "matches": 4369,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:88bf4612514061cf272f",
+      "match_date": "2026-11-05",
+      "starts_at": "2026-11-05T09:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 1",
+      "team1_name": "GOne",
+      "team2_name": "MAYBE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MAYBE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:970465a302556181efbf",
+      "match_date": "2026-11-05",
+      "starts_at": "2026-11-05T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 1",
+      "team1_name": "FORZE.Rld",
+      "team2_name": "G2 Ares",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE.Rld",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:5e9f2e9d24eaf7348c60",
+      "match_date": "2026-11-05",
+      "starts_at": "2026-11-05T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 1",
+      "team1_name": "Butterfly",
+      "team2_name": "megoshort",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_1"
+    },
     {
       "match_id": "pandascore:1781471",
       "match_date": "2026-11-04",
