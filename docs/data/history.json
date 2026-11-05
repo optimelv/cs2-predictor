@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4364,
+    "matches": 4366,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -320,6 +320,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:86a1868d859cf999ebd3",
+      "match_date": "2026-11-04",
+      "starts_at": "2026-11-04T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 1",
+      "team1_name": "Nexus",
+      "team2_name": "TLR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:93ca8c55f48010f11563",
+      "match_date": "2026-11-04",
+      "starts_at": "2026-11-04T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #8 - Round 1",
+      "team1_name": "Isurus",
+      "team2_name": "Uwrld",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Isurus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_8#Round_1"
     },
     {
       "match_id": "pandascore:1781472",
