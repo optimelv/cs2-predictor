@@ -2320,5 +2320,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Fruju",
     "logo_url": "https://liquipedia.net/commons/images/thumb/c/c4/Fruju_lightmode.png/34px-Fruju_lightmode.png",
     "source": "Liquipedia"
+  },
+  "exotic": {
+    "name": "EXOTIC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/Exoticos_lightmode.png/49px-Exoticos_lightmode.png",
+    "source": "Liquipedia"
   }
 };
