@@ -70,37 +70,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "forfeit": false,
         "lineups": {},
         "maps": [],
-        "match_id": "pandascore:1711438",
-        "model_eligible_since_utc": "2026-11-02T01:34:46Z",
-        "pandascore_match_id": 1711438,
-        "product_tier": "tier_1",
-        "provider_team1_name": "G2",
-        "provider_team2_name": "PARIVISION",
-        "publisher_tier": "a",
-        "round_name": "Round 4",
-        "scheduled_at": "2026-10-06T12:00:00Z",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "slot_id": "pandascore:series:11004:pandascore:1711438",
-        "source": "pandascore",
-        "source_match_id": "pandascore:1711438",
-        "source_modified_at_utc": "2026-10-06T15:20:23Z",
-        "stage_name": "Group Stage",
-        "starts_at": "2026-10-06T12:02:30Z",
-        "status": "finished",
-        "team1_name": "G2",
-        "team1_pandascore_id": 3210,
-        "team2_name": "PARIVISION",
-        "team2_pandascore_id": 133719,
-        "winner_name": "PARIVISION"
-      },
-      {
-        "event_id": "pandascore:series:11004",
-        "event_name": "ESL Pro League Season 24 2026",
-        "forfeit": false,
-        "lineups": {},
-        "maps": [],
         "match_id": "pandascore:1711462",
         "model_eligible_since_utc": "2026-11-02T01:34:46Z",
         "pandascore_match_id": 1711462,
@@ -3117,20 +3086,82 @@ window.__STRIKESIGNAL_DATA__ = {
         "publisher_tier": "s",
         "round_name": "Semifinal 2",
         "scheduled_at": "2026-11-07T09:45:00Z",
-        "score1": 0,
+        "score1": 2,
         "score2": 0,
         "series_format": "bo3",
         "slot_id": "pandascore:series:11136:pandascore:1781485",
         "source": "pandascore",
         "source_match_id": "pandascore:1781485",
-        "source_modified_at_utc": "2026-11-07T09:50:36Z",
+        "source_modified_at_utc": "2026-11-07T11:37:09Z",
         "stage_name": "Playoffs",
         "starts_at": "2026-11-07T09:50:27Z",
-        "status": "live",
+        "status": "finished",
         "team1_name": "MOUZ",
         "team1_pandascore_id": 3240,
         "team2_name": "BetBoom",
         "team2_pandascore_id": 133458,
+        "winner_name": "MOUZ"
+      },
+      {
+        "event_id": "pandascore:series:11136",
+        "event_name": "IEM Beijing 2026",
+        "forfeit": false,
+        "lineups": {},
+        "maps": [],
+        "match_id": "pandascore:1781487",
+        "model_eligible_since_utc": "2026-11-02T01:34:46Z",
+        "pandascore_match_id": 1781487,
+        "product_tier": "tier_1",
+        "provider_team1_name": "Natus Vincere",
+        "provider_team2_name": "BetBoom Team",
+        "publisher_tier": "s",
+        "round_name": "Third Place Match",
+        "scheduled_at": "2026-11-08T04:00:00Z",
+        "score1": null,
+        "score2": null,
+        "series_format": "bo3",
+        "slot_id": "pandascore:series:11136:pandascore:1781487",
+        "source": "pandascore",
+        "source_match_id": "pandascore:1781487",
+        "source_modified_at_utc": "2026-11-07T11:35:22Z",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-11-08T04:00:00Z",
+        "status": "upcoming",
+        "team1_name": "NAVI",
+        "team1_pandascore_id": 3216,
+        "team2_name": "BetBoom",
+        "team2_pandascore_id": 133458,
+        "winner_name": null
+      },
+      {
+        "event_id": "pandascore:series:11136",
+        "event_name": "IEM Beijing 2026",
+        "forfeit": false,
+        "lineups": {},
+        "maps": [],
+        "match_id": "pandascore:1781486",
+        "model_eligible_since_utc": "2026-11-02T01:34:46Z",
+        "pandascore_match_id": 1781486,
+        "product_tier": "tier_1",
+        "provider_team1_name": "TheMongolz",
+        "provider_team2_name": "MOUZ",
+        "publisher_tier": "s",
+        "round_name": "Grand Final",
+        "scheduled_at": "2026-11-08T07:30:00Z",
+        "score1": null,
+        "score2": null,
+        "series_format": "bo5",
+        "slot_id": "pandascore:series:11136:pandascore:1781486",
+        "source": "pandascore",
+        "source_match_id": "pandascore:1781486",
+        "source_modified_at_utc": "2026-11-07T11:35:22Z",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-11-08T07:30:00Z",
+        "status": "upcoming",
+        "team1_name": "The MongolZ",
+        "team1_pandascore_id": 3272,
+        "team2_name": "MOUZ",
+        "team2_pandascore_id": 3240,
         "winner_name": null
       },
       {
@@ -4438,36 +4469,6 @@ window.__STRIKESIGNAL_DATA__ = {
                   "team2_name": "BetBoom",
                   "team2_pandascore_id": 133458,
                   "winner_name": "9z"
-                },
-                {
-                  "event_id": "pandascore:series:11004",
-                  "event_name": "ESL Pro League Season 24 2026",
-                  "forfeit": false,
-                  "lineups": {},
-                  "maps": [],
-                  "match_id": "pandascore:1711438",
-                  "pandascore_match_id": 1711438,
-                  "product_tier": "tier_1",
-                  "provider_team1_name": "G2",
-                  "provider_team2_name": "PARIVISION",
-                  "publisher_tier": "a",
-                  "round_name": "Round 4",
-                  "scheduled_at": "2026-10-06T12:00:00Z",
-                  "score1": 1,
-                  "score2": 2,
-                  "series_format": "bo3",
-                  "slot_id": "pandascore:series:11004:pandascore:1711438",
-                  "source": "pandascore",
-                  "source_match_id": "pandascore:1711438",
-                  "source_modified_at_utc": "2026-10-06T15:20:23Z",
-                  "stage_name": "Group Stage",
-                  "starts_at": "2026-10-06T12:02:30Z",
-                  "status": "finished",
-                  "team1_name": "G2",
-                  "team1_pandascore_id": 3210,
-                  "team2_name": "PARIVISION",
-                  "team2_pandascore_id": 133719,
-                  "winner_name": "PARIVISION"
                 }
               ],
               "name": "Group Stage \u00b7 Round",
@@ -4945,36 +4946,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team2_name": "BetBoom",
             "team2_pandascore_id": 133458,
             "winner_name": "9z"
-          },
-          {
-            "event_id": "pandascore:series:11004",
-            "event_name": "ESL Pro League Season 24 2026",
-            "forfeit": false,
-            "lineups": {},
-            "maps": [],
-            "match_id": "pandascore:1711438",
-            "pandascore_match_id": 1711438,
-            "product_tier": "tier_1",
-            "provider_team1_name": "G2",
-            "provider_team2_name": "PARIVISION",
-            "publisher_tier": "a",
-            "round_name": "Round 4",
-            "scheduled_at": "2026-10-06T12:00:00Z",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "slot_id": "pandascore:series:11004:pandascore:1711438",
-            "source": "pandascore",
-            "source_match_id": "pandascore:1711438",
-            "source_modified_at_utc": "2026-10-06T15:20:23Z",
-            "stage_name": "Group Stage",
-            "starts_at": "2026-10-06T12:02:30Z",
-            "status": "finished",
-            "team1_name": "G2",
-            "team1_pandascore_id": 3210,
-            "team2_name": "PARIVISION",
-            "team2_pandascore_id": 133719,
-            "winner_name": "PARIVISION"
           }
         ],
         "name": "ESL Pro League Season 24 2026",
@@ -7571,6 +7542,82 @@ window.__STRIKESIGNAL_DATA__ = {
           "rounds": [
             {
               "bracket": "main",
+              "id": "playoffs-third-place-match",
+              "matches": [
+                {
+                  "event_id": "pandascore:series:11136",
+                  "event_name": "IEM Beijing 2026",
+                  "forfeit": false,
+                  "lineups": {},
+                  "maps": [],
+                  "match_id": "pandascore:1781487",
+                  "pandascore_match_id": 1781487,
+                  "product_tier": "tier_1",
+                  "provider_team1_name": "Natus Vincere",
+                  "provider_team2_name": "BetBoom Team",
+                  "publisher_tier": "s",
+                  "round_name": "Third Place Match",
+                  "scheduled_at": "2026-11-08T04:00:00Z",
+                  "score1": null,
+                  "score2": null,
+                  "series_format": "bo3",
+                  "slot_id": "pandascore:series:11136:pandascore:1781487",
+                  "source": "pandascore",
+                  "source_match_id": "pandascore:1781487",
+                  "source_modified_at_utc": "2026-11-07T11:35:22Z",
+                  "stage_name": "Playoffs",
+                  "starts_at": "2026-11-08T04:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "NAVI",
+                  "team1_pandascore_id": 3216,
+                  "team2_name": "BetBoom",
+                  "team2_pandascore_id": 133458,
+                  "winner_name": null
+                }
+              ],
+              "name": "Playoffs \u00b7 Third Place Match",
+              "order": 1
+            },
+            {
+              "bracket": "main",
+              "id": "playoffs-grand-final",
+              "matches": [
+                {
+                  "event_id": "pandascore:series:11136",
+                  "event_name": "IEM Beijing 2026",
+                  "forfeit": false,
+                  "lineups": {},
+                  "maps": [],
+                  "match_id": "pandascore:1781486",
+                  "pandascore_match_id": 1781486,
+                  "product_tier": "tier_1",
+                  "provider_team1_name": "TheMongolz",
+                  "provider_team2_name": "MOUZ",
+                  "publisher_tier": "s",
+                  "round_name": "Grand Final",
+                  "scheduled_at": "2026-11-08T07:30:00Z",
+                  "score1": null,
+                  "score2": null,
+                  "series_format": "bo5",
+                  "slot_id": "pandascore:series:11136:pandascore:1781486",
+                  "source": "pandascore",
+                  "source_match_id": "pandascore:1781486",
+                  "source_modified_at_utc": "2026-11-07T11:35:22Z",
+                  "stage_name": "Playoffs",
+                  "starts_at": "2026-11-08T07:30:00Z",
+                  "status": "upcoming",
+                  "team1_name": "The MongolZ",
+                  "team1_pandascore_id": 3272,
+                  "team2_name": "MOUZ",
+                  "team2_pandascore_id": 3240,
+                  "winner_name": null
+                }
+              ],
+              "name": "Playoffs \u00b7 Grand Final",
+              "order": 2
+            },
+            {
+              "bracket": "main",
               "id": "playoffs-semifinal",
               "matches": [
                 {
@@ -7587,21 +7634,21 @@ window.__STRIKESIGNAL_DATA__ = {
                   "publisher_tier": "s",
                   "round_name": "Semifinal 2",
                   "scheduled_at": "2026-11-07T09:45:00Z",
-                  "score1": 0,
+                  "score1": 2,
                   "score2": 0,
                   "series_format": "bo3",
                   "slot_id": "pandascore:series:11136:pandascore:1781485",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1781485",
-                  "source_modified_at_utc": "2026-11-07T09:50:36Z",
+                  "source_modified_at_utc": "2026-11-07T11:37:09Z",
                   "stage_name": "Playoffs",
                   "starts_at": "2026-11-07T09:50:27Z",
-                  "status": "live",
+                  "status": "finished",
                   "team1_name": "MOUZ",
                   "team1_pandascore_id": 3240,
                   "team2_name": "BetBoom",
                   "team2_pandascore_id": 133458,
-                  "winner_name": null
+                  "winner_name": "MOUZ"
                 },
                 {
                   "event_id": "pandascore:series:11136",
@@ -7635,7 +7682,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Playoffs \u00b7 Semifinal",
-              "order": 1
+              "order": 3
             },
             {
               "bracket": "main",
@@ -7703,7 +7750,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Playoffs \u00b7 Quarterfinal",
-              "order": 2
+              "order": 4
             },
             {
               "bracket": "main",
@@ -7741,7 +7788,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group A \u00b7 Lower Bracket Final",
-              "order": 3
+              "order": 5
             },
             {
               "bracket": "main",
@@ -7779,7 +7826,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group A \u00b7 Upper Bracket Final",
-              "order": 4
+              "order": 6
             },
             {
               "bracket": "main",
@@ -7817,7 +7864,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group B \u00b7 Lower Bracket Final",
-              "order": 5
+              "order": 7
             },
             {
               "bracket": "main",
@@ -7855,7 +7902,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group B \u00b7 Upper Bracket Final",
-              "order": 6
+              "order": 8
             },
             {
               "bracket": "main",
@@ -7923,7 +7970,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group A \u00b7 Lower Bracket Semifinal",
-              "order": 7
+              "order": 9
             },
             {
               "bracket": "main",
@@ -7991,7 +8038,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group B \u00b7 Lower Bracket Semifinal",
-              "order": 8
+              "order": 10
             },
             {
               "bracket": "main",
@@ -8059,7 +8106,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group A \u00b7 Lower Bracket Quarterfinal",
-              "order": 9
+              "order": 11
             },
             {
               "bracket": "main",
@@ -8127,7 +8174,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group A \u00b7 Upper Bracket Semifinal",
-              "order": 10
+              "order": 12
             },
             {
               "bracket": "main",
@@ -8195,7 +8242,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group B \u00b7 Upper Bracket Semifinal",
-              "order": 11
+              "order": 13
             },
             {
               "bracket": "main",
@@ -8263,7 +8310,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group B \u00b7 Lower Bracket Quarterfinal",
-              "order": 12
+              "order": 14
             },
             {
               "bracket": "main",
@@ -8391,7 +8438,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group A \u00b7 Upper Bracket Quarterfinal",
-              "order": 13
+              "order": 15
             },
             {
               "bracket": "main",
@@ -8519,7 +8566,7 @@ window.__STRIKESIGNAL_DATA__ = {
                 }
               ],
               "name": "Group B \u00b7 Upper Bracket Quarterfinal",
-              "order": 14
+              "order": 16
             }
           ]
         },
@@ -8540,6 +8587,66 @@ window.__STRIKESIGNAL_DATA__ = {
             "forfeit": false,
             "lineups": {},
             "maps": [],
+            "match_id": "pandascore:1781487",
+            "pandascore_match_id": 1781487,
+            "product_tier": "tier_1",
+            "provider_team1_name": "Natus Vincere",
+            "provider_team2_name": "BetBoom Team",
+            "publisher_tier": "s",
+            "round_name": "Third Place Match",
+            "scheduled_at": "2026-11-08T04:00:00Z",
+            "score1": null,
+            "score2": null,
+            "series_format": "bo3",
+            "slot_id": "pandascore:series:11136:pandascore:1781487",
+            "source": "pandascore",
+            "source_match_id": "pandascore:1781487",
+            "source_modified_at_utc": "2026-11-07T11:35:22Z",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-11-08T04:00:00Z",
+            "status": "upcoming",
+            "team1_name": "NAVI",
+            "team1_pandascore_id": 3216,
+            "team2_name": "BetBoom",
+            "team2_pandascore_id": 133458,
+            "winner_name": null
+          },
+          {
+            "event_id": "pandascore:series:11136",
+            "event_name": "IEM Beijing 2026",
+            "forfeit": false,
+            "lineups": {},
+            "maps": [],
+            "match_id": "pandascore:1781486",
+            "pandascore_match_id": 1781486,
+            "product_tier": "tier_1",
+            "provider_team1_name": "TheMongolz",
+            "provider_team2_name": "MOUZ",
+            "publisher_tier": "s",
+            "round_name": "Grand Final",
+            "scheduled_at": "2026-11-08T07:30:00Z",
+            "score1": null,
+            "score2": null,
+            "series_format": "bo5",
+            "slot_id": "pandascore:series:11136:pandascore:1781486",
+            "source": "pandascore",
+            "source_match_id": "pandascore:1781486",
+            "source_modified_at_utc": "2026-11-07T11:35:22Z",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-11-08T07:30:00Z",
+            "status": "upcoming",
+            "team1_name": "The MongolZ",
+            "team1_pandascore_id": 3272,
+            "team2_name": "MOUZ",
+            "team2_pandascore_id": 3240,
+            "winner_name": null
+          },
+          {
+            "event_id": "pandascore:series:11136",
+            "event_name": "IEM Beijing 2026",
+            "forfeit": false,
+            "lineups": {},
+            "maps": [],
             "match_id": "pandascore:1781485",
             "pandascore_match_id": 1781485,
             "product_tier": "tier_1",
@@ -8548,21 +8655,21 @@ window.__STRIKESIGNAL_DATA__ = {
             "publisher_tier": "s",
             "round_name": "Semifinal 2",
             "scheduled_at": "2026-11-07T09:45:00Z",
-            "score1": 0,
+            "score1": 2,
             "score2": 0,
             "series_format": "bo3",
             "slot_id": "pandascore:series:11136:pandascore:1781485",
             "source": "pandascore",
             "source_match_id": "pandascore:1781485",
-            "source_modified_at_utc": "2026-11-07T09:50:36Z",
+            "source_modified_at_utc": "2026-11-07T11:37:09Z",
             "stage_name": "Playoffs",
             "starts_at": "2026-11-07T09:50:27Z",
-            "status": "live",
+            "status": "finished",
             "team1_name": "MOUZ",
             "team1_pandascore_id": 3240,
             "team2_name": "BetBoom",
             "team2_pandascore_id": 133458,
-            "winner_name": null
+            "winner_name": "MOUZ"
           },
           {
             "event_id": "pandascore:series:11136",
@@ -40780,7 +40887,7 @@ window.__STRIKESIGNAL_DATA__ = {
       }
     ],
     "fixture_provider": "pandascore",
-    "last_verified_utc": "2026-11-07T10:17:12Z",
+    "last_verified_utc": "2026-11-07T16:48:33Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -40805,7 +40912,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-11-02",
-      "checked_at_utc": "2026-11-07T10:20:16Z",
+      "checked_at_utc": "2026-11-07T16:52:52Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -41189,7 +41296,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-11-07T10:20:44Z",
+  "generated_at_utc": "2026-11-07T16:53:22Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -42749,7 +42856,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-11-07T10:20:44Z",
+    "generated_at_utc": "2026-11-07T16:53:22Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -43729,9 +43836,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "pandascore:1781468",
       "pandascore:1781482",
       "pandascore:1781483",
-      "pandascore:1781484"
+      "pandascore:1781484",
+      "pandascore:1781485"
     ],
-    "last_online_update_utc": "2026-11-07T10:20:44Z",
+    "last_online_update_utc": "2026-11-07T16:53:22Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -46106,11 +46214,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 13
       },
       {
-        "elo": 1820.69,
-        "last_result_utc": "2026-11-04T07:03:25Z",
-        "matches": 127,
+        "elo": 1832.09,
+        "last_result_utc": "2026-11-07T09:50:27Z",
+        "matches": 128,
         "ranking_date": "2026-11-02",
-        "recent_win_rate_10": 0.8219,
+        "recent_win_rate_10": 0.8543,
         "team_key": "mouz",
         "team_name": "MOUZ",
         "vrs_points": 1960,
@@ -46237,11 +46345,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 28
       },
       {
-        "elo": 1763.21,
-        "last_result_utc": "2026-11-06T11:07:04Z",
-        "matches": 171,
+        "elo": 1751.81,
+        "last_result_utc": "2026-11-07T09:50:27Z",
+        "matches": 172,
         "ranking_date": "2026-11-02",
-        "recent_win_rate_10": 0.7623,
+        "recent_win_rate_10": 0.6237,
         "team_key": "betboom",
         "team_name": "BetBoom",
         "vrs_points": 1786,
@@ -53986,6 +54094,82 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5145,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4855,
+      "event_id": "pandascore:series:11136",
+      "event_name": "IEM Beijing 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-11-08",
+      "match_id": "pandascore:1781487",
+      "match_phase": "scheduled",
+      "match_timestamp": 1794110400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_coverage": "full",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "BetBoom",
+      "prob_team1": 0.4855,
+      "product_tier": "tier_1",
+      "round_name": "Third Place Match",
+      "series_format": "bo3",
+      "source": "pandascore",
+      "source_url": "",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-11-08T04:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "NAVI",
+      "team1_vrs_rank": 13,
+      "team2_hltv_rank": null,
+      "team2_name": "BetBoom",
+      "team2_vrs_rank": 6
+    },
+    {
+      "calibration_shrink": null,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.7344,
+      "confidence_label": "watch",
+      "data_quality": "full",
+      "elo_prob_team1": 0.2656,
+      "event_id": "pandascore:series:11136",
+      "event_name": "IEM Beijing 2026",
+      "format": "bo5",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-11-08",
+      "match_id": "pandascore:1781486",
+      "match_phase": "scheduled",
+      "match_timestamp": 1794123000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_coverage": "full",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "MOUZ",
+      "prob_team1": 0.2656,
+      "product_tier": "tier_1",
+      "round_name": "Grand Final",
+      "series_format": "bo5",
+      "source": "pandascore",
+      "source_url": "",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-11-08T07:30:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "The MongolZ",
+      "team1_vrs_rank": 17,
+      "team2_hltv_rank": null,
+      "team2_name": "MOUZ",
+      "team2_vrs_rank": 1
+    },
+    {
+      "calibration_shrink": null,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.7512,
       "confidence_label": "strong",
       "data_quality": "full",
@@ -54100,10 +54284,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8573,
+      "confidence": 0.8652,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.8573,
+      "elo_prob_team1": 0.8652,
       "event_id": "pandascore:series:11137",
       "event_name": "BLAST Rivals Fall 2026",
       "format": "bo3",
@@ -54119,7 +54303,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model_coverage": "full",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "MOUZ",
-      "prob_team1": 0.8573,
+      "prob_team1": 0.8652,
       "product_tier": "tier_1",
       "round_name": "MOUZ vs G2",
       "series_format": "bo3",
@@ -54438,49 +54622,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Chinggis Warriors",
       "team2_vrs_rank": null
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6117,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6117,
-      "event_id": "pandascore:series:11136",
-      "event_name": "IEM Beijing 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-11-07",
-      "match_id": "pandascore:1781485",
-      "match_phase": "scheduled",
-      "match_timestamp": 1794045027,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_coverage": "full",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "MOUZ",
-      "prob_team1": 0.6117,
-      "product_tier": "tier_1",
-      "round_name": "Semifinal 2",
-      "series_format": "bo3",
-      "source": "pandascore",
-      "source_url": "",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-11-07T09:50:27Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "MOUZ",
-      "team1_vrs_rank": 1,
-      "team2_hltv_rank": null,
-      "team2_name": "BetBoom",
-      "team2_vrs_rank": 6
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 111,
+    "live_feed_items": 112,
     "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
