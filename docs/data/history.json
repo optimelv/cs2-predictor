@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4380,
+    "matches": 4381,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -111,6 +111,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_2"
+    },
+    {
+      "match_id": "liquipedia:739c682d67c11b7f5260",
+      "match_date": "2026-11-07",
+      "starts_at": "2026-11-07T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 2",
+      "team1_name": "ex-Z10",
+      "team2_name": "Leo",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-Z10",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
