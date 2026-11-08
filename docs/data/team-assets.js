@@ -2325,5 +2325,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "EXOTIC",
     "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/Exoticos_lightmode.png/49px-Exoticos_lightmode.png",
     "source": "Liquipedia"
+  },
+  "kinetic": {
+    "name": "KINETIC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/db/KINETIC_Esports_lightmode.png/40px-KINETIC_Esports_lightmode.png",
+    "source": "Liquipedia"
   }
 };
