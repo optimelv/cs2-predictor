@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4387,
+    "matches": 4388,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -122,6 +122,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:cf3546c1b60372318e4b",
+      "match_date": "2026-11-08",
+      "starts_at": "2026-11-08T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 3",
+      "team1_name": "GOne",
+      "team2_name": "PsyFace",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "GOne",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_3"
     },
     {
       "match_id": "pandascore:1781484",

@@ -2330,5 +2330,15 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "KINETIC",
     "logo_url": "https://liquipedia.net/commons/images/thumb/d/db/KINETIC_Esports_lightmode.png/40px-KINETIC_Esports_lightmode.png",
     "source": "Liquipedia"
+  },
+  "paqt": {
+    "name": "PAQT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0c/PAQT_lightmode.png/100px-PAQT_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "brute sq": {
+    "name": "BRUTE.SQ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/Team_Brute_2020_lightmode.png/41px-Team_Brute_2020_lightmode.png",
+    "source": "Liquipedia"
   }
 };
