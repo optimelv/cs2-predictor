@@ -1,18 +1,40 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-08T00:39:56Z",
-  "through_date": "2026-11-07",
+  "generated_at_utc": "2026-11-08T07:25:56Z",
+  "through_date": "2026-11-08",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4382,
+    "matches": 4383,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "pandascore:1781487",
+      "match_date": "2026-11-08",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "NAVI",
+      "team2_name": "BetBoom",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "NAVI",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Playoffs",
+      "stage_name": "Playoffs",
+      "round_name": "Third Place Match",
+      "is_playoff": true,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "pandascore:1781484",
       "match_date": "2026-11-07",
