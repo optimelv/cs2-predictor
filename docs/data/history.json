@@ -1,18 +1,40 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-11-09T18:51:18Z",
-  "through_date": "2026-11-08",
+  "through_date": "2026-11-09",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4389,
+    "matches": 4390,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:a04687c42283efa905a1",
+      "match_date": "2026-11-09",
+      "starts_at": "2026-11-09T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 3",
+      "team1_name": "Butterfly",
+      "team2_name": "Nexus",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_3"
+    },
     {
       "match_id": "pandascore:1781487",
       "match_date": "2026-11-08",

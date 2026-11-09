@@ -2340,5 +2340,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "BRUTE.SQ",
     "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/Team_Brute_2020_lightmode.png/41px-Team_Brute_2020_lightmode.png",
     "source": "Liquipedia"
+  },
+  "semperfi": {
+    "name": "SemperFi",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/aa/SemperFI_Esports_allmode.png/31px-SemperFI_Esports_allmode.png",
+    "source": "Liquipedia"
   }
 };
