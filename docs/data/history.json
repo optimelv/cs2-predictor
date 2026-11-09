@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4388,
+    "matches": 4389,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -144,6 +144,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_3"
+    },
+    {
+      "match_id": "liquipedia:ba67106a7d8ab3883668",
+      "match_date": "2026-11-08",
+      "starts_at": "2026-11-08T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #8 - Round 3",
+      "team1_name": "Isurus",
+      "team2_name": "tao toma",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "tao toma",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_8#Round_3"
     },
     {
       "match_id": "pandascore:1781484",
