@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4390,
+    "matches": 4391,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -23,6 +23,28 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_3"
+    },
+    {
+      "match_id": "liquipedia:bf1f5a77dd6930043244",
+      "match_date": "2026-11-09",
+      "starts_at": "2026-11-09T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 3",
+      "team1_name": "ACES",
+      "team2_name": "ex-Z10",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-Z10",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
