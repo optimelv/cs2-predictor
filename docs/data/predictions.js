@@ -3123,7 +3123,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "slot_id": "pandascore:series:11137:pandascore:1762450",
         "source": "pandascore",
         "source_match_id": "pandascore:1762450",
-        "source_modified_at_utc": "2026-11-03T08:21:01Z",
+        "source_modified_at_utc": "2026-11-10T16:41:47Z",
         "stage_name": "Group A",
         "starts_at": "2026-11-11T02:00:00Z",
         "status": "upcoming",
@@ -3154,7 +3154,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "slot_id": "pandascore:series:11137:pandascore:1762451",
         "source": "pandascore",
         "source_match_id": "pandascore:1762451",
-        "source_modified_at_utc": "2026-11-03T08:21:08Z",
+        "source_modified_at_utc": "2026-11-10T16:41:48Z",
         "stage_name": "Group A",
         "starts_at": "2026-11-11T04:30:00Z",
         "status": "upcoming",
@@ -3185,7 +3185,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "slot_id": "pandascore:series:11137:pandascore:1762459",
         "source": "pandascore",
         "source_match_id": "pandascore:1762459",
-        "source_modified_at_utc": "2026-11-03T08:20:24Z",
+        "source_modified_at_utc": "2026-11-10T16:41:54Z",
         "stage_name": "Group B",
         "starts_at": "2026-11-11T07:00:00Z",
         "status": "upcoming",
@@ -3216,7 +3216,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "slot_id": "pandascore:series:11137:pandascore:1762460",
         "source": "pandascore",
         "source_match_id": "pandascore:1762460",
-        "source_modified_at_utc": "2026-11-03T08:20:29Z",
+        "source_modified_at_utc": "2026-11-10T16:41:55Z",
         "stage_name": "Group B",
         "starts_at": "2026-11-11T09:30:00Z",
         "status": "upcoming",
@@ -9477,7 +9477,7 @@ window.__STRIKESIGNAL_DATA__ = {
                   "slot_id": "pandascore:series:11137:pandascore:1762450",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1762450",
-                  "source_modified_at_utc": "2026-11-03T08:21:01Z",
+                  "source_modified_at_utc": "2026-11-10T16:41:47Z",
                   "stage_name": "Group A",
                   "starts_at": "2026-11-11T02:00:00Z",
                   "status": "upcoming",
@@ -9515,7 +9515,7 @@ window.__STRIKESIGNAL_DATA__ = {
                   "slot_id": "pandascore:series:11137:pandascore:1762451",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1762451",
-                  "source_modified_at_utc": "2026-11-03T08:21:08Z",
+                  "source_modified_at_utc": "2026-11-10T16:41:48Z",
                   "stage_name": "Group A",
                   "starts_at": "2026-11-11T04:30:00Z",
                   "status": "upcoming",
@@ -9553,7 +9553,7 @@ window.__STRIKESIGNAL_DATA__ = {
                   "slot_id": "pandascore:series:11137:pandascore:1762459",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1762459",
-                  "source_modified_at_utc": "2026-11-03T08:20:24Z",
+                  "source_modified_at_utc": "2026-11-10T16:41:54Z",
                   "stage_name": "Group B",
                   "starts_at": "2026-11-11T07:00:00Z",
                   "status": "upcoming",
@@ -9591,7 +9591,7 @@ window.__STRIKESIGNAL_DATA__ = {
                   "slot_id": "pandascore:series:11137:pandascore:1762460",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1762460",
-                  "source_modified_at_utc": "2026-11-03T08:20:29Z",
+                  "source_modified_at_utc": "2026-11-10T16:41:55Z",
                   "stage_name": "Group B",
                   "starts_at": "2026-11-11T09:30:00Z",
                   "status": "upcoming",
@@ -9638,7 +9638,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "slot_id": "pandascore:series:11137:pandascore:1762450",
             "source": "pandascore",
             "source_match_id": "pandascore:1762450",
-            "source_modified_at_utc": "2026-11-03T08:21:01Z",
+            "source_modified_at_utc": "2026-11-10T16:41:47Z",
             "stage_name": "Group A",
             "starts_at": "2026-11-11T02:00:00Z",
             "status": "upcoming",
@@ -9668,7 +9668,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "slot_id": "pandascore:series:11137:pandascore:1762451",
             "source": "pandascore",
             "source_match_id": "pandascore:1762451",
-            "source_modified_at_utc": "2026-11-03T08:21:08Z",
+            "source_modified_at_utc": "2026-11-10T16:41:48Z",
             "stage_name": "Group A",
             "starts_at": "2026-11-11T04:30:00Z",
             "status": "upcoming",
@@ -9698,7 +9698,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "slot_id": "pandascore:series:11137:pandascore:1762459",
             "source": "pandascore",
             "source_match_id": "pandascore:1762459",
-            "source_modified_at_utc": "2026-11-03T08:20:24Z",
+            "source_modified_at_utc": "2026-11-10T16:41:54Z",
             "stage_name": "Group B",
             "starts_at": "2026-11-11T07:00:00Z",
             "status": "upcoming",
@@ -9728,7 +9728,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "slot_id": "pandascore:series:11137:pandascore:1762460",
             "source": "pandascore",
             "source_match_id": "pandascore:1762460",
-            "source_modified_at_utc": "2026-11-03T08:20:29Z",
+            "source_modified_at_utc": "2026-11-10T16:41:55Z",
             "stage_name": "Group B",
             "starts_at": "2026-11-11T09:30:00Z",
             "status": "upcoming",
@@ -40816,7 +40816,7 @@ window.__STRIKESIGNAL_DATA__ = {
       }
     ],
     "fixture_provider": "pandascore",
-    "last_verified_utc": "2026-11-10T09:53:26Z",
+    "last_verified_utc": "2026-11-10T17:54:33Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -40841,7 +40841,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-11-02",
-      "checked_at_utc": "2026-11-10T09:56:42Z",
+      "checked_at_utc": "2026-11-10T17:54:42Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -41225,7 +41225,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-11-10T09:57:13Z",
+  "generated_at_utc": "2026-11-10T17:55:13Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -42785,7 +42785,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-11-10T09:57:13Z",
+    "generated_at_utc": "2026-11-10T17:55:12Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
