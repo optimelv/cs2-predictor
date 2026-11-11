@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-11T06:31:27Z",
+  "generated_at_utc": "2026-11-11T15:17:41Z",
   "through_date": "2026-11-11",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4401,
+    "matches": 4403,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -49,6 +49,50 @@
       "phase": "Group A",
       "stage_name": "Group A",
       "round_name": "LGC vs FURIA",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1762460",
+      "match_date": "2026-11-11",
+      "event_name": "BLAST Rivals Fall 2026",
+      "team1_name": "MOUZ",
+      "team2_name": "G2",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "MOUZ vs G2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1762459",
+      "match_date": "2026-11-11",
+      "event_name": "BLAST Rivals Fall 2026",
+      "team1_name": "Spirit",
+      "team2_name": "FUT Esports",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "TS vs FUT",
       "is_playoff": false,
       "is_elimination": false,
       "maps": [],
