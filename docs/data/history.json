@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4405,
+    "matches": 4410,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -144,6 +144,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:41bc9ed4a9159e9051ff",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 4",
+      "team1_name": "GOne",
+      "team2_name": "IC.Acad",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "IC.Acad",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_4"
+    },
+    {
+      "match_id": "liquipedia:9340ebf1280fc9fda072",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T12:00:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 1",
+      "team1_name": "Drama",
+      "team2_name": "Phantom",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phantom",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:df8f22b958e7e6e06fbf",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #14 - Round 1",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "Nexus",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:0fc9341ae748f64e2635",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #14 - Round 1",
+      "team1_name": "FORZE.Rld",
+      "team2_name": "MASON",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE.Rld",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:d549b8dd9e8effea611e",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #14 - Round 1",
+      "team1_name": "TLR",
+      "team2_name": "Walczaki",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Walczaki",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_1"
     },
     {
       "match_id": "liquipedia:52bbcefbee3257c9f7b8",

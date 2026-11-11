@@ -2360,5 +2360,10 @@
     "name": "SNCTM",
     "logo_url": "https://liquipedia.net/commons/images/thumb/8/82/SANCTUM_allmode.png/31px-SANCTUM_allmode.png",
     "source": "Liquipedia"
+  },
+  "lunacy": {
+    "name": "Lunacy",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5c/Lunacy_Team_allmode.png/43px-Lunacy_Team_allmode.png",
+    "source": "Liquipedia"
   }
 }
