@@ -2345,5 +2345,20 @@
     "name": "SemperFi",
     "logo_url": "https://liquipedia.net/commons/images/thumb/a/aa/SemperFI_Esports_allmode.png/31px-SemperFI_Esports_allmode.png",
     "source": "Liquipedia"
+  },
+  "tputpu": {
+    "name": "TPuTPu",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3a/TPuDCATb_TPu_orig_lightmode.png/49px-TPuDCATb_TPu_orig_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "yngods": {
+    "name": "yngods",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5d/Yngods_allmode.png/53px-Yngods_allmode.png",
+    "source": "Liquipedia"
+  },
+  "snctm": {
+    "name": "SNCTM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/82/SANCTUM_allmode.png/31px-SANCTUM_allmode.png",
+    "source": "Liquipedia"
   }
 }

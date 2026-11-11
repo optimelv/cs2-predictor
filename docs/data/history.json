@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4399,
+    "matches": 4401,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -188,6 +188,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:7c0b4afb47daee920857",
+      "match_date": "2026-11-10",
+      "starts_at": "2026-11-10T18:15:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 1",
+      "team1_name": "GOne",
+      "team2_name": "NT",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NT",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:b1fc274faaf8b410558a",
+      "match_date": "2026-11-10",
+      "starts_at": "2026-11-10T19:20:00Z",
+      "event_name": "CCT SA 2026 Series #8 - Round 4",
+      "team1_name": "Isurus",
+      "team2_name": "RED.A",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Isurus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_8#Round_4"
     },
     {
       "match_id": "liquipedia:a04687c42283efa905a1",
