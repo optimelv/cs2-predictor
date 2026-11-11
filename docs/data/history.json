@@ -1,18 +1,62 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-10T23:25:29Z",
-  "through_date": "2026-11-10",
+  "generated_at_utc": "2026-11-11T06:31:27Z",
+  "through_date": "2026-11-11",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4397,
+    "matches": 4399,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "pandascore:1762451",
+      "match_date": "2026-11-11",
+      "event_name": "BLAST Rivals Fall 2026",
+      "team1_name": "Vitality",
+      "team2_name": "Falcons",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "VIT vs FAL",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1762450",
+      "match_date": "2026-11-11",
+      "event_name": "BLAST Rivals Fall 2026",
+      "team1_name": "Legacy",
+      "team2_name": "FURIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "LGC vs FURIA",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "liquipedia:52bbcefbee3257c9f7b8",
       "match_date": "2026-11-10",
