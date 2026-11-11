@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4403,
+    "matches": 4405,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -100,6 +100,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:e053766aedda221046e8",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T06:30:00Z",
+      "event_name": "BLAST Rivals Fall 2026 - Group B",
+      "team1_name": "FUT",
+      "team2_name": "Spirit",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Rivals/2026/Fall#Group_B"
+    },
+    {
+      "match_id": "liquipedia:fdd93a16ccb5c1768778",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T09:00:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 1",
+      "team1_name": "Butterfly",
+      "team2_name": "LUNTIKI",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_1"
     },
     {
       "match_id": "liquipedia:52bbcefbee3257c9f7b8",
