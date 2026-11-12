@@ -3116,16 +3116,16 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "publisher_tier": "s",
       "round_name": "Elimination Match",
       "scheduled_at": "2026-11-12T02:00:00Z",
-      "score1": null,
-      "score2": null,
+      "score1": 0,
+      "score2": 1,
       "series_format": "bo3",
       "slot_id": "pandascore:series:11137:pandascore:1762452",
       "source": "pandascore",
       "source_match_id": "pandascore:1762452",
-      "source_modified_at_utc": "2026-11-11T15:12:51Z",
+      "source_modified_at_utc": "2026-11-12T03:10:54Z",
       "stage_name": "Group A",
-      "starts_at": "2026-11-12T02:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-11-12T02:01:06Z",
+      "status": "live",
       "team1_name": "Legacy",
       "team1_pandascore_id": 133708,
       "team2_name": "Falcons",
@@ -9214,44 +9214,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "rounds": [
           {
             "bracket": "main",
-            "id": "group-a-elimination-match",
-            "matches": [
-              {
-                "event_id": "pandascore:series:11137",
-                "event_name": "BLAST Rivals Fall 2026",
-                "forfeit": false,
-                "lineups": {},
-                "maps": [],
-                "match_id": "pandascore:1762452",
-                "pandascore_match_id": 1762452,
-                "product_tier": "tier_1",
-                "provider_team1_name": "Legacy",
-                "provider_team2_name": "Team Falcons",
-                "publisher_tier": "s",
-                "round_name": "Elimination Match",
-                "scheduled_at": "2026-11-12T02:00:00Z",
-                "score1": null,
-                "score2": null,
-                "series_format": "bo3",
-                "slot_id": "pandascore:series:11137:pandascore:1762452",
-                "source": "pandascore",
-                "source_match_id": "pandascore:1762452",
-                "source_modified_at_utc": "2026-11-11T15:12:51Z",
-                "stage_name": "Group A",
-                "starts_at": "2026-11-12T02:00:00Z",
-                "status": "upcoming",
-                "team1_name": "Legacy",
-                "team1_pandascore_id": 133708,
-                "team2_name": "Falcons",
-                "team2_pandascore_id": 130564,
-                "winner_name": null
-              }
-            ],
-            "name": "Group A · Elimination Match",
-            "order": 1
-          },
-          {
-            "bracket": "main",
             "id": "group-a-winners-match",
             "matches": [
               {
@@ -9286,7 +9248,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
               }
             ],
             "name": "Group A · Winners Match",
-            "order": 2
+            "order": 1
           },
           {
             "bracket": "main",
@@ -9324,7 +9286,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
               }
             ],
             "name": "Group B · Elimination Match",
-            "order": 3
+            "order": 2
           },
           {
             "bracket": "main",
@@ -9362,6 +9324,44 @@ window.__STRIKESIGNAL_COVERAGE__ = {
               }
             ],
             "name": "Group B · Winners Match",
+            "order": 3
+          },
+          {
+            "bracket": "main",
+            "id": "group-a-elimination-match",
+            "matches": [
+              {
+                "event_id": "pandascore:series:11137",
+                "event_name": "BLAST Rivals Fall 2026",
+                "forfeit": false,
+                "lineups": {},
+                "maps": [],
+                "match_id": "pandascore:1762452",
+                "pandascore_match_id": 1762452,
+                "product_tier": "tier_1",
+                "provider_team1_name": "Legacy",
+                "provider_team2_name": "Team Falcons",
+                "publisher_tier": "s",
+                "round_name": "Elimination Match",
+                "scheduled_at": "2026-11-12T02:00:00Z",
+                "score1": 0,
+                "score2": 1,
+                "series_format": "bo3",
+                "slot_id": "pandascore:series:11137:pandascore:1762452",
+                "source": "pandascore",
+                "source_match_id": "pandascore:1762452",
+                "source_modified_at_utc": "2026-11-12T03:10:54Z",
+                "stage_name": "Group A",
+                "starts_at": "2026-11-12T02:01:06Z",
+                "status": "live",
+                "team1_name": "Legacy",
+                "team1_pandascore_id": 133708,
+                "team2_name": "Falcons",
+                "team2_pandascore_id": 130564,
+                "winner_name": null
+              }
+            ],
+            "name": "Group A · Elimination Match",
             "order": 4
           },
           {
@@ -9535,36 +9535,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "forfeit": false,
           "lineups": {},
           "maps": [],
-          "match_id": "pandascore:1762452",
-          "pandascore_match_id": 1762452,
-          "product_tier": "tier_1",
-          "provider_team1_name": "Legacy",
-          "provider_team2_name": "Team Falcons",
-          "publisher_tier": "s",
-          "round_name": "Elimination Match",
-          "scheduled_at": "2026-11-12T02:00:00Z",
-          "score1": null,
-          "score2": null,
-          "series_format": "bo3",
-          "slot_id": "pandascore:series:11137:pandascore:1762452",
-          "source": "pandascore",
-          "source_match_id": "pandascore:1762452",
-          "source_modified_at_utc": "2026-11-11T15:12:51Z",
-          "stage_name": "Group A",
-          "starts_at": "2026-11-12T02:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Legacy",
-          "team1_pandascore_id": 133708,
-          "team2_name": "Falcons",
-          "team2_pandascore_id": 130564,
-          "winner_name": null
-        },
-        {
-          "event_id": "pandascore:series:11137",
-          "event_name": "BLAST Rivals Fall 2026",
-          "forfeit": false,
-          "lineups": {},
-          "maps": [],
           "match_id": "pandascore:1762453",
           "pandascore_match_id": 1762453,
           "product_tier": "tier_1",
@@ -9647,6 +9617,36 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_pandascore_id": 124523,
           "team2_name": "G2",
           "team2_pandascore_id": 3210,
+          "winner_name": null
+        },
+        {
+          "event_id": "pandascore:series:11137",
+          "event_name": "BLAST Rivals Fall 2026",
+          "forfeit": false,
+          "lineups": {},
+          "maps": [],
+          "match_id": "pandascore:1762452",
+          "pandascore_match_id": 1762452,
+          "product_tier": "tier_1",
+          "provider_team1_name": "Legacy",
+          "provider_team2_name": "Team Falcons",
+          "publisher_tier": "s",
+          "round_name": "Elimination Match",
+          "scheduled_at": "2026-11-12T02:00:00Z",
+          "score1": 0,
+          "score2": 1,
+          "series_format": "bo3",
+          "slot_id": "pandascore:series:11137:pandascore:1762452",
+          "source": "pandascore",
+          "source_match_id": "pandascore:1762452",
+          "source_modified_at_utc": "2026-11-12T03:10:54Z",
+          "stage_name": "Group A",
+          "starts_at": "2026-11-12T02:01:06Z",
+          "status": "live",
+          "team1_name": "Legacy",
+          "team1_pandascore_id": 133708,
+          "team2_name": "Falcons",
+          "team2_pandascore_id": 130564,
           "winner_name": null
         },
         {
@@ -40847,7 +40847,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     }
   ],
   "fixture_provider": "pandascore",
-  "last_verified_utc": "2026-11-11T22:43:42Z",
+  "last_verified_utc": "2026-11-12T03:49:23Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -40872,7 +40872,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-11T22:44:06Z",
+    "checked_at_utc": "2026-11-12T03:51:10Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
