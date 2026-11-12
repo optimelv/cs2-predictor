@@ -78565,7 +78565,7 @@
       "signal_index_through_date": null
     }
   ],
-  "lineups_updated_at_utc": "2026-11-12T03:49:23Z",
+  "lineups_updated_at_utc": "2026-11-12T12:45:52Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-28",
   "history_profile_count": 53,
@@ -78574,7 +78574,7 @@
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-11-12T08:49:35Z",
+    "checked_at_utc": "2026-11-12T12:49:18Z",
     "requested": 874,
     "cached": 645,
     "attempted": 772,
