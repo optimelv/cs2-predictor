@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4410,
+    "matches": 4413,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -254,6 +254,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:69567d35617659078947",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 4",
+      "team1_name": "BAKS",
+      "team2_name": "Nexus",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_4"
+    },
+    {
+      "match_id": "liquipedia:88f6f764a86c5420fba4",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T18:00:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 1",
+      "team1_name": "ex-Z10",
+      "team2_name": "Spirit.A",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_1"
+    },
+    {
+      "match_id": "liquipedia:dda0c8c30b05b530f3db",
+      "match_date": "2026-11-11",
+      "starts_at": "2026-11-11T18:15:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 4",
+      "team1_name": "ACES",
+      "team2_name": "FORZE.Rld",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FORZE.Rld",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_4"
     },
     {
       "match_id": "liquipedia:52bbcefbee3257c9f7b8",
