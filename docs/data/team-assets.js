@@ -2365,5 +2365,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Lunacy",
     "logo_url": "https://liquipedia.net/commons/images/thumb/5/5c/Lunacy_Team_allmode.png/43px-Lunacy_Team_allmode.png",
     "source": "Liquipedia"
+  },
+  "s e a": {
+    "name": "S.E.A.",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d5/S.E.A._Dragons_allmode.png/45px-S.E.A._Dragons_allmode.png",
+    "source": "Liquipedia"
   }
 };
