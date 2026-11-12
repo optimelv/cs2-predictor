@@ -2370,5 +2370,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "S.E.A.",
     "logo_url": "https://liquipedia.net/commons/images/thumb/d/d5/S.E.A._Dragons_allmode.png/45px-S.E.A._Dragons_allmode.png",
     "source": "Liquipedia"
+  },
+  "tcgg": {
+    "name": "TCGG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c9/TheChampionGG_allmode.png/41px-TheChampionGG_allmode.png",
+    "source": "Liquipedia"
   }
 };

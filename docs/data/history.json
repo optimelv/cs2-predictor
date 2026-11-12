@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4417,
+    "matches": 4424,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -100,6 +100,160 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:f3af37421a966de020db",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T06:55:00Z",
+      "event_name": "BLAST Rivals Fall 2026 - Group B",
+      "team1_name": "FUT",
+      "team2_name": "MOUZ",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Rivals/2026/Fall#Group_B"
+    },
+    {
+      "match_id": "liquipedia:3df0255e0d7403df090c",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T09:00:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 2",
+      "team1_name": "ILLYRIANS",
+      "team2_name": "Phantom",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phantom",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:e7b63e95ffc231620ea3",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T09:00:00Z",
+      "event_name": "CCT EU 2026 Series #14 - Round 2",
+      "team1_name": "MASON",
+      "team2_name": "TLR",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "TLR",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:cd663e3d2c6209f1e008",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T12:00:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 2",
+      "team1_name": "Butterfly",
+      "team2_name": "FORZE.Rld",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:fd24abc302b94c6685ac",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 5",
+      "team1_name": "GOne",
+      "team2_name": "Leo",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_5"
+    },
+    {
+      "match_id": "liquipedia:d05f6c65fbdf9a4738f1",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #14 - Round 2",
+      "team1_name": "Azuolas",
+      "team2_name": "ILLYRIANS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ILLYRIANS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:6c4297244ce7056355d4",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T15:30:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Round 5",
+      "team1_name": "BAKS",
+      "team2_name": "TLR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BAKS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_5"
     },
     {
       "match_id": "pandascore:1762451",
