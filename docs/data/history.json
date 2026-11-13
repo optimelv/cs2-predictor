@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4424,
+    "matches": 4427,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -254,6 +254,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Round_5"
+    },
+    {
+      "match_id": "liquipedia:072f5bf51d22518aa493",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T16:00:00Z",
+      "event_name": "CCT SA 2026 Series #8 - Playoffs",
+      "team1_name": "ex-Yawara",
+      "team2_name": "Isurus",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-Yawara",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_8#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:96b252bf329275c2aaf8",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T18:00:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 2",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Spirit.A",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:d794277014a961eb0c4d",
+      "match_date": "2026-11-12",
+      "starts_at": "2026-11-12T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #8 - Playoffs",
+      "team1_name": "Procyon",
+      "team2_name": "tao toma",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "tao toma",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_8#Playoffs"
     },
     {
       "match_id": "pandascore:1762451",
