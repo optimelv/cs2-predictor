@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4429,
+    "matches": 4435,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -56,6 +56,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:c8c0b555d618810dcb89",
+      "match_date": "2026-11-13",
+      "starts_at": "2026-11-13T09:00:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Playoffs",
+      "team1_name": "MZP",
+      "team2_name": "Nexus",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "MZP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Playoffs"
     },
     {
       "match_id": "pandascore:1762461",
@@ -4206,6 +4228,28 @@
       }
     },
     {
+      "match_id": "liquipedia:85410683998cf407b378",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T12:40:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "ex-INOX",
+      "team2_name": "Spirit.A",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
       "match_id": "liquipedia:3bbf30868ea3ab48079e",
       "match_date": "2026-10-28",
       "starts_at": "2026-10-28T03:00:00Z",
@@ -5884,6 +5928,28 @@
       ]
     },
     {
+      "match_id": "liquipedia:d64a3779333f594845f3",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T09:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Playoffs",
+      "team1_name": "ex-INOX",
+      "team2_name": "Nemesis",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemesis",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
+    },
+    {
       "match_id": "hltv:2399505",
       "match_date": "2026-10-25",
       "event_name": "CCT 2026 Europe Series 12",
@@ -6538,6 +6604,28 @@
       ]
     },
     {
+      "match_id": "liquipedia:3124ac2f5155db91f3b2",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "Acend",
+      "team2_name": "ex-INOX",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
+    },
+    {
       "match_id": "liquipedia:9f4aac843bd9e83e11fa",
       "match_date": "2026-10-24",
       "starts_at": "2026-10-24T07:00:00Z",
@@ -7174,6 +7262,28 @@
       ]
     },
     {
+      "match_id": "liquipedia:82262f34ccd1366f8520",
+      "match_date": "2026-10-24",
+      "starts_at": "2026-10-24T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "BRUTE",
+      "team2_name": "ex-INOX",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-INOX",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
+    },
+    {
       "match_id": "hltv:2399331",
       "match_date": "2026-10-23",
       "event_name": "CCT 2026 Europe Series 11",
@@ -7656,6 +7766,28 @@
           "starts_at": "2026-10-23T17:15:00Z"
         }
       ]
+    },
+    {
+      "match_id": "liquipedia:7232e8057355d406b932",
+      "match_date": "2026-10-23",
+      "starts_at": "2026-10-23T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "ACES",
+      "team2_name": "ex-INOX",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-INOX",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
     },
     {
       "match_id": "hltv:2399493",
