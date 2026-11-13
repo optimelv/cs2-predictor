@@ -1,18 +1,62 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-13T09:33:45Z",
-  "through_date": "2026-11-12",
+  "generated_at_utc": "2026-11-13T17:44:55Z",
+  "through_date": "2026-11-13",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4427,
+    "matches": 4429,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "pandascore:1762446",
+      "match_date": "2026-11-13",
+      "event_name": "BLAST Rivals Fall 2026",
+      "team1_name": "G2",
+      "team2_name": "Falcons",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Playoffs",
+      "stage_name": "Playoffs",
+      "round_name": "Quarterfinal 2",
+      "is_playoff": true,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1762445",
+      "match_date": "2026-11-13",
+      "event_name": "BLAST Rivals Fall 2026",
+      "team1_name": "Vitality",
+      "team2_name": "MOUZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Playoffs",
+      "stage_name": "Playoffs",
+      "round_name": "Quarterfinal 1",
+      "is_playoff": true,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "pandascore:1762461",
       "match_date": "2026-11-12",
