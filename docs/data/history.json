@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4435,
+    "matches": 4440,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -78,6 +78,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:493e31ea58208cbdfec5",
+      "match_date": "2026-11-13",
+      "starts_at": "2026-11-13T09:00:00Z",
+      "event_name": "CCT EU 2026 Series #14 - Round 2",
+      "team1_name": "Butterfly",
+      "team2_name": "Leo",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:67a0ab81d3ab53f556f1",
+      "match_date": "2026-11-13",
+      "starts_at": "2026-11-13T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #14 - Round 2",
+      "team1_name": "BAKS",
+      "team2_name": "ex-Z10",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:b84a53f1ca0863ed066c",
+      "match_date": "2026-11-13",
+      "starts_at": "2026-11-13T12:00:00Z",
+      "event_name": "NODWIN Clutch Series #14 - Round 2",
+      "team1_name": "ACES",
+      "team2_name": "GOne",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ACES",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/14#Round_2"
+    },
+    {
+      "match_id": "liquipedia:588fdab8ccd36338a8e9",
+      "match_date": "2026-11-13",
+      "starts_at": "2026-11-13T12:25:00Z",
+      "event_name": "CCT EU 2026 Series #13 - Playoffs",
+      "team1_name": "Butterfly",
+      "team2_name": "PRVT",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PRVT",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:620f87c00ee970fc1e5d",
+      "match_date": "2026-11-13",
+      "starts_at": "2026-11-13T13:00:00Z",
+      "event_name": "CCT SA 2026 Series #8 - Playoffs",
+      "team1_name": "RUSH",
+      "team2_name": "TDP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "TDP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_8#Playoffs"
     },
     {
       "match_id": "pandascore:1762461",
