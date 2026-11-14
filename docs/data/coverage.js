@@ -3122,7 +3122,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "slot_id": "pandascore:series:11137:pandascore:1762449",
       "source": "pandascore",
       "source_match_id": "pandascore:1762449",
-      "source_modified_at_utc": "2026-11-14T13:25:33Z",
+      "source_modified_at_utc": "2026-11-14T21:54:54Z",
       "stage_name": "Playoffs",
       "starts_at": "2026-11-15T08:00:00Z",
       "status": "upcoming",
@@ -8647,7 +8647,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "slot_id": "pandascore:series:11137:pandascore:1762449",
                 "source": "pandascore",
                 "source_match_id": "pandascore:1762449",
-                "source_modified_at_utc": "2026-11-14T13:25:33Z",
+                "source_modified_at_utc": "2026-11-14T21:54:54Z",
                 "stage_name": "Playoffs",
                 "starts_at": "2026-11-15T08:00:00Z",
                 "status": "upcoming",
@@ -9134,7 +9134,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "slot_id": "pandascore:series:11137:pandascore:1762449",
           "source": "pandascore",
           "source_match_id": "pandascore:1762449",
-          "source_modified_at_utc": "2026-11-14T13:25:33Z",
+          "source_modified_at_utc": "2026-11-14T21:54:54Z",
           "stage_name": "Playoffs",
           "starts_at": "2026-11-15T08:00:00Z",
           "status": "upcoming",
@@ -40582,7 +40582,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     }
   ],
   "fixture_provider": "pandascore",
-  "last_verified_utc": "2026-11-14T19:08:44Z",
+  "last_verified_utc": "2026-11-14T22:59:21Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -40607,7 +40607,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-14T19:13:32Z",
+    "checked_at_utc": "2026-11-14T23:02:07Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
