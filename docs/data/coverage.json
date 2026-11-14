@@ -40582,7 +40582,7 @@
     }
   ],
   "fixture_provider": "pandascore",
-  "last_verified_utc": "2026-11-14T14:12:59Z",
+  "last_verified_utc": "2026-11-14T19:08:44Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -40607,7 +40607,7 @@
   ],
   "vrs": {
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-14T14:13:11Z",
+    "checked_at_utc": "2026-11-14T19:13:32Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
