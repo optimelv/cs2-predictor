@@ -2375,5 +2375,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "TCGG",
     "logo_url": "https://liquipedia.net/commons/images/thumb/c/c9/TheChampionGG_allmode.png/41px-TheChampionGG_allmode.png",
     "source": "Liquipedia"
+  },
+  "knus": {
+    "name": "KNUS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/45/KNUS_allmode.png/38px-KNUS_allmode.png",
+    "source": "Liquipedia"
   }
 };
