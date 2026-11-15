@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-11-15T02:39:53Z",
+  "fetched_at_utc": "2026-11-15T11:01:14Z",
   "poll_after_ms": 300000,
   "events": [
     {
@@ -534,7 +534,7 @@
       "id": "pandascore:series:11137",
       "name": "BLAST Rivals Fall 2026",
       "source": "pandascore",
-      "status": "ongoing",
+      "status": "finished",
       "product_tier": "tier_1",
       "publisher_tier": "s",
       "start_date": "2026-11-11",
@@ -565,13 +565,13 @@
           "team2_pandascore_id": 124530,
           "provider_team1_name": "Spirit",
           "provider_team2_name": "FURIA",
-          "starts_at": "2026-11-15T08:00:00Z",
+          "starts_at": "2026-11-15T08:05:35Z",
           "scheduled_at": "2026-11-15T08:00:00Z",
-          "source_modified_at_utc": "2026-11-14T21:54:54Z",
-          "status": "upcoming",
-          "score1": null,
-          "score2": null,
-          "winner_name": null,
+          "source_modified_at_utc": "2026-11-15T11:00:14Z",
+          "status": "finished",
+          "score1": 0,
+          "score2": 3,
+          "winner_name": "FURIA",
           "series_format": "bo5",
           "stage_name": "Playoffs",
           "round_name": "Grand Final",
@@ -968,13 +968,13 @@
                 "team2_pandascore_id": 124530,
                 "provider_team1_name": "Spirit",
                 "provider_team2_name": "FURIA",
-                "starts_at": "2026-11-15T08:00:00Z",
+                "starts_at": "2026-11-15T08:05:35Z",
                 "scheduled_at": "2026-11-15T08:00:00Z",
-                "source_modified_at_utc": "2026-11-14T21:54:54Z",
-                "status": "upcoming",
-                "score1": null,
-                "score2": null,
-                "winner_name": null,
+                "source_modified_at_utc": "2026-11-15T11:00:14Z",
+                "status": "finished",
+                "score1": 0,
+                "score2": 3,
+                "winner_name": "FURIA",
                 "series_format": "bo5",
                 "stage_name": "Playoffs",
                 "round_name": "Grand Final",
@@ -6981,36 +6981,6 @@
           "maps": [],
           "lineups": {},
           "slot_id": "pandascore:series:11004:pandascore:1711481"
-        },
-        {
-          "match_id": "pandascore:1711480",
-          "source_match_id": "pandascore:1711480",
-          "source": "pandascore",
-          "pandascore_match_id": 1711480,
-          "event_id": "pandascore:series:11004",
-          "event_name": "ESL Pro League Season 24 2026",
-          "product_tier": "tier_1",
-          "publisher_tier": "a",
-          "team1_name": "MOUZ",
-          "team2_name": "Spirit",
-          "team1_pandascore_id": 3240,
-          "team2_pandascore_id": 124523,
-          "provider_team1_name": "MOUZ",
-          "provider_team2_name": "Spirit",
-          "starts_at": "2026-10-10T17:45:36Z",
-          "scheduled_at": "2026-10-10T17:45:00Z",
-          "source_modified_at_utc": "2026-10-10T21:02:53Z",
-          "status": "finished",
-          "score1": 2,
-          "score2": 1,
-          "winner_name": "MOUZ",
-          "series_format": "bo3",
-          "stage_name": "Playoffs",
-          "round_name": "Semifinal 2",
-          "forfeit": false,
-          "maps": [],
-          "lineups": {},
-          "slot_id": "pandascore:series:11004:pandascore:1711480"
         }
       ],
       "format": {
@@ -7094,44 +7064,6 @@
                 "slot_id": "pandascore:series:11004:pandascore:1711481"
               }
             ]
-          },
-          {
-            "id": "playoffs-semifinal",
-            "name": "Playoffs \u00b7 Semifinal",
-            "bracket": "main",
-            "order": 3,
-            "matches": [
-              {
-                "match_id": "pandascore:1711480",
-                "source_match_id": "pandascore:1711480",
-                "source": "pandascore",
-                "pandascore_match_id": 1711480,
-                "event_id": "pandascore:series:11004",
-                "event_name": "ESL Pro League Season 24 2026",
-                "product_tier": "tier_1",
-                "publisher_tier": "a",
-                "team1_name": "MOUZ",
-                "team2_name": "Spirit",
-                "team1_pandascore_id": 3240,
-                "team2_pandascore_id": 124523,
-                "provider_team1_name": "MOUZ",
-                "provider_team2_name": "Spirit",
-                "starts_at": "2026-10-10T17:45:36Z",
-                "scheduled_at": "2026-10-10T17:45:00Z",
-                "source_modified_at_utc": "2026-10-10T21:02:53Z",
-                "status": "finished",
-                "score1": 2,
-                "score2": 1,
-                "winner_name": "MOUZ",
-                "series_format": "bo3",
-                "stage_name": "Playoffs",
-                "round_name": "Semifinal 2",
-                "forfeit": false,
-                "maps": [],
-                "lineups": {},
-                "slot_id": "pandascore:series:11004:pandascore:1711480"
-              }
-            ]
           }
         ]
       }
@@ -7154,36 +7086,6 @@
     }
   ],
   "matches": [
-    {
-      "match_id": "pandascore:1762449",
-      "source_match_id": "pandascore:1762449",
-      "source": "pandascore",
-      "pandascore_match_id": 1762449,
-      "event_id": "pandascore:series:11137",
-      "event_name": "BLAST Rivals Fall 2026",
-      "product_tier": "tier_1",
-      "publisher_tier": "s",
-      "team1_name": "Spirit",
-      "team2_name": "FURIA",
-      "team1_pandascore_id": 124523,
-      "team2_pandascore_id": 124530,
-      "provider_team1_name": "Spirit",
-      "provider_team2_name": "FURIA",
-      "starts_at": "2026-11-15T08:00:00Z",
-      "scheduled_at": "2026-11-15T08:00:00Z",
-      "source_modified_at_utc": "2026-11-14T21:54:54Z",
-      "status": "upcoming",
-      "score1": null,
-      "score2": null,
-      "winner_name": null,
-      "series_format": "bo5",
-      "stage_name": "Playoffs",
-      "round_name": "Grand Final",
-      "forfeit": false,
-      "maps": [],
-      "lineups": {},
-      "slot_id": "pandascore:series:11137:pandascore:1762449"
-    },
     {
       "match_id": "pandascore:1789257",
       "source_match_id": "pandascore:1789257",
@@ -7423,6 +7325,36 @@
       "maps": [],
       "lineups": {},
       "slot_id": "pandascore:series:11176:pandascore:1789255"
+    },
+    {
+      "match_id": "pandascore:1762449",
+      "source_match_id": "pandascore:1762449",
+      "source": "pandascore",
+      "pandascore_match_id": 1762449,
+      "event_id": "pandascore:series:11137",
+      "event_name": "BLAST Rivals Fall 2026",
+      "product_tier": "tier_1",
+      "publisher_tier": "s",
+      "team1_name": "Spirit",
+      "team2_name": "FURIA",
+      "team1_pandascore_id": 124523,
+      "team2_pandascore_id": 124530,
+      "provider_team1_name": "Spirit",
+      "provider_team2_name": "FURIA",
+      "starts_at": "2026-11-15T08:05:35Z",
+      "scheduled_at": "2026-11-15T08:00:00Z",
+      "source_modified_at_utc": "2026-11-15T11:00:14Z",
+      "status": "finished",
+      "score1": 0,
+      "score2": 3,
+      "winner_name": "FURIA",
+      "series_format": "bo5",
+      "stage_name": "Playoffs",
+      "round_name": "Grand Final",
+      "forfeit": false,
+      "maps": [],
+      "lineups": {},
+      "slot_id": "pandascore:series:11137:pandascore:1762449"
     },
     {
       "match_id": "pandascore:1762448",
@@ -10393,36 +10325,6 @@
       "maps": [],
       "lineups": {},
       "slot_id": "pandascore:series:11004:pandascore:1711481"
-    },
-    {
-      "match_id": "pandascore:1711480",
-      "source_match_id": "pandascore:1711480",
-      "source": "pandascore",
-      "pandascore_match_id": 1711480,
-      "event_id": "pandascore:series:11004",
-      "event_name": "ESL Pro League Season 24 2026",
-      "product_tier": "tier_1",
-      "publisher_tier": "a",
-      "team1_name": "MOUZ",
-      "team2_name": "Spirit",
-      "team1_pandascore_id": 3240,
-      "team2_pandascore_id": 124523,
-      "provider_team1_name": "MOUZ",
-      "provider_team2_name": "Spirit",
-      "starts_at": "2026-10-10T17:45:36Z",
-      "scheduled_at": "2026-10-10T17:45:00Z",
-      "source_modified_at_utc": "2026-10-10T21:02:53Z",
-      "status": "finished",
-      "score1": 2,
-      "score2": 1,
-      "winner_name": "MOUZ",
-      "series_format": "bo3",
-      "stage_name": "Playoffs",
-      "round_name": "Semifinal 2",
-      "forfeit": false,
-      "maps": [],
-      "lineups": {},
-      "slot_id": "pandascore:series:11004:pandascore:1711480"
     }
   ],
   "players": [],
@@ -10430,7 +10332,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_11_02.md",
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-15T02:44:38Z",
+    "checked_at_utc": "2026-11-15T11:03:23Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -10807,14 +10709,14 @@
       "b"
     ],
     "counts": {
-      "upcoming": 9,
+      "upcoming": 8,
       "running": 0,
       "past": 100
     },
     "excluded_tournaments": 13,
     "access_error": null,
     "detail_coverage": "fixtures_only",
-    "last_attempt_utc": "2026-11-15T02:39:52Z"
+    "last_attempt_utc": "2026-11-15T11:01:13Z"
   },
   "product_filter": {
     "policy_version": "roman-imperium-floor-v1",
@@ -10823,7 +10725,7 @@
       "tier_2"
     ],
     "events_kept": 7,
-    "matches_kept": 109,
+    "matches_kept": 108,
     "players_kept": 0,
     "event_tiers": {
       "pandascore:series:11176": "tier_1",
@@ -10835,7 +10737,6 @@
       "pandascore:series:10954": "tier_1"
     },
     "eligible_match_ids": [
-      "pandascore:1762449",
       "pandascore:1789257",
       "pandascore:1789254",
       "pandascore:1789258",
@@ -10844,6 +10745,7 @@
       "pandascore:1789259",
       "pandascore:1789256",
       "pandascore:1789255",
+      "pandascore:1762449",
       "pandascore:1762448",
       "pandascore:1762447",
       "pandascore:1762446",
@@ -10942,8 +10844,7 @@
       "pandascore:1741358",
       "pandascore:1741357",
       "pandascore:1711482",
-      "pandascore:1711481",
-      "pandascore:1711480"
+      "pandascore:1711481"
     ]
   }
 }
