@@ -40582,7 +40582,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     }
   ],
   "fixture_provider": "pandascore",
-  "last_verified_utc": "2026-11-14T22:59:21Z",
+  "last_verified_utc": "2026-11-15T02:39:53Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -40607,7 +40607,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-14T23:02:07Z",
+    "checked_at_utc": "2026-11-15T02:44:38Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
