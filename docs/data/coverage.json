@@ -39934,7 +39934,7 @@
       "teams": 24
     },
     {
-      "bracket": {},
+      "bracket": null,
       "end_date": "2026-09-20",
       "fixture_provider": "pandascore",
       "format": {
@@ -39942,7 +39942,6 @@
         "type": "mixed"
       },
       "id": "pandascore:series:10954",
-      "matches": [],
       "name": "StarLadder StarSeries Fall 2026",
       "product_tier": "tier_1",
       "publisher_tier": "a",
@@ -40483,7 +40482,7 @@
     }
   ],
   "fixture_provider": "pandascore",
-  "last_verified_utc": "2026-11-16T02:43:49Z",
+  "last_verified_utc": "2026-11-16T11:30:16Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -40508,7 +40507,7 @@
   ],
   "vrs": {
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-16T02:47:55Z",
+    "checked_at_utc": "2026-11-16T11:32:53Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

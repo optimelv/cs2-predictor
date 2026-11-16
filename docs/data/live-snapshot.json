@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-11-16T02:43:49Z",
+  "fetched_at_utc": "2026-11-16T11:30:16Z",
   "poll_after_ms": 300000,
   "events": [
     {
@@ -7067,22 +7067,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pandascore:series:10954",
-      "name": "StarLadder StarSeries Fall 2026",
-      "source": "pandascore",
-      "status": "finished",
-      "product_tier": "tier_1",
-      "publisher_tier": "a",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-20",
-      "participants": [],
-      "matches": [],
-      "format": {
-        "type": "mixed",
-        "label": "Published schedule"
-      }
     }
   ],
   "matches": [
@@ -10332,7 +10316,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_11_02.md",
     "as_of": "2026-11-02",
-    "checked_at_utc": "2026-11-16T02:47:55Z",
+    "checked_at_utc": "2026-11-16T11:32:53Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -10713,10 +10697,10 @@
       "running": 0,
       "past": 100
     },
-    "excluded_tournaments": 13,
+    "excluded_tournaments": 12,
     "access_error": null,
     "detail_coverage": "fixtures_only",
-    "last_attempt_utc": "2026-11-16T02:43:48Z"
+    "last_attempt_utc": "2026-11-16T11:30:15Z"
   },
   "product_filter": {
     "policy_version": "roman-imperium-floor-v1",
@@ -10724,7 +10708,7 @@
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 7,
+    "events_kept": 6,
     "matches_kept": 108,
     "players_kept": 0,
     "event_tiers": {
@@ -10733,8 +10717,7 @@
       "pandascore:series:11136": "tier_1",
       "pandascore:series:11118": "tier_1",
       "pandascore:series:11069": "tier_1",
-      "pandascore:series:11004": "tier_1",
-      "pandascore:series:10954": "tier_1"
+      "pandascore:series:11004": "tier_1"
     },
     "eligible_match_ids": [
       "pandascore:1789257",
