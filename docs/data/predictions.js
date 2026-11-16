@@ -3247,7 +3247,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "slot_id": "pandascore:series:11176:pandascore:1789260",
         "source": "pandascore",
         "source_match_id": "pandascore:1789260",
-        "source_modified_at_utc": "2026-11-11T08:39:31Z",
+        "source_modified_at_utc": "2026-11-16T16:27:36Z",
         "stage_name": "Stage 1",
         "starts_at": "2026-11-24T06:00:00Z",
         "status": "upcoming",
@@ -3278,7 +3278,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "slot_id": "pandascore:series:11176:pandascore:1789259",
         "source": "pandascore",
         "source_match_id": "pandascore:1789259",
-        "source_modified_at_utc": "2026-11-11T08:39:23Z",
+        "source_modified_at_utc": "2026-11-16T16:27:37Z",
         "stage_name": "Stage 1",
         "starts_at": "2026-11-24T06:00:00Z",
         "status": "upcoming",
@@ -40098,7 +40098,7 @@ window.__STRIKESIGNAL_DATA__ = {
                   "slot_id": "pandascore:series:11176:pandascore:1789260",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1789260",
-                  "source_modified_at_utc": "2026-11-11T08:39:31Z",
+                  "source_modified_at_utc": "2026-11-16T16:27:36Z",
                   "stage_name": "Stage 1",
                   "starts_at": "2026-11-24T06:00:00Z",
                   "status": "upcoming",
@@ -40128,7 +40128,7 @@ window.__STRIKESIGNAL_DATA__ = {
                   "slot_id": "pandascore:series:11176:pandascore:1789259",
                   "source": "pandascore",
                   "source_match_id": "pandascore:1789259",
-                  "source_modified_at_utc": "2026-11-11T08:39:23Z",
+                  "source_modified_at_utc": "2026-11-16T16:27:37Z",
                   "stage_name": "Stage 1",
                   "starts_at": "2026-11-24T06:00:00Z",
                   "status": "upcoming",
@@ -40352,7 +40352,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "slot_id": "pandascore:series:11176:pandascore:1789260",
             "source": "pandascore",
             "source_match_id": "pandascore:1789260",
-            "source_modified_at_utc": "2026-11-11T08:39:31Z",
+            "source_modified_at_utc": "2026-11-16T16:27:36Z",
             "stage_name": "Stage 1",
             "starts_at": "2026-11-24T06:00:00Z",
             "status": "upcoming",
@@ -40382,7 +40382,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "slot_id": "pandascore:series:11176:pandascore:1789259",
             "source": "pandascore",
             "source_match_id": "pandascore:1789259",
-            "source_modified_at_utc": "2026-11-11T08:39:23Z",
+            "source_modified_at_utc": "2026-11-16T16:27:37Z",
             "stage_name": "Stage 1",
             "starts_at": "2026-11-24T06:00:00Z",
             "status": "upcoming",
@@ -40483,7 +40483,7 @@ window.__STRIKESIGNAL_DATA__ = {
       }
     ],
     "fixture_provider": "pandascore",
-    "last_verified_utc": "2026-11-16T11:30:16Z",
+    "last_verified_utc": "2026-11-16T22:07:32Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -40508,7 +40508,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-11-02",
-      "checked_at_utc": "2026-11-16T11:32:53Z",
+      "checked_at_utc": "2026-11-16T22:12:07Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -40892,7 +40892,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-11-16T11:33:14Z",
+  "generated_at_utc": "2026-11-16T22:12:38Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -42452,7 +42452,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-11-16T11:33:14Z",
+    "generated_at_utc": "2026-11-16T22:12:38Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
