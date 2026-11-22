@@ -40483,7 +40483,7 @@ window.__STRIKESIGNAL_DATA__ = {
       }
     ],
     "fixture_provider": "pandascore",
-    "last_verified_utc": "2026-11-22T06:56:42Z",
+    "last_verified_utc": "2026-11-22T15:23:22Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -40508,7 +40508,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-11-02",
-      "checked_at_utc": "2026-11-22T06:57:38Z",
+      "checked_at_utc": "2026-11-22T15:24:33Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -40892,7 +40892,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-11-22T06:58:09Z",
+  "generated_at_utc": "2026-11-22T15:24:49Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -42452,7 +42452,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-11-22T06:58:09Z",
+    "generated_at_utc": "2026-11-22T15:24:48Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
