@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-24T10:56:42Z",
+  "generated_at_utc": "2026-11-24T21:13:14Z",
   "through_date": "2026-11-24",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4458,
+    "matches": 4462,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -269,6 +269,94 @@
       "phase": "Stage 1",
       "stage_name": "Stage 1",
       "round_name": "Round 1",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816912",
+      "match_date": "2026-11-24",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "FaZe",
+      "team2_name": "GOSH",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "FaZe",
+      "tier": "tier_1",
+      "best_of": 1,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816911",
+      "match_date": "2026-11-24",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "Liquid",
+      "team2_name": "Wildcard",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Liquid",
+      "tier": "tier_1",
+      "best_of": 1,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816909",
+      "match_date": "2026-11-24",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "PVISION",
+      "team2_name": "FlyQuest",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "FlyQuest",
+      "tier": "tier_1",
+      "best_of": 1,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816910",
+      "match_date": "2026-11-24",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "Eternal Fire",
+      "team2_name": "DENDELE CS",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Eternal Fire",
+      "tier": "tier_1",
+      "best_of": 1,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 2",
       "is_playoff": false,
       "is_elimination": false,
       "maps": [],
