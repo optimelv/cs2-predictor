@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-26T09:33:52Z",
+  "generated_at_utc": "2026-11-26T19:35:47Z",
   "through_date": "2026-11-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4472,
+    "matches": 4476,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -44,6 +44,94 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "HEROIC",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 4",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816926",
+      "match_date": "2026-11-26",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "Wildcard",
+      "team2_name": "Chinggis Warriors",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Wildcard",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 4",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816925",
+      "match_date": "2026-11-26",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "Imperial",
+      "team2_name": "Liquid",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Liquid",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 4",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816924",
+      "match_date": "2026-11-26",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "100 Thieves",
+      "team2_name": "9z",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "100 Thieves",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 4",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816923",
+      "match_date": "2026-11-26",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "Lynn Vision",
+      "team2_name": "PVISION",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "PVISION",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Stage 1",
