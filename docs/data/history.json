@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-27T12:33:34Z",
+  "generated_at_utc": "2026-11-27T22:00:15Z",
   "through_date": "2026-11-27",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4478,
+    "matches": 4479,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -44,6 +44,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Lynn Vision",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Stage 1",
+      "stage_name": "Stage 1",
+      "round_name": "Round 5",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "pandascore:1816929",
+      "match_date": "2026-11-27",
+      "event_name": "PGL Major Singapore 2026",
+      "team1_name": "M80",
+      "team2_name": "100 Thieves",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "100 Thieves",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Stage 1",
